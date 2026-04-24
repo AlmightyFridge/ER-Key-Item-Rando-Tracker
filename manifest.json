@@ -1,0 +1,14 @@
+{
+    "name": "Elden Ring Key Item Rando for Archipelago (Manual)",
+    "game_name": "Manual_EldenRingKeyItemRando_AlmightyFridge",
+    "package_version": "1.0.0",
+    "package_uid": "Manual_EldenRingKeyItemRando_AlmightyFridge",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "apmanual"
+            ]
+        }
+    }
+}

@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Sacred Tears",
+        "children": [
+            {
+                "name": "Church of Pilgrimage Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Church of Pilgrimage Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2350,
+                        "y": 5975
+                    }
+                ]
+            },
+            {
+                "name": "Callu Baptismal Church Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Callu Baptismal Church Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2580,
+                        "y": 6355
+                    }
+                ]
+            },
+            {
+                "name": "Fourth Church of Marika Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Fourth Church of Marika Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2055,
+                        "y": 6245
+                    }
+                ]
+            },
+            {
+                "name": "Third Church of Marika Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Third Church of Marika Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2970,
+                        "y": 5200
+                    }
+                ]
+            },
+            {
+                "name": "Church of Irith Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Church of Irith Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1590,
+                        "y": 4985
+                    }
+                ]
+            },
+            {
+                "name": "Church of Inhibition Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Church of Inhibition Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1265,
+                        "y": 3015
+                    }
+                ]
+            },
+            {
+                "name": "Bellum Church Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Bellum Church Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1020,
+                        "y": 3065
+                    }
+                ]
+            },
+            {
+                "name": "Church of the Plague Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Church of the Plague Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3895,
+                        "y": 5170
+                    }
+                ]
+            },
+            {
+                "name": "Stormcaller Church Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Stormcaller Church Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1840,
+                        "y": 2515
+                    }
+                ]
+            },
+            {
+                "name": "Second Church of Marika Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Second Church of Marika Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1635,
+                        "y": 2350
+                    }
+                ]
+            },
+            {
+                "name": "First Church of Marika Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/First Church of Marika Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4680,
+                        "y": 1725
+                    }
+                ]
+            },
+            {
+                "name": "Church of Repose Sacred Tear",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Church of Repose Sacred Tear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4040,
+                        "y": 2245
+                    }
+                ]
+            }
+        ]
+    }
+]

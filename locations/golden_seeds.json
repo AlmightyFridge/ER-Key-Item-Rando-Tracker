@@ -1,0 +1,503 @@
+[
+    {
+        "name": "Golden Seeds",
+        "children": [
+            {
+                "name": "Stormhill Shack Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Stormhill Shack Golden Seed"
+                    }
+                ],
+                    "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2080,
+                        "y": 5320
+                    }
+                ]
+            },
+            {
+                "name": "Fort Haight Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Fort Haight Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2990,
+                        "y": 5700
+                    }
+                ]
+            },
+            {
+                "name": "Stormvale Castle Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Stormvale Castle/Stormvale Castle Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1805,
+                        "y": 5095
+                    }
+                ]
+            },
+            {
+                "name": "Castle Morne Rampart Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Castle Morne Rampart Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2620,
+                        "y": 6530
+                    }
+                ]
+            },
+            {
+                "name": "Caria Manor Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Caria Manor Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 855,
+                        "y": 2805
+                    }
+                ]
+            },
+             {
+                "name": "Ravine Veiled Village Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Ravine Veiled Village Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1295,
+                        "y": 2720
+                    }
+                ]
+            },
+             {
+                "name": "Academy Gate Town Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Academy Gate Town Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1013,
+                        "y": 4020
+                    }
+                ]
+            },
+            {
+                "name": "Debate Parlor Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Debate Parlor Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 788,
+                        "y": 3748
+                    }
+                ]
+            },
+            {
+                "name": "Main Academy Gate Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Main Academy Gate Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 793,
+                        "y": 3535
+                    }
+                ]
+            },
+            {
+                "name": "Siofra River Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Siofra River/Siofra River Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2580,
+                        "y": 1340
+                    }
+                ]
+            },
+            {
+                "name": "Southern Aeonia Swamp Bank Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Southern Aeonia Swamp Bank Golden Seed"
+                    }
+                ],
+                     "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3648,
+                        "y": 5555
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Sellia Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3785,
+                        "y": 5050
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4150,
+                        "y": 4308
+                    }
+                ]
+            },
+            {
+                "name": "Southeast of Windmill Village Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Southeast of Windmill Village Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2211,
+                        "y": 2065
+                    }
+                ]
+            },
+            {
+                "name": "Erdtree Gazing Hill Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Erdtree Gazing Hill Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1404,
+                        "y": 2494
+                    }
+                ]
+            },
+            {
+                "name": "Altus Highway Junction Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Highway Junction Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1696,
+                        "y": 2512
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Minor Erdtree Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Minor Erdtree Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1923,
+                        "y": 2039
+                    }
+                ]
+            },
+            {
+                "name": "North of Outer Wall Phantom Tree Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/North of Outer Wall Phantom Tree Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2342,
+                        "y": 2414
+                    }
+                ]
+            },
+                {
+                "name": "Outer Wall Phantom Tree Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Outer Wall Phantom Tree Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2195,
+                        "y": 2630
+                    }
+                ]
+            },
+            {
+                "name": "West Capital Rampart Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/West Capital Rampart Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2703,
+                        "y": 2745
+                    }
+                ]
+            },
+            {
+                "name": "Road of Iniquity Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Road of Iniquity Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 900,
+                        "y": 1944
+                    }
+                ]
+            },
+                {
+                "name": "Seethewater River North Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Seethewater River North Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1260,
+                        "y": 2240
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Lands Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Forbidden Lands/Forbidden Lands Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3625,
+                        "y": 2480
+                    }
+                ]
+            },
+            {
+                "name": "Nokstella Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ainsel River/Nokstella Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 665,
+                        "y": 1586
+                    }
+                ]
+            },
+            {
+                "name": "South of Freezing Lake Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/South of Freezing Lake Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4330,
+                        "y": 1473
+                    }
+                ]
+            },
+            {
+                "name": "Foot of the Forge Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Foot of the Forge Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4338,
+                        "y": 2087
+                    }
+                ]
+            },
+            {
+                "name": "Dragon Temple Lift Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Crumbling Farum Azula/Dragon Temple Lift Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 6052,
+                        "y": 3371
+                    }
+                ]
+            },
+            {
+                "name": "Near Dragon Temple Rooftop Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Crumbling Farum Azula/Near Dragon Temple Rooftop Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 6196,
+                        "y": 3288
+                    }
+                ]
+            },
+            {
+                "name": "Ordina Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Ordina Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3410,
+                        "y": 1420
+                    }
+                ]
+            },
+            {
+                "name": "Consecrated Snowfield Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Consecrated Snowfield Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3665,
+                        "y": 1854
+                    }
+                ]
+            },
+            {
+                "name": "Mohgwyn Palace Golden Seed",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mohgwyn Palace/Mohgwyn Palace Golden Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 3072,
+                        "y": 1690
+                    }
+                ]
+            }
+        ]
+    }
+]

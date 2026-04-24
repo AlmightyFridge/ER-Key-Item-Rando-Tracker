@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Overworld-Condensed",
+        "img": "images/maps/overworld.jpg",
+        "location_size": 300,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "Underworld-Condensed",
+        "img": "images/maps/underworld.jpg",
+        "location_size": 100,
+        "location_border_thickness": 1
+    },{
+        "name": "Overworld-Detailed",
+        "img": "images/maps/overworld.jpg",
+        "location_size": 180,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "Underworld-Detailed",
+        "img": "images/maps/underworld.jpg",
+        "location_size": 80,
+        "location_border_thickness": 1
+    }
+]

@@ -1,0 +1,16 @@
+ITEM_MAPPING = {
+    [1] = {"progressive_max_level", "progressive"},
+    [2] = {"progressive_stone_level", "consumable"},
+    [3] = {"great_rune", "consumable"},
+    [4] = {"drawing_room_key", "toggle"},
+    [5] = {"academy_glintstone_key", "toggle"},
+    [6] = {"carian_inverted_statue", "toggle"},
+    [7] = {"pureblood_knights_medal", "toggle"},
+    [8] = {"dectus_medallion_(left)", "toggle"},
+    [9] = {"dectus_medallion_(right)", "toggle"},
+    [10] = {"haligtree_secret_medallion_(left)", "toggle"},
+    [11] = {"haligtree_secret_medallion_(right)", "toggle"},
+    [12] = {"rold_medallion", "toggle"},
+    [13] = {"farum_azula_stonesword_key", "toggle"},
+    [14] = {"discarded_palace_key", "toggle"},
+}

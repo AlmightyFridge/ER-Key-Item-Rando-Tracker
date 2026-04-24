@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Great Runes Victory",
+        "codes": "Great_Runes_Victory",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "img": "images/options/Great_Runes_Victory.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Great Runes Capital",
+        "codes": "Great_Runes_Capital",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "img": "images/options/Great_Runes_Capital.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Rold Medallion",
+        "loop": true,
+        "codes": "Rold_Medallion_Setting",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/options/Rold_Medallion_Great_Runes.png",
+                "codes": "Rold_Medallion_Great_Runes",
+                "inherit_codes": false,
+                "name": "Great Runes"
+            },
+            {
+                "img": "images/options/Rold_Medallion_Vanilla_Item.png",
+                "codes": "Rold_Medallion_Vanilla_Item",
+                "inherit_codes": false,
+                "name": "Vanilla Item"
+            },
+            {
+                "img": "images/options/Rold_Medallion_Randomized_Item.png",
+                "codes": "Rold_Medallion_Randomized_Item",
+                "inherit_codes": false,
+                "name": "Randomized Item"
+            }
+        ]
+    },
+    {
+        "name": "Great Runes Rold",
+        "codes": "Great_Runes_Rold",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "img": "images/options/Great_Runes_Rold.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Region Locking",
+        "loop": true,
+        "codes": "Region_Locking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/options/Region_Lock_All.png",
+                "codes": "Region_Locking_All_Locations",
+                "inherit_codes": false,
+                "name": "All Locations"
+            },
+            {
+                "img": "images/options/Region_Lock_Boss.png",
+                "codes": "Region_Locking_Boss_Locations",
+                "inherit_codes": false,
+                "name": "Boss Locations"
+            }
+        ]
+    },
+    {
+        "name": "Shopsanity",
+        "codes": "Shopsanity",
+        "type": "toggle",
+        "img": "images/options/Shopsanity.png"
+    },
+    {
+        "name": "Flask Upgrade Sanity",
+        "codes": "Flask_Upgrade_Sanity",
+        "type": "toggle",
+        "img": "images/options/Flask_Upgrade_Sanity.png"
+    },
+    {
+        "name": "Vanilla Great Runes",
+        "codes": "Vanilla_Great_Runes",
+        "type": "toggle",
+        "img": "images/options/Vanilla_Great_Runes.png"
+    },
+    {
+        "name": "Early Academy Key",
+        "codes": "Early_Academy_Key",
+        "type": "toggle",
+        "img": "images/options/Early_Academy_Key.png"
+    }
+]

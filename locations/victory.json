@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Victory",
+        "children": [
+            {
+                "name": "Leyndell Ashen Capital",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Ashen Capital/Elden Beast Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3050,
+                        "y": 2970
+                    }
+                ]
+            }
+        ]
+    }
+]

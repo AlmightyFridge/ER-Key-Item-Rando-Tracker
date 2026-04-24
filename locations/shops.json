@@ -1,0 +1,376 @@
+[
+    {
+        "name": "Shops",
+        "children": [
+            {
+                "name": "Kale Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Kale Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2200,
+                        "y": 5615
+                    }
+                ]
+            },
+            {
+                "name": "Patches Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Patches Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2485,
+                        "y": 5400
+                    }
+                ]
+            },
+                {
+                "name": "Summonwater Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Summonwater Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2475,
+                        "y": 5080
+                    }
+                ]
+            },
+                {
+                "name": "Coastal Cave Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Coastal Cave Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2120,
+                        "y": 5755
+                    }
+                ]
+            },
+                {
+                "name": "Mistwood Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Mistwood Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2915,
+                        "y": 5585
+                    }
+                ]
+            },
+            {    
+                "name": "Roundtable Hold Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Roundtable Hold Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 1525,
+                        "y": 5780
+                    }
+                ]
+            },
+            {
+                "name": "Castle Morne Rampart Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Castle Morne Rampart Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2730,
+                        "y": 6385
+                    }
+                ]
+            },
+            {
+                "name": "Weeping Peninsula Isolated Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Weeping Peninsula Isolated Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2050,
+                        "y": 6425
+                    }
+                ]
+            },
+            {
+                "name": "Iji Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Iji Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 630,
+                        "y": 3035
+                    }
+                ]
+            },
+            {
+                "name": "Pidia Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Pidia Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 710,
+                        "y": 2810
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Lake Shore Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Lake Shore Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 1460,
+                        "y": 4750
+                    }
+                ]
+            },
+            {
+                "name": "Bellum Church Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Bellum Church Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 1015,
+                        "y": 3010
+                    }
+                ]
+            },
+            {
+                "name": "Main Academy Gate Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Main Academy Gate Merchant Shop Item" 
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 875,
+                        "y": 3785
+                    }
+                ]
+            },
+            {
+                "name": "Siofra River Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Siofra River/Siofra River Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Underworld-Detailed",
+                        "x": 2490,
+                        "y": 1540
+                    }
+                ]
+            },
+            {
+                "name": "Caelid Highway North Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelid Highway North Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 3445,
+                        "y": 5250
+                    }
+                ]
+            },
+            {
+                "name": "Southern Aeonia Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Southern Aeonia Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 3615,
+                        "y": 5480
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Isolated Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Isolated Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 3425,
+                        "y": 4715
+                    }
+                ]
+            },
+            {
+                "name": "Forest-Spanning Greatbridge Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Forest-Spanning Greatbridge Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 1905,
+                        "y": 2280
+                    }
+                ]
+            },
+            {
+                "name": "Capital Outskirts Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Capital Outskirts Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 2424,
+                        "y": 2185
+                    }
+                ]
+            },
+            {
+                "name": "Ninth Mt. Gelmir Campsite Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Ninth Mt. Gelmir Campsite Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 1225,
+                        "y": 1930
+                    }
+                ]
+            },
+            {
+                "name": "Ainsel River Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ainsel River/Ainsel River Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Underworld-Detailed",
+                        "x": 835,
+                        "y": 1800
+                    }
+                ]
+            },
+            {
+                "name": "Mountaintops Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Mountaintops Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Overworld-Detailed",
+                        "x": 3765,
+                        "y": 2120
+                    }
+                ]
+            },
+            {
+                "name": "Mohgwyn Palace Merchant Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mohgwyn Palace/Mohgwyn Palace Merchant Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "Underworld-Detailed",
+                        "x": 2875,
+                        "y": 1715
+                    }
+                ]
+            }
+        ]
+    }
+]

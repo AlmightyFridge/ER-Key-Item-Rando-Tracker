@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Progressive Max Level",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "codes": "progressive_max_level",
+                "img": "images/items/RL/RL20.png"
+            },
+            {
+                "img": "images/items/RL/RL30.png"
+            },
+            {
+                "img": "images/items/RL/RL40.png"
+            },
+            {
+                "img": "images/items/RL/RL50.png"
+            },
+            {
+                "img": "images/items/RL/RL60.png"
+            },
+            {
+                "img": "images/items/RL/RL70.png"
+            },
+            {
+                "img": "images/items/RL/RL80.png"
+            },
+            {
+                "img": "images/items/RL/RL90.png"
+            },
+            {
+                "img": "images/items/RL/RL100.png"
+            },
+            {
+                "img": "images/items/RL/RL110.png"
+            },
+            {
+                "img": "images/items/RL/RL120.png"
+            },
+            {
+                "img": "images/items/RL/RL130.png"
+            },
+            {
+                "img": "images/items/RL/RL140.png"
+            },
+            {
+                "img": "images/items/RL/RL150.png"
+            }
+        ]
+    },
+    {
+        "name": "Progressive Stone Level",
+        "type": "consumable",
+        "img": "images/items/progressive_stone_level.png",
+        "codes": "progressive_stone_level",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 10
+    },
+    {
+        "name": "Great Rune",
+        "type": "consumable",
+        "img": "images/items/great_rune.png",
+        "codes": "great_rune",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 7
+
+    },
+    {
+        "name": "Drawing Room Key",
+        "type": "toggle",
+        "img": "images/items/drawing_room_key.png",
+        "codes": "drawing_room_key"
+    },
+    {
+        "name": "Academy Glintstone Key",
+        "type": "toggle",
+        "img": "images/items/academy_glintstone_key.png",
+        "codes": "academy_glintstone_key"
+    },
+    {
+        "name": "Carian Inverted Statue",
+        "type": "toggle",
+        "img": "images/items/carian_inverted_statue.png",
+        "codes": "carian_inverted_statue"
+    },
+    {
+        "name": "Pureblood Knight's Medal",
+        "type": "toggle",
+        "img": "images/items/pureblood_knights_medal.png",
+        "codes": "pureblood_knights_medal"
+    },
+    {
+        "name": "Dectus Medallion (Left)",
+        "type": "toggle",
+        "img": "images/items/dectus_medallion_(left).png",
+        "codes": "dectus_medallion_(left)"
+    },
+    {
+        "name": "Dectus Medallion (Right)",
+        "type": "toggle",
+        "img": "images/items/dectus_medallion_(right).png",
+        "codes": "dectus_medallion_(right)"
+    },
+    {
+        "name": "Haligtree Secret Medallion (Left)",
+        "type": "toggle",
+        "img": "images/items/haligtree_secret_medallion_(left).png",
+        "codes": "haligtree_secret_medallion_(left)"
+    },
+    {
+        "name": "Haligtree Secret Medallion (Right)",
+        "type": "toggle",
+        "img": "images/items/haligtree_secret_medallion_(right).png",
+        "codes": "haligtree_secret_medallion_(right)"
+    },
+    {
+        "name": "Rold Medallion",
+        "type": "toggle",
+        "img": "images/items/rold_medallion.png",
+        "codes": "rold_medallion"
+    },
+    {
+        "name": "Farum Azula Stonesword Key",
+        "type": "toggle",
+        "img": "images/items/farum_azula_stonesword_key.png",
+        "codes": "farum_azula_stonesword_key"
+    },
+    {
+        "name": "Discarded Palace Key",
+        "type": "toggle",
+        "img": "images/items/discarded_palace_key.png",
+        "codes": "discarded_palace_key"
+    }
+]

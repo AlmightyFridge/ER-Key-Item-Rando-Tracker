@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Key Items",
+        "children": [
+            {
+                "name": "Fort Haight Dectus Medallion",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Fort Haight Dectus Medallion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3065,
+                        "y": 5690
+                    }
+                ]
+            },
+            {
+                "name": "Stormvale Castle Rusty Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Stormvale Castle/Stormvale Castle Rusty Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1755,
+                        "y": 5230
+                    }
+                ]
+            },
+            {
+                "name": "Haligtree Secret Medallion (Right)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Haligtree Secret Medallion (Right)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 655,
+                        "y": 4560
+                    }
+                ]
+            },
+            {
+                "name": "Academy Glintstone Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Academy Glintstone Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 533,
+                        "y": 3781
+                    }
+                ]
+            },
+            {
+                "name": "Four Belfries Imbued Sword Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Four Belfries Imbued Sword Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 440,
+                        "y": 3470
+                    }
+                ]
+            },
+            {
+                "name": "Cursemark of Death",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Cursemark of Death"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1940,
+                        "y": 3935
+                    }
+                ]
+            },
+            {
+                "name": "Dark Moon Ring Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Dark Moon Ring Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 730,
+                        "y": 3665
+                    }
+                ]
+            },
+            {
+                "name": "Raya Lucaria Imbued Sword Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Raya Lucaria Imbued Sword Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 703,
+                        "y": 3795
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Imbued Sword Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Sellia Imbued Sword Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3818,
+                        "y": 5077
+                    }
+                ]
+            },
+            {
+                "name": "Fort Faroth Dectus Medallion",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Fort Faroth Dectus Medallion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4050,
+                        "y": 4950
+                    }
+                ]
+            },
+            {
+                "name": "Volcano Manor Drawing Room Key",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Volcano Manor Drawing Room Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1060,
+                        "y": 2110
+                    }
+                ]
+            },
+            {
+                "name": "Haligtree Secret Medallion (Left)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Haligtree Secret Medallion (Left)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4155,
+                        "y": 1150
+                    }
+                ]
+            }
+        ]
+    }
+]

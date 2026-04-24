@@ -1,0 +1,479 @@
+[
+    {
+        "name": "Major Bosses",
+        "children": [
+            {
+                "name": "Margit Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Stormvale Castle/Margit Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1914,
+                        "y": 5299
+                    }
+                ]
+            },
+            {
+                 "name": "Godrick the Grafted Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Stormvale Castle/Godrick the Grafted Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1747,
+                        "y": 5008
+                    }
+                ]
+            },
+            {
+                "name": "Leonine Misbegotten Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Leonine Misbegotten Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2422,
+                        "y": 6904
+                    }
+                ]
+            },
+            {
+                "name": "Royal Knight Loretta Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Royal Knight Loretta Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 780,
+                        "y": 2717
+                    }
+                ]
+            },
+            {
+                "name": "Magma Wyrm Makar Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Magma Wyrm Makar Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1371,
+                        "y": 2683
+                    }
+                ]
+            },
+            {
+                "name": "Red Wolf Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Red Wolf Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 828,
+                        "y": 3844
+                    }
+                ]
+            },
+
+            {
+                "name": "Rennala Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Academy of Raya Lucaria/Rennala Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 740,
+                        "y": 3685
+                    }
+                ]
+            },
+            {
+                "name": "Ancestor Spirit Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Siofra River/Ancestor Spirit Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2484,
+                        "y": 1832
+                    }
+                ]
+            },
+            {
+                "name": "Starscourge Radahn Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Starscourge Radahn Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4300,
+                        "y": 5230
+                    }
+                ]
+            },
+            {
+                "name": "Elemer of the Briar Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Elemer of the Briar Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1572,
+                        "y": 1926
+                    }
+                ]
+            },
+            {
+                "name": "Godfrey Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Godfrey Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2755,
+                        "y": 2790
+                    }
+                ]
+            },
+            {
+                "name": "Morgott Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Morgott Defeated"
+                    },
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Rold Medallion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2897,
+                        "y": 2819
+                    }
+                ]
+            },
+            {
+                "name": "Sewer Mohg Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Sewer Mohg Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2772,
+                        "y": 2600
+                    }
+                ]
+            },
+            {
+                "name": "Godskin Noble Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Godskin Noble Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1060,
+                        "y": 2255
+                    }
+                ]
+            },
+            {
+                "name": "Rykard Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Rykard Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1105,
+                        "y": 2160
+                    }
+                ]
+            },
+            {
+                "name": "Mimic Tear Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Nokron Eternal City/Mimic Tear Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2292,
+                        "y": 1832
+                    }
+                ]
+            },
+
+            {
+                "name": "Regal Ancestor Spirit Defeated",
+                "access_rules": [],
+                "sections": [
+                   {
+                        "ref": "Locations/Nokron Eternal City/Regal Ancestor Spirit Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2424,
+                        "y": 1462
+                    }
+                ]
+            },
+                {
+                "name": "Valiant Gargoyles Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Nokron Eternal City/Valiant Gargoyles Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2464,
+                        "y": 1233
+                    }
+                ]
+            },
+            {
+                "name": "Astel Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Lake of Rot/Astel Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 200,
+                        "y": 3080
+                    }
+                ]
+            },
+            {
+                "name": "Dragonkin Soldier of Nokstella Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ainsel River/Dragonkin Soldier of Nokstella Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 725,
+                        "y": 1677
+                    }
+                ]
+            },
+            {
+                "name": "Commander Niall Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Commander Niall Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4154,
+                        "y": 1212
+                    }
+                ]
+            },
+
+            {
+                "name": "Fire Giant Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Fire Giant Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4385,
+                        "y": 2350
+                    }
+                ]
+            },
+            {
+                "name": "Placidusax Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Crumbling Farum Azula/Placidusax Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 6093,
+                        "y": 3437
+                    }
+                ]
+            },
+
+                {
+                "name": "Godskin Duo Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Crumbling Farum Azula/Godskin Duo Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 6083,
+                        "y": 3372
+                    }
+                ]
+            },
+
+                {
+                "name": "Maliketh Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Crumbling Farum Azula/Maliketh Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 6225,
+                        "y": 3400
+                    }
+                ]
+            },
+            {
+                "name": "Haligtree Loretta Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Miquella's Haligtree/Haligtree Loretta Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3900,
+                        "y": 735
+                    }
+                ]
+            },
+            {
+                "name": "Malenia Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Miquella's Haligtree/Malenia Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3815,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "Mohg Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mohgwyn Palace/Mohg Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2880,
+                        "y": 1650
+                    }
+                ]
+            },
+            {
+                "name": "Hoarah Loux Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Ashen Capital/Hoarah Loux Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2935,
+                        "y": 2865
+                    }
+                ]
+            }
+        ]
+    }
+]

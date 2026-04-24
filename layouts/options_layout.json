@@ -1,0 +1,36 @@
+{
+    "settings_popup": {
+        "type": "container",
+        "v_alignment": "top",
+        "content": {
+            "type": "itemgrid",
+            "item_width": 40,
+            "item_height": 40,
+            "v_alignment": "center",
+            "h_alignment": "center",
+            "dropshadow": false,
+            "margin": 10,
+            "rows": [
+                [
+                    "Great_Runes_Victory",
+                    "Great_Runes_Capital",
+                    "Rold_Medallion_Setting",
+                    "Great_Runes_Rold"
+                ],
+                [
+                    "Flask_Upgrade_Sanity",
+                    "Shopsanity",
+                    "",
+                    ""
+                ],
+                [
+                    "Vanilla_Great_Runes",
+                    "Early_Academy_Key",
+                    "Region_Locking",
+                    ""
+                ]
+            ]
+        }
+
+    }
+}

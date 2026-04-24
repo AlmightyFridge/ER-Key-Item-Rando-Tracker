@@ -1,0 +1,1115 @@
+[
+    {
+        "name": "Locations",
+        "children": [
+            {
+                "name": "Limgrave",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Fort Haight Dectus Medallion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fort Haight Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Stormhill Shack Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Third Church of Marika Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Kale Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Patches Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Summonwater Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Coastal Cave Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Mistwood Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Roundtable Hold Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 2460,
+                        "y": 5600
+                    }
+                ]
+            },
+            {
+                "name": "Weeping Peninsula",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Leonine Misbegotten Defeated",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castle Morne Rampart Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of Pilgrimage Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Callu Baptismal Church Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Fourth Church of Marika Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Castle Morne Rampart Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Weeping Peninsula Isolated Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 2530,
+                        "y": 6260
+                    }
+                ]
+            },
+            {
+                "name": "Stormvale Castle",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|1, progressive_stone_level:1"
+                ],
+                "sections": [
+                    {
+                        "name": "Margit Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|1, progressive_stone_level:1"
+                        ]
+                    },
+                    {
+                        "name": "Godrick the Grafted Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$margit_killable"
+                        ]
+                    },
+                    {
+                        "name": "Stormvale Castle Rusty Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$margit_killable"
+                        ]
+                    },
+                    {
+                        "name": "Stormvale Castle Golden Seed",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$margit_killable"
+                        ],
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 1800,
+                        "y": 5200
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia of the Lakes",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|2, progressive_stone_level:1"
+                ],
+                "sections": [
+                    {
+                        "name": "Royal Knight Loretta Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, progressive_stone_level:1"
+                        ]
+                    },
+                    {
+                        "name": "Magma Wyrm Makar Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, progressive_stone_level:1"
+                        ]
+                    },
+                    {
+                        "name": "Haligtree Secret Medallion (Right)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Academy Glintstone Key",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Four Belfries Imbued Sword Key",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cursemark of Death",
+                        "item_count": 1,
+                        "access_rules": [
+                            "carian_inverted_statue"
+                        ]
+                    },
+                    {
+                        "name": "Caria Manor Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Ravine Veiled Village Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Academy Gate Town Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of Irith Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of Inhibition Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Bellum Church Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Iji Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Pidia Shop Item",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$royal_knight_loretta_killable"
+                        ],
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Lake Shore Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Bellum Church Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 1500,
+                        "y": 3850
+                    }
+                ]
+            },
+            {
+                "name": "Academy of Raya Lucaria",
+                "access_rules": [
+                    "$check_boss_lock_option|1, academy_glintstone_key",
+                    "$check_boss_lock_option|0, academy_glintstone_key, $check_max_level|3, progressive_stone_level:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Red Wolf Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|3, progressive_stone_level:2"
+                        ]
+                    },
+                    {
+                        "name": "Rennala Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|3, progressive_stone_level:2"
+                        ]
+                    },
+                    {
+                        "name": "Dark Moon Ring Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "discarded_palace_key, $red_wolf_killable"
+                        ]
+                    },
+                    {
+                        "name": "Raya Lucaria Imbued Sword Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$red_wolf_killable"
+                        ]
+                    },
+                    {
+                        "name": "Debate Parlor Golden Seed",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$red_wolf_killable"
+                        ],
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Main Academy Gate Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Main Academy Gate Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 730,
+                        "y": 3790
+                    }
+                ]
+            },
+            {
+                "name": "Siofra River",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|3, progressive_stone_level:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Ancestor Spirit Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|3, progressive_stone_level:2"
+                        ]
+                    },
+                    {
+                        "name": "Siofra River Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Siofra River Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 2585,
+                        "y": 1640
+                    }
+                ]
+            },
+            {
+                "name": "Caelid",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Starscourge Radahn Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:4"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Imbued Sword Key",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Southern Aeonia Swamp Bank Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of the Plague Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Caelid Highway North Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Southern Aeonia Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 3550,
+                        "y": 5120
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|6, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Fort Faroth Dectus Medallion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonbarrow Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Dragonbarrow Isolated Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 4280,
+                        "y": 4490
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau",
+                "access_rules": [
+                    "$check_boss_lock_option|1, $makar_killable",
+                    "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
+                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Elemer of the Briar Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:4"
+                        ]
+                    },
+                    {
+                        "name": "Southeast of Windmill Village Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Erdtree Gazing Hill Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Altus Highway Junction Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Altus Plateau Minor Erdtree Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Stormcaller Church Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Second Church of Marika Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Forest-Spanning Greatbridge Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 1860,
+                        "y": 2240
+                    }
+                ]
+            },
+            {
+                "name": "Capital Outskirts",
+                "access_rules": [
+                    "$check_boss_lock_option|1, $makar_killable",
+                    "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
+                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "North of Outer Wall Phantom Tree Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Outer Wall Phantom Tree Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Capital Outskirts Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 2400,
+                        "y": 2370
+                    }
+                ]
+            },
+            {
+                "name": "Leyndell Royal Capital",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $capital_entry_boss_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|6, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Godfrey Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Morgott Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Sewer Mohg Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Rold Medallion",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$morgott_killable"
+                        ]
+                    },
+                    {
+                        "name": "West Capital Rampart Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 2760,
+                        "y": 2680
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Gelmir",
+                "access_rules": [
+                    "$check_boss_lock_option|1, $makar_killable",
+                    "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
+                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Godskin Noble Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Rykard Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Volcano Manor Drawing Room Key",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Road of Iniquity Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Seethewater River North Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Ninth Mt. Gelmir Campsite Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 1020,
+                        "y": 2210
+                    }
+                ]
+            },
+            {
+                "name": "Ainsel River",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|2, $check_max_level|3, progressive_stone_level:1, progressive_stone_level:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Dragonkin Soldier of Nokstella Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|3, progressive_stone_level:2"
+                        ]
+                    },
+                    {
+                        "name": "Nokstella Golden Seed",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$valiant_gargoyles_killable"
+                        ],
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Ainsel River Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 870,
+                        "y": 1770
+                    }
+                ]
+            },
+            {
+                "name": "Nokron Eternal City",
+                "access_rules": [
+                    "$check_boss_lock_option|1, $starscourge_radahn_killable",
+                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Mimic Tear Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Regal Ancestor Spirit Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:6"
+                        ]
+                    },
+                    {
+                        "name": "Valiant Gargoyles Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:6"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 2370,
+                        "y": 1510
+                    }
+                ]
+            },
+            {
+                "name": "Lake of Rot",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|4, $check_max_level|5, progressive_stone_level:6",
+                    "$check_boss_lock_option|0, $check_max_level|2, $check_max_level|3, $check_max_level|5, progressive_stone_level:1, progressive_stone_level:2, progressive_stone_level:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Astel Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, progressive_stone_level:6"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 200,
+                        "y": 3080
+                    }
+                ]
+            },
+             {
+                "name": "Forbidden Lands",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $morgott_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|7, progressive_stone_level:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Forbidden Lands Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 3625,
+                        "y": 2480
+                    }
+                ]
+            },
+            {
+                "name": "Mountaintops of the Giants",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $morgott_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|7, progressive_stone_level:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Commander Niall Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Fire Giant Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Haligtree Secret Medallion (Left)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$commander_niall_killable"
+                        ]
+                    },
+                    {
+                        "name": "South of Freezing Lake Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Foot of the Forge Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "First Church of Marika Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of Repose Sacred Tear",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Mountaintops Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 4240,
+                        "y": 1870
+                    }
+                ]
+            },
+             {
+                "name": "Crumbling Farum Azula",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $fire_giant_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, progressive_stone_level:8"  
+                ],
+                "sections": [
+                    {
+                        "name": "Placidusax Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Godskin Duo Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Maliketh Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Dragon Temple Lift Golden Seed",
+                        "item_count": 1,
+                        "access_rules": [
+                            "farum_azula_stonesword_key"
+                        ],
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Near Dragon Temple Rooftop Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 6120,
+                        "y": 3430
+                    }
+                ]
+            },
+             {
+                "name": "Consecrated Snowfield",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|7, progressive_stone_level:8" 
+                ],
+                "sections": [
+                    {
+                        "name": "Ordina Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Consecrated Snowfield Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 3510,
+                        "y": 1640
+                    }
+                ]
+            },
+            {
+                "name": "Miquella's Haligtree",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, progressive_stone_level:8"    
+                ],
+                "sections": [
+                    {
+                        "name": "Haligtree Loretta Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Malenia Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 3780,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Mohgwyn Palace",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, pureblood_knights_medal",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, pureblood_knights_medal, $check_max_level|8, progressive_stone_level:8",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, progressive_stone_level:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Mohg Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Mohgwyn Palace Golden Seed",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Mohgwyn Palace Merchant Shop Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 3060,
+                        "y": 1660
+                    }
+                ]
+            },
+            {
+                "name": "Leyndell Ashen Capital",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $fire_giant_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, progressive_stone_level:8"
+
+                ],
+                "sections": [
+                    {
+                        "name": "Hoarah Loux Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, progressive_stone_level:8"
+                        ]
+                    },
+                    {
+                        "name": "Elden Beast Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, progressive_stone_level:8"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 2950,
+                        "y": 2870
+                    }
+                ]
+            }
+
+        ]
+    }
+]

@@ -9,17 +9,27 @@
           "dock": "left",
           "content": [
             {
-              "type": "dock",
+              "type": "group",
+              "header": "Items",
               "dock": "left",
-              "v_alignment": "stretch",
+              "v_alignment": "center",
               "content": [
                 {
                   "type": "group",
-                  "header": "Items",
+                  "header": "Key Items",
                   "dock": "left",
                   "content": {
                     "type": "layout",
-                    "key": "tracker_items"
+                    "key": "tracker_key_items"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Free Items",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "tracker_free_items"
                   }
                 }
               ]

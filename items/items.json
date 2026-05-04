@@ -134,5 +134,53 @@
         "type": "toggle",
         "img": "images/items/discarded_palace_key.png",
         "codes": "discarded_palace_key"
+    },
+    {
+        "name": "Free Weapon",
+        "type": "consumable",
+        "img": "images/items/weapon.png",
+        "codes": "free_weapon"
+    },
+    {
+        "name": "Free Shield",
+        "type": "consumable",
+        "img": "images/items/shield.png",
+        "codes": "free_shield"
+    },
+    {
+        "name": "Free Armor",
+        "type": "consumable",
+        "img": "images/items/armor.png",
+        "codes": "free_armor"
+    },
+    {
+        "name": "Free Spell",
+        "type": "consumable",
+        "img": "images/items/spell.png",
+        "codes": "free_spell"
+    },
+    {
+        "name": "Free +0 Talisman",
+        "type": "consumable",
+        "img": "images/items/talisman+0.png",
+        "codes": "free_+0_talisman"
+    },
+    {
+        "name": "Free +1 Talisman",
+        "type": "consumable",
+        "img": "images/items/talisman+1.png",
+        "codes": "free_+1_talisman"
+    },
+    {
+        "name": "Free +2 Talisman",
+        "type": "consumable",
+        "img": "images/items/talisman+2.png",
+        "codes": "free_+2_talisman"
+    },
+    {
+        "name": "Free +3 Talisman",
+        "type": "consumable",
+        "img": "images/items/talisman+3.png",
+        "codes": "free_+3_talisman"
     }
 ]

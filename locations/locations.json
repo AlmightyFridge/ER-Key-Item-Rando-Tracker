@@ -72,6 +72,20 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Agheel Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Homing Instinct",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -131,6 +145,13 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Oridys's Rise Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -177,6 +198,16 @@
                         ],
                         "visibility_rules": [
                             "Flask_Upgrade_Sanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Prophecy",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$margit_killable"
+                        ],
+                        "visibility_rules": [
+                            "Risesanity"
                         ]
                     }
                 ],
@@ -299,6 +330,37 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Smarag Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, progressive_stone_level:1"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Resurrection",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    },
+                    {
+                        "name": "Converted Tower Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
+                    },
+                    {
+                        "name": "Testu's Rise Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
                         ]
                     }
                 ],
@@ -467,6 +529,23 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Ekzykes Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:4"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Redmane",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -501,7 +580,25 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Greyll Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, progressive_stone_level:6"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Lenne's Rise Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
                     }
+
                 ],
                 "map_locations": [
                     {
@@ -574,7 +671,32 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Lansseax Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, progressive_stone_level:4"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Champion's Song",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    },
+                    {
+                        "name": "Mirage Rise Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
                     }
+
                 ],
                 "map_locations": [
                     {
@@ -663,6 +785,13 @@
                         "visibility_rules": [
                             "Flask_Upgrade_Sanity"
                         ]
+                    },
+                    {
+                        "name": "Painting - Flightless Bird",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -685,14 +814,16 @@
                         "name": "Godskin Noble Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6"
+                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, progressive_stone_level:6"
                         ]
                     },
                     {
                         "name": "Rykard Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6"
+                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, progressive_stone_level:6"
                         ]
                     },
                     {
@@ -733,7 +864,7 @@
                 "name": "Ainsel River",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|2, $check_max_level|3, progressive_stone_level:1, progressive_stone_level:2"
+                    "$check_boss_lock_option|0,  $check_max_level|3, progressive_stone_level:2"
                 ],
                 "sections": [
                     {
@@ -810,15 +941,14 @@
                 "name": "Lake of Rot",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|4, $check_max_level|5, progressive_stone_level:6",
-                    "$check_boss_lock_option|0, $check_max_level|2, $check_max_level|3, $check_max_level|5, progressive_stone_level:1, progressive_stone_level:2, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
                 ],
                 "sections": [
                     {
                         "name": "Astel Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, progressive_stone_level:6"
+                            "$astel_killable"
                         ]
                     }
                 ],
@@ -830,7 +960,44 @@
                     }
                 ]
             },
-             {
+            {
+                "name": "Moonlight Altar", 
+                "access_rules": [
+                    "$check_boss_lock_option|1, $astel_killable, dark_moon_ring",
+                    "$check_boss_lock_option|0, $astel_killable, dark_moon_ring"
+                ],
+                "sections": [
+                    {
+                        "name": "Adula Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Chelona's Rise Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
+                    }
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Condensed",
+                        "x": 632, 
+                        "y": 4589
+                    }
+                ]
+            },
+            {
                 "name": "Forbidden Lands",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $morgott_killable",
@@ -914,6 +1081,30 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Borealis Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, progressive_stone_level:8"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Sorcerer",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    },
+                    {
+                        "name": "Heretical Rise Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Risesanity"
                         ]
                     }
                 ],

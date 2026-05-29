@@ -32,11 +32,13 @@
                 "drawing_room_key",
                 "academy_glintstone_key",
                 "discarded_palace_key"
+                
             ],
             [
                 "farum_azula_stonesword_key",
                 "carian_inverted_statue",
-                "pureblood_knights_medal"
+                "dark_moon_ring"
+                
             ]
         ]
     },
@@ -53,7 +55,8 @@
             ],
             [
                 "haligtree_secret_medallion_(left)",
-                "haligtree_secret_medallion_(right)"
+                "haligtree_secret_medallion_(right)",
+                "pureblood_knights_medal"
             ]
 
         ]

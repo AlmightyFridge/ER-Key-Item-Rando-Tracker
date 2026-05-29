@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Dragons",
+        "children": [
+            {
+                "name": "Agheel Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Agheel Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2375, 
+                        "y": 5609
+                    }
+                ]
+            },
+            {
+                "name": "Smarag Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Smarag Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 544, 
+                        "y": 3840
+                    }
+                ]
+            },
+            {
+                "name": "Ekzykes Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Ekzykes Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3436, 
+                        "y": 5498
+                    }
+                ]
+            },
+            {
+                "name": "Lansseax Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Lansseax Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1293, 
+                        "y": 2550
+                    }
+                ]
+            },
+            {
+                "name": "Adula Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Moonlight Altar/Adula Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 699,
+                        "y": 4468
+                    }
+                ]
+            },
+            {
+                "name": "Greyll Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Greyll Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4200,
+                        "y": 4539
+                    }
+                ]
+            },
+            {
+                "name": "Borealis Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Borealis Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4574,
+                        "y": 1444
+                    }
+                ]
+            }
+        ]
+    }
+]

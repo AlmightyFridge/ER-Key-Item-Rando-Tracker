@@ -44,6 +44,18 @@ function SetSettings()
     if SLOT_DATA.Vanilla_Great_Runes == 1 then
 		Tracker:FindObjectForCode("Vanilla_Great_Runes").Active = true
     end
+    if SLOT_DATA.Dragonsanity == 1 then
+		Tracker:FindObjectForCode("Dragonsanity").Active = true
+    end
+    if SLOT_DATA.Paintingsanity == 1 then
+		Tracker:FindObjectForCode("Paintingsanity").Active = true
+    end
+    if SLOT_DATA.Risesanity == 1 then
+		Tracker:FindObjectForCode("Risesanity").Active = true
+    end
+    if SLOT_DATA.Volcano_Manor_Abduction_Skip == 1 then
+		Tracker:FindObjectForCode("Volcano_Manor_Abduction_Skip").Active = true
+    end
 
 	Tracker:FindObjectForCode("Great_Runes_Victory").AcquiredCount = SLOT_DATA.Great_Runes_Victory
 

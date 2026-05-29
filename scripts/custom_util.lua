@@ -13,6 +13,14 @@ function check_boss_lock_option(param)
 	return (Tracker:FindObjectForCode("Region_Locking").CurrentStage == tonumber(param))
 end
 
+function has_abduction_skip()
+	if Tracker:FindObjectForCode("Volcano_Manor_Abduction_Skip").Active then
+		return true
+	else
+		return false
+	end
+end
+
 function has_rold_access()
 	if Tracker:FindObjectForCode("Rold_Medallion_Setting").CurrentStage > 0 and Tracker:FindObjectForCode("Rold_Medallion") then
 		return true
@@ -66,4 +74,8 @@ end
 
 function fire_giant_killable()
 	return (Tracker:FindObjectForCode("progressive_max_level").CurrentStage >= 7 and Tracker:ProviderCountForCode("progressive_stone_level") >= 8)
+end
+
+function astel_killable()
+	return (Tracker:FindObjectForCode("progressive_max_level").CurrentStage >= 5 and Tracker:ProviderCountForCode("progressive_stone_level") >= 6)
 end

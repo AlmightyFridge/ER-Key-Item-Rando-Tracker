@@ -19,6 +19,9 @@ Tracker:AddLocations("locations/sacred_tears.json")
 Tracker:AddLocations("locations/golden_seeds.json")
 Tracker:AddLocations("locations/shops.json")
 Tracker:AddLocations("locations/major_bosses.json")
+Tracker:AddLocations("locations/dragons.json")
+Tracker:AddLocations("locations/rises.json")
+Tracker:AddLocations("locations/paintings.json")
 Tracker:AddLocations("locations/locations.json")
 
 -- AutoTracking for Poptracker

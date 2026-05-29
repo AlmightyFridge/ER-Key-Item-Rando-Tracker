@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Rises",
+        "children": [
+            {
+                "name": "Oridys's Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Oridys's Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2800, 
+                        "y": 6361
+                    }
+                ]
+            },
+            {
+                "name": "Converted Tower Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Converted Tower Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 521, 
+                        "y": 4302
+                    }
+                ]
+            },
+            {
+                "name": "Testu's Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Testu's Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 727, 
+                        "y": 3346
+                    }
+                ]
+            },
+            {
+                "name": "Lenne's Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Lenne's Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                       "x": 4345, 
+                       "y": 4676
+                    }
+                ]
+            },
+            {
+                "name": "Mirage Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Mirage Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1693, 
+                        "y": 2242
+                    }
+                ]
+            },
+            {
+                "name": "Chelona's Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Moonlight Altar/Chelona's Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 387, 
+                        "y": 4841
+                    }
+                ]
+            },
+            {
+                "name": "Heretical Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Heretical Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4384, 
+                        "y": 1434
+                    }
+                ]
+            }
+        ]
+    }
+]

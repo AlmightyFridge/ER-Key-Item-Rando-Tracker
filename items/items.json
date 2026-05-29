@@ -136,6 +136,12 @@
         "codes": "discarded_palace_key"
     },
     {
+        "name": "Dark Moon Ring",
+        "type": "toggle",
+        "img": "images/items/dark_moon_ring.png",
+        "codes": "dark_moon_ring"
+    },
+    {
         "name": "Free Weapon",
         "type": "consumable",
         "img": "images/items/weapon.png",

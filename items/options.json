@@ -87,6 +87,24 @@
         "img": "images/options/Flask_Upgrade_Sanity.png"
     },
     {
+        "name": "Dragonsanity",
+        "codes": "Dragonsanity",
+        "type": "toggle",
+        "img": "images/options/dragonsanity.png"
+    },
+    {
+        "name": "Paintingsanity",
+        "codes": "Paintingsanity",
+        "type": "toggle",
+        "img": "images/options/paintingsanity.png"
+    },
+    {
+        "name": "Risesanity",
+        "codes": "Risesanity",
+        "type": "toggle",
+        "img": "images/options/risesanity.png"
+    },
+    {
         "name": "Vanilla Great Runes",
         "codes": "Vanilla_Great_Runes",
         "type": "toggle",
@@ -97,5 +115,11 @@
         "codes": "Early_Academy_Key",
         "type": "toggle",
         "img": "images/options/Early_Academy_Key.png"
+    },
+    {
+        "name": "Volcano Manor Abduction Skip",
+        "codes": "Volcano_Manor_Abduction_Skip",
+        "type": "toggle",
+        "img": "images/options/abduction_skip.png"
     }
 ]

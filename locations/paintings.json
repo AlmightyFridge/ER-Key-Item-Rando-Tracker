@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Paintings",
+        "children": [
+            {
+                "name": "Painting - Homing Instinct",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Painting - Homing Instinct"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2658,
+                        "y": 5294
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Prophecy",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Stormvale Castle/Painting - Prophecy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1714,
+                        "y": 5120
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Resurrection",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Painting - Resurrection"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1480,
+                        "y": 3905
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Redmane",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Painting - Redmane"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3782,
+                        "y": 5120
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Champion's Song",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Painting - Champion's Song"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1649,
+                        "y": 1961
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Flightless Bird",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Painting - Flightless Bird"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2624,
+                        "y": 2692
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Sorcerer",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Painting - Sorcerer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4096,
+                        "y": 1264
+                    }
+                ]
+            }
+        ]
+    }
+]

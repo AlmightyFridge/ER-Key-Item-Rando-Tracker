@@ -20,14 +20,15 @@
                 [
                     "Flask_Upgrade_Sanity",
                     "Shopsanity",
-                    "",
-                    ""
+                    "Dragonsanity",
+                    "Paintingsanity",
+                    "Risesanity"
                 ],
                 [
                     "Vanilla_Great_Runes",
                     "Early_Academy_Key",
-                    "Region_Locking",
-                    ""
+                    "Volcano_Manor_Abduction_Skip",
+                    "Region_Locking"
                 ]
             ]
         }

@@ -1,0 +1,16 @@
+{
+    "versions": [
+        {
+            "package_version": "1.1.0",
+            "download_url": "https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker/archive/refs/tags/v1.1.0.zip",
+            "sha256": "79936b92404601bbd8be9c0ef721e7a0648546962c3b6950feb5c451884aaa6a",
+            "changelog": [
+                "Added Dragons, Paintings, and Rise Locations",
+                "Added Dark Moon Ring",
+                "Changed item layout slightly for Dark Moon Ring",
+                "Added new 'sanity' options and Volcano Manor Abduction Skip option",
+                "Added auto-update"
+            ]
+        } 
+    ]
+}

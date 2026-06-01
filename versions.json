@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "1.1.0",
-            "download_url": "https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker/archive/refs/tags/v1.1.0.zip",
+            "download_url": "https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker/releases/download/v1.1.0/ER-Key-Item-Rando-poptracker.zip",
             "sha256": "79936b92404601bbd8be9c0ef721e7a0648546962c3b6950feb5c451884aaa6a",
             "changelog": [
                 "Added Dragons, Paintings, and Rise Locations",
@@ -10,6 +10,15 @@
                 "Changed item layout slightly for Dark Moon Ring",
                 "Added new 'sanity' options and Volcano Manor Abduction Skip option",
                 "Added auto-update"
+            ]
+        },
+        {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker/releases/download/v1.1.1/ER-Key-Item-Rando-poptracker-1.1.1.zip",
+            "sha256": "f24ca8cb72f78e99a694a2c5471851667b255f019f6452932e40f6c08cbbb1d4",
+            "changelog": [
+                "fixed consecrated snowfield golden seed not showing as marked when released by server",
+                "relocated lansseax square to the version of him that drops the reward"
             ]
         } 
     ]

@@ -15,10 +15,10 @@
         {
             "package_version": "1.1.1",
             "download_url": "https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker/releases/download/v1.1.1/ER-Key-Item-Rando-poptracker-1.1.1.zip",
-            "sha256": "f24ca8cb72f78e99a694a2c5471851667b255f019f6452932e40f6c08cbbb1d4",
+            "sha256": "1fed8e65ecf9e91b14fe3d365b1ac7846ba49637593c4c2502e2703f304fcd35",
             "changelog": [
-                "fixed consecrated snowfield golden seed not showing as marked when released by server",
-                "relocated lansseax square to the version of him that drops the reward"
+                "Fixed consecrated snowfield golden seed not showing as marked when released by server",
+                "Relocated lansseax square to the version of him that drops the reward"
             ]
         } 
     ]

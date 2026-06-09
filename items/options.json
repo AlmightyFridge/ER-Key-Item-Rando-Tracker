@@ -48,27 +48,27 @@
         "name": "Great Runes Rold",
         "codes": "Great_Runes_Rold",
         "type": "consumable",
-        "initial_quantity": 0,
+        "initial_quantity": 2,
         "img": "images/options/Great_Runes_Rold.png",
         "min_quantity": 0,
         "max_quantity": 7
     },
     {
-        "name": "Region Locking",
+        "name": "Region Locking Base",
         "loop": true,
-        "codes": "Region_Locking",
+        "codes": "Region_Locking_Base",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
             {
                 "img": "images/options/Region_Lock_All.png",
-                "codes": "Region_Locking_All_Locations",
+                "codes": "Region_Locking_Base_All_Locations",
                 "inherit_codes": false,
                 "name": "All Locations"
             },
             {
                 "img": "images/options/Region_Lock_Boss.png",
-                "codes": "Region_Locking_Boss_Locations",
+                "codes": "Region_Locking_Base_Boss_Locations",
                 "inherit_codes": false,
                 "name": "Boss Locations"
             }
@@ -81,10 +81,16 @@
         "img": "images/options/Shopsanity.png"
     },
     {
-        "name": "Flask Upgrade Sanity",
-        "codes": "Flask_Upgrade_Sanity",
+        "name": "Seedsanity",
+        "codes": "Seedsanity",
         "type": "toggle",
-        "img": "images/options/Flask_Upgrade_Sanity.png"
+        "img": "images/options/Seedsanity.png"
+    },
+    {
+        "name": "Tearsanity",
+        "codes": "Tearsanity",
+        "type": "toggle",
+        "img": "images/options/Tearsanity.png"
     },
     {
         "name": "Dragonsanity",
@@ -121,5 +127,127 @@
         "codes": "Volcano_Manor_Abduction_Skip",
         "type": "toggle",
         "img": "images/options/abduction_skip.png"
+    },
+    {
+        "name": "DLC",
+        "codes": "DLC",
+        "type": "toggle",
+        "img": "images/options/dlc_on.png",
+        "disabled_img": "images/options/dlc_off.png"
+    },
+    {
+        "name": "Scadusanity",
+        "codes": "Scadusanity",
+        "type": "toggle",
+        "img": "images/options/Scadusanity.png"
+    },
+    {
+        "name": "Ashsanity",
+        "codes": "Ashsanity",
+        "type": "toggle",
+        "img": "images/options/Ashsanity.png"
+    },
+    {
+        "name": "Messmer's Kindling Setting",
+        "loop": true,
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/options/Messmers_Kindling_Shards.png",
+                "codes": "messmers_kindling_setting, messmers_kindling_shards",
+                "inherit_codes": false,
+                "name": "Shards"
+            },
+            {
+                "img": "images/options/Messmers_Kindling_Vanilla.png",
+                "codes": "messmers_kindling_setting, messmers_kindling_vanilla",
+                "inherit_codes": false,
+                "name": "Vanilla"
+            },
+            {
+                "img": "images/options/Messmers_Kindling_Randomized.png",
+                "codes": "messmers_kindling_setting, messmers_kindling_randomized",
+                "inherit_codes": false,
+                "name": "Randomized"
+            }
+        ]
+    },
+    {
+        "name": "Messmers Kindling Shards Total",
+        "codes": "messmers_kindling_shards_total",
+        "type": "consumable",
+        "img": "images/options/Messmers_Kindling_Randomized.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Messmers Kindling Shards Needed",
+        "codes": "messmers_kindling_shards_needed",
+        "type": "consumable",
+        "img": "images/options/Messmers_Kindling_Randomized.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Region Locking DLC",
+        "loop": true,
+        "codes": "Region_Locking_DLC",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/options/Region_Lock_All.png",
+                "codes": "Region_Locking_DLC_All_Locations",
+                "inherit_codes": false,
+                "name": "All Locations"
+            },
+            {
+                "img": "images/options/Region_Lock_Boss.png",
+                "codes": "Region_Locking_DLC_Boss_Locations",
+                "inherit_codes": false,
+                "name": "Boss Locations"
+            }
+        ]
+    },
+    {
+        "name": "Goal",
+        "loop": true,
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/options/Elden_Beast_Goal.png",
+                "codes": "goal, goal_elden_beast",
+                "inherit_codes": false,
+                "name": "Goal: Elden Beast"
+            },
+            {
+                "img": "images/options/Radahn_Goal.png",
+                "codes": "goal, goal_radahn",
+                "inherit_codes": false,
+                "name": "Goal: Promised Consort Radahn"
+            },
+            {
+                "img": "images/options/Two_Gods_Goal.png",
+                "codes": "goal, goal_two_gods",
+                "inherit_codes": false,
+                "name": "Goal: Two Gods Ending"
+            }
+        ]
+    },
+    {
+        "name": "Base Nameplate",
+        "codes": "Base_Nameplate",
+        "type": "static",
+        "img": "images/options/base_nameplate.png"
+    },
+    {
+        "name": "DLC Nameplate",
+        "codes": "DLC_Nameplate",
+        "type": "static",
+        "img": "images/options/dlc_nameplate.png"
     }
+
 ]

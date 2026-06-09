@@ -3,21 +3,68 @@
         "name": "Victory",
         "children": [
             {
-                "name": "Leyndell Ashen Capital",
+                "name": "Elden Beast Defeated - Victory",
                 "access_rules": [],
-                "sections": [
+                "visibility_rules": [
+                    "$check_goal|0"
+                ],
+                
+                "sections": [ 
                     {
-                        "ref": "Locations/Leyndell Ashen Capital/Elden Beast Defeated"
+                         "ref": "Locations/Leyndell Ashen Capital/Elden Beast Defeated - Victory"
                     }
                 ],
                 "map_locations": [
                     {
+                        "shape": "trapezoid",
                         "map": "Overworld-Detailed",
                         "x": 3050,
                         "y": 2970
                     }
                 ]
+            },
+            {
+                "name": "Promised Consort Radahn Defeated - Victory",
+                
+                "access_rules": [],
+                "visibility_rules": [
+                    "$check_goal|1"
+                ],
+                "sections": [ 
+                    {
+                         "ref": "Locations/Enir Ilim/Promised Consort Radahn Defeated - Victory"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "shape": "trapezoid",
+                        "map": "DLC-Detailed",
+                        "x": 264, 
+                        "y": 1230
+                    }
+                ]
+            },
+            {
+                "name": "Two Gods Ending - Victory",
+                "access_rules": [],
+                "visibility_rules": [
+                    "$check_goal|2"
+                ],
+                "sections": [ 
+                    {
+                         "ref": "Locations/Leyndell Ashen Capital/Two Gods Ending - Victory"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "shape": "trapezoid",
+                        "map": "Overworld-Detailed",
+                        "x": 3050,
+                        "y": 3020
+                    }
+                ]
             }
         ]
     }
+    
 ]

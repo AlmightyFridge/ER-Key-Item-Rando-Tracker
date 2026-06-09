@@ -1,12 +1,12 @@
 [
     {
-        "name": "Progressive Max Level",
+        "name": "Max Rune Level",
         "type": "progressive",
         "loop": false,
         "allow_disabled": false,
         "stages": [
             {
-                "codes": "progressive_max_level",
+                "codes": "max_rune_level_+10",
                 "img": "images/items/RL/RL20.png"
             },
             {
@@ -51,10 +51,10 @@
         ]
     },
     {
-        "name": "Progressive Stone Level",
+        "name": "Max Stone Level +1",
         "type": "consumable",
         "img": "images/items/progressive_stone_level.png",
-        "codes": "progressive_stone_level",
+        "codes": "max_stone_level_+1",
         "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 10
@@ -188,5 +188,59 @@
         "type": "consumable",
         "img": "images/items/talisman+3.png",
         "codes": "free_+3_talisman"
+    },
+    {
+        "name": "Max Scadu Level",
+        "type": "consumable",
+        "img": "images/items/scadu.png",
+        "codes": "max_scadu",
+        "increment": 3,
+        "max_quantity": 20
+    },
+    {
+        "name": "Max Ash Level",
+        "type": "consumable",
+        "img": "images/items/ash.png",
+        "codes": "max_ash",
+        "increment": 2,
+        "max_quantity": 10
+    },
+    {
+        "name": "Messmer's Kindling",
+        "type": "toggle",
+        "img": "images/items/messmers_kindling.png",
+        "codes": "messmers_kindling"
+    },
+    {
+        "name": "Messmer's Kindling Shard",
+        "type": "consumable",
+        "img": "images/items/messmers_kindling.png",
+        "codes": "messmers_kindling_shard_item",
+        "max_quantity": 7
+    },
+    {
+        "name": "Hole Laden Necklace",
+        "type": "toggle",
+        "img": "images/items/hole_laden_necklace.png",
+        "codes": "hole_laden_necklace"
+    },
+    {
+        "name": "O Mother",
+        "type": "toggle",
+        "img": "images/items/o_mother.png",
+        "codes": "o_mother"
+    },
+    {
+        "name": "Lamenter Gaol Keys",
+        "type": "toggle",
+        "img": "images/items/lamenter_gaol_keys.png",
+        "codes": "lamenter_gaol_keys"
+    },
+    {
+        "name": "God Slain",
+        "type": "consumable",
+        "img": "images/items/god_slain.png",
+        "codes": "god_slain",
+        "max_quantity": 2
     }
 ]

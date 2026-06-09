@@ -1,6 +1,6 @@
 ITEM_MAPPING = {
-    [1] = {"progressive_max_level", "progressive"},
-    [2] = {"progressive_stone_level", "consumable"},
+    [1] = {"max_rune_level_+10", "progressive"},
+    [2] = {"max_stone_level_+1", "consumable"},
     [3] = {"great_rune", "consumable"},
     [4] = {"drawing_room_key", "toggle"},
     [5] = {"academy_glintstone_key", "toggle"},
@@ -21,5 +21,13 @@ ITEM_MAPPING = {
     [20] = {"free_+0_talisman", "consumable"},
     [21] = {"free_+1_talisman", "consumable"},
     [22] = {"free_+2_talisman", "consumable"},
-    [23] = {"free_+3_talisman", "consumable"}
+    [23] = {"free_+3_talisman", "consumable"},
+    [27] = {"max_scadu", "consumable"},
+    [28] = {"max_ash", "consumable"},
+    [29] = {"messmers_kindling", "toggle"},
+    [30] = {"messmers_kindling_shard_item", "consumable"},
+    [31] = {"hole_laden_necklace", "toggle"},
+    [32] = {"o_mother", "toggle"},
+    [33] = {"lamenter_gaol_keys", "toggle"},
+    [34] = {"god_slain", "consumable"},
 }

@@ -9,5 +9,6 @@ Tested on PopTracker version 0.35.1. Older versions may have compatibility issue
 
 - Archipelago autotracking
 - Archipelago check sending. **Can be used as an alternative to the Manual Client!**
-- Massive **zoom-able** maps of the overworld and underworld
+- Massive **zoom-able** maps of the overworld, underworld, and DLC
 - Tabs for both combined regional locations (Condensed) and every single check accurately placed on the map (Detailed)
+- (new!) Automatic layout switching when settings are changed

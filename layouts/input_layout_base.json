@@ -3,10 +3,10 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": "128, 32",
-        "item_margin": "4,4",
+        "item_margin": "3,3",
         "rows": [
             [
-                "progressive_max_level"
+                "max_rune_level_+10"
             ]
         ]
     },
@@ -14,10 +14,10 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": 60,
-        "item_margin": "4,4",
+        "item_margin": "3,3",
         "rows": [
             [
-                "progressive_stone_level",
+                "max_stone_level_+1",
                 "great_rune"
             ]
         ]
@@ -26,7 +26,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": 60,
-        "item_margin": "4,4",
+        "item_margin": "3,3",
         "rows": [
             [
                 "drawing_room_key",
@@ -46,7 +46,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": 60,
-        "item_margin": "4,4",
+        "item_margin": "3,3",
         "rows": [
             [
                 "dectus_medallion_(left)",
@@ -65,7 +65,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": 60,
-        "item_margin": "4,4",
+        "item_margin": "3,3",
         "rows": [
             [
                 "free_weapon",
@@ -83,7 +83,6 @@
                 "free_+2_talisman",
                 "free_+3_talisman"
             ]
-
         ]
     },
     "tracker_key_items": {

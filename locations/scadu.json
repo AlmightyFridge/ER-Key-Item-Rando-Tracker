@@ -1,0 +1,550 @@
+[
+    {
+        "name": "Scadu",
+        "children": [
+            {
+                "name": "Church of Consolation Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Church of Consolation Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1095, 
+                        "y": 1927
+                    }
+                ]
+            },
+            {
+                "name": "Main Gate Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Main Gate Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 497, 
+                        "y": 1625
+                    }
+                ]
+            },
+            {
+                "name": "Pillar Path Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Pillar Path Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1175, 
+                        "y": 1549
+                    }
+                ]
+            },
+            {
+                "name": "East of Scorched Ruins Ash",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/East of Scorched Ruins Ash"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1039, 
+                        "y": 1923
+                    }
+                ]
+            },
+            {
+                "name": "Three Path Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Three Path Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 746, 
+                        "y": 1609
+                    }
+                ]
+            },
+            {
+                "name": "Castle Front Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Castle Front Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 923, 
+                        "y": 1351
+                    }
+                ]
+            },
+            {
+                "name": "Belurat Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Belurat/Belurat Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 414, 
+                        "y": 1365
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean Coast Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Cerulean Coast Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1172, 
+                        "y": 2739
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean Coast Cave Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Cerulean Coast Cave Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 870, 
+                        "y": 2155
+                    }
+                ]
+            },
+            {
+                "name": "Castle Ensis Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Castle Ensis/Castle Ensis Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1011, 
+                        "y": 1226
+                    }
+                ]
+            },
+            {
+                "name": "Highroad Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Highroad Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1127, 
+                        "y": 1186
+                    }
+                ]
+            },
+            {
+                "name": "Moorth Ruins Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Moorth Ruins Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1306, 
+                        "y": 1189
+                    }
+                ]
+            },
+            {
+                "name": "Camp West of Moorth Ruins Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Camp West of Moorth Ruins Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1245, 
+                        "y": 1183
+                    }
+                ]
+            },
+            {
+                "name": "Camp South of Shadow Keep Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Camp South of Shadow Keep Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1148, 
+                        "y": 944
+                    }
+                ]
+            },
+            {
+                "name": "Lake Cave Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Lake Cave Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1378, 
+                        "y": 1060
+                    }
+                ]
+            },{
+                "name": "Church of the Crusade Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Church of the Crusade Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 944, 
+                        "y": 944
+                    }
+                ]
+            },
+            {
+                "name": "Scaduview Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Scaduview Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1528, 
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "On Marika Statue Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Shadow Keep (Church District)/On Marika Statue Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1386, 
+                        "y": 657
+                    }
+                ]
+            },
+            {
+                "name": "Storehouse Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Specimen Storehouse/Storehouse Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1322, 
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Dark Chamber Entrance Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Specimen Storehouse/Dark Chamber Entrance Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1292, 
+                        "y": 555
+                    }
+                ]
+            },
+            {
+                "name": "Fissure Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Fissure Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1164, 
+                        "y": 3018
+                    }
+                ]
+            },
+            {
+                "name": "Temple Town Ruins Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Rauh Base/Temple Town Ruins Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 667, 
+                        "y": 1079
+                    }
+                ]
+            },
+            {
+                "name": "East Ruins Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ancient Ruins of Rauh/East Ruins Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 681, 
+                        "y": 768
+                    }
+                ]
+            },
+            {
+                "name": "Cave Near West Ruins Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ancient Ruins of Rauh/Cave Near West Ruins Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 427, 
+                        "y": 1037
+                    }
+                ]
+            },
+            {
+                "name": "Hinterlands Entrance Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Specimen Storehouse/Hinterlands Entrance Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1417, 
+                        "y": 558
+                    }
+                ]
+            },
+            {
+                "name": "Scadutree Chalice Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1360, 
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Church Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Abyssal Woods/Abandoned Church Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 2044, 
+                        "y": 1913
+                    }
+                ]
+            },
+            {
+                "name": "North of Abyssal Woods Grace Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Abyssal Woods/North of Abyssal Woods Grace Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1575, 
+                        "y": 1541
+                    }
+                ]
+            },
+            {
+                "name": "Before Senessax Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Jagged Peak/Before Senessax Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 2205, 
+                        "y": 2320
+                    }
+                ]
+            },
+            {
+                "name": "Spiral Rise Cross Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/Spiral Rise Cross Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 232, 
+                        "y": 1209
+                    }
+                ]
+            },
+            {
+                "name": "After Spiral Rise Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/After Spiral Rise Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 177, 
+                        "y": 1180
+                    }
+                ]
+            },
+            {
+                "name": "Cleansing Chamber Anteroom Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/Cleansing Chamber Anteroom Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 209, 
+                        "y": 1393
+                    }
+                ]
+            },
+            {
+                "name": "Belurat Tower Secret Room (Near Euporia) Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/Belurat Tower Secret Room (Near Euporia) Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 335, 
+                        "y": 1323
+                    }
+                ]
+            },
+            {
+                "name": "Recluses River Waterfall Scadu",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Recluses River/Recluses River Waterfall Scadu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1475, 
+                        "y": 1009
+                    }
+                ]
+            }
+        ]
+    }
+]

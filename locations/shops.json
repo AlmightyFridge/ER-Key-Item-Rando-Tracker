@@ -370,6 +370,22 @@
                         "y": 1715
                     }
                 ]
+            },
+            {
+                "name": "Moore Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Moore Shop Item" 
+                    }
+                ],
+                "map_locations": [
+                    {
+                       "map": "DLC-Detailed",
+                        "x": 457, 
+                        "y": 1601
+                    }
+                ]
             }
         ]
     }

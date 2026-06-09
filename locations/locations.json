@@ -14,21 +14,21 @@
                         "name": "Fort Haight Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Stormhill Shack Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Third Church of Marika Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -108,28 +108,28 @@
                         "name": "Castle Morne Rampart Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Church of Pilgrimage Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Callu Baptismal Church Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Fourth Church of Marika Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -166,14 +166,14 @@
                 "name": "Stormvale Castle",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|1, progressive_stone_level:1"
+                    "$check_boss_lock_option|0, $check_max_level|1, max_stone_level_+1:1"
                 ],
                 "sections": [
                     {
                         "name": "Margit Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|1, progressive_stone_level:1"
+                            "$check_max_level|1, max_stone_level_+1:1"
                         ]
                     },
                     {
@@ -197,7 +197,7 @@
                             "$margit_killable"
                         ],
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -207,7 +207,7 @@
                             "$margit_killable"
                         ],
                         "visibility_rules": [
-                            "Risesanity"
+                            "Paintingsanity"
                         ]
                     }
                 ],
@@ -223,21 +223,21 @@
                 "name": "Liurnia of the Lakes",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|2, progressive_stone_level:1"
+                    "$check_boss_lock_option|0, $check_max_level|2, max_stone_level_+1:1"
                 ],
                 "sections": [
                     {
                         "name": "Royal Knight Loretta Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, progressive_stone_level:1"
+                            "$check_max_level|2, max_stone_level_+1:1"
                         ]
                     },
                     {
                         "name": "Magma Wyrm Makar Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, progressive_stone_level:1"
+                            "$check_max_level|2, max_stone_level_+1:1"
                         ]
                     },
                     {
@@ -263,42 +263,42 @@
                         "name": "Caria Manor Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Ravine Veiled Village Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Academy Gate Town Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Church of Irith Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Church of Inhibition Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Bellum Church Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -336,7 +336,7 @@
                         "name": "Smarag Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, progressive_stone_level:1"
+                            "$check_max_level|2, max_stone_level_+1:1"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -376,21 +376,21 @@
                 "name": "Academy of Raya Lucaria",
                 "access_rules": [
                     "$check_boss_lock_option|1, academy_glintstone_key",
-                    "$check_boss_lock_option|0, academy_glintstone_key, $check_max_level|3, progressive_stone_level:2"
+                    "$check_boss_lock_option|0, academy_glintstone_key, $check_max_level|3, max_stone_level_+1:2"
                 ],
                 "sections": [
                     {
                         "name": "Red Wolf Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, progressive_stone_level:2"
+                            "$check_max_level|3, max_stone_level_+1:2"
                         ]
                     },
                     {
                         "name": "Rennala Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, progressive_stone_level:2"
+                            "$check_max_level|3, max_stone_level_+1:2"
                         ]
                     },
                     {
@@ -414,14 +414,14 @@
                             "$red_wolf_killable"
                         ],
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Main Academy Gate Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -444,21 +444,21 @@
                 "name": "Siofra River",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|3, progressive_stone_level:2"
+                    "$check_boss_lock_option|0, $check_max_level|3, max_stone_level_+1:2"
                 ],
                 "sections": [
                     {
                         "name": "Ancestor Spirit Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, progressive_stone_level:2"
+                            "$check_max_level|3, max_stone_level_+1:2"
                         ]
                     },
                     {
                         "name": "Siofra River Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -481,14 +481,14 @@
                 "name": "Caelid",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:4"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4"
                 ],
                 "sections": [
                     {
                         "name": "Starscourge Radahn Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:4"
+                            "$check_max_level|4, max_stone_level_+1:4"
                         ]
                     },
                     {
@@ -499,21 +499,21 @@
                         "name": "Southern Aeonia Swamp Bank Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Sellia Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Church of the Plague Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -534,7 +534,7 @@
                         "name": "Ekzykes Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:4"
+                            "$check_max_level|4, max_stone_level_+1:4"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -560,7 +560,7 @@
                 "name": "Dragonbarrow",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|6, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
@@ -571,7 +571,7 @@
                         "name": "Dragonbarrow Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -585,7 +585,7 @@
                         "name": "Greyll Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, progressive_stone_level:6"
+                            "$check_max_level|6, max_stone_level_+1:6"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -613,56 +613,56 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:4"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4"
                 ],
                 "sections": [
                     {
                         "name": "Elemer of the Briar Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:4"
+                            "$check_max_level|4, max_stone_level_+1:4"
                         ]
                     },
                     {
                         "name": "Southeast of Windmill Village Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Erdtree Gazing Hill Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Altus Highway Junction Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Altus Plateau Minor Erdtree Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Stormcaller Church Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Second Church of Marika Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -676,7 +676,7 @@
                         "name": "Lansseax Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:4"
+                            "$check_max_level|4, max_stone_level_+1:4"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -711,21 +711,21 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
                         "name": "North of Outer Wall Phantom Tree Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Outer Wall Phantom Tree Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -748,28 +748,28 @@
                 "name": "Leyndell Royal Capital",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $capital_entry_boss_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|6, progressive_stone_level:6"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
                         "name": "Godfrey Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, progressive_stone_level:6"
+                            "$check_max_level|6, max_stone_level_+1:6"
                         ]
                     },
                     {
                         "name": "Morgott Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, progressive_stone_level:6"
+                            "$check_max_level|6, max_stone_level_+1:6"
                         ]
                     },
                     {
                         "name": "Sewer Mohg Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, progressive_stone_level:6"
+                            "$check_max_level|6, max_stone_level_+1:6"
                         ]
                     },
                     {
@@ -783,7 +783,7 @@
                         "name": "West Capital Rampart Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -807,23 +807,23 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
                         "name": "Godskin Noble Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6",
-                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, progressive_stone_level:6"
+                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6"
                         ]
                     },
                     {
                         "name": "Rykard Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, progressive_stone_level:6",
-                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, progressive_stone_level:6"
+                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6"
                         ]
                     },
                     {
@@ -834,14 +834,14 @@
                         "name": "Road of Iniquity Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Seethewater River North Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -864,14 +864,14 @@
                 "name": "Ainsel River",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0,  $check_max_level|3, progressive_stone_level:2"
+                    "$check_boss_lock_option|0,  $check_max_level|3, max_stone_level_+1:2"
                 ],
                 "sections": [
                     {
                         "name": "Dragonkin Soldier of Nokstella Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, progressive_stone_level:2"
+                            "$check_max_level|3, max_stone_level_+1:2"
                         ]
                     },
                     {
@@ -881,7 +881,7 @@
                             "$valiant_gargoyles_killable"
                         ],
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -904,28 +904,28 @@
                 "name": "Nokron Eternal City",
                 "access_rules": [
                     "$check_boss_lock_option|1, $starscourge_radahn_killable",
-                    "$check_boss_lock_option|0, $check_max_level|4, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
                         "name": "Mimic Tear Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:6"
+                            "$check_max_level|4, max_stone_level_+1:6"
                         ]
                     },
                     {
                         "name": "Regal Ancestor Spirit Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:6"
+                            "$check_max_level|4, max_stone_level_+1:6"
                         ]
                     },
                     {
                         "name": "Valiant Gargoyles Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, progressive_stone_level:6"
+                            "$check_max_level|4, max_stone_level_+1:6"
                         ]
                     }
                 ],
@@ -941,7 +941,7 @@
                 "name": "Lake of Rot",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|5, progressive_stone_level:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
                 ],
                 "sections": [
                     {
@@ -1001,14 +1001,14 @@
                 "name": "Forbidden Lands",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|7, progressive_stone_level:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|7, max_stone_level_+1:8"
                 ],
                 "sections": [
                     {
                         "name": "Forbidden Lands Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     }
                 ],
@@ -1024,21 +1024,21 @@
                 "name": "Mountaintops of the Giants",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|7, progressive_stone_level:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|7, max_stone_level_+1:8"
                 ],
                 "sections": [
                     {
                         "name": "Commander Niall Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, progressive_stone_level:8"
+                            "$check_max_level|7, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Fire Giant Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, progressive_stone_level:8"
+                            "$check_max_level|7, max_stone_level_+1:8"
                         ]
                     },
                     {
@@ -1052,28 +1052,28 @@
                         "name": "South of Freezing Lake Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Foot of the Forge Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "First Church of Marika Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
                         "name": "Church of Repose Sacred Tear",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Tearsanity"
                         ]
                     },
                     {
@@ -1087,7 +1087,7 @@
                         "name": "Borealis Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, progressive_stone_level:8"
+                            "$check_max_level|7, max_stone_level_+1:8"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -1119,29 +1119,28 @@
              {
                 "name": "Crumbling Farum Azula",
                 "access_rules": [
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $fire_giant_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, progressive_stone_level:8"  
+                    "$OptionCount|great_rune|Great_Runes_Capital, $has_rold_access, $check_max_level|8, max_stone_level_+1:8"  
                 ],
                 "sections": [
                     {
                         "name": "Placidusax Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Godskin Duo Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Maliketh Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
@@ -1151,14 +1150,14 @@
                             "farum_azula_stonesword_key"
                         ],
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Near Dragon Temple Rooftop Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     }
                 ],
@@ -1174,21 +1173,21 @@
                 "name": "Consecrated Snowfield",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|7, progressive_stone_level:8" 
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|7, max_stone_level_+1:8" 
                 ],
                 "sections": [
                     {
                         "name": "Ordina Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
                         "name": "Consecrated Snowfield Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     }
                 ],
@@ -1204,21 +1203,21 @@
                 "name": "Miquella's Haligtree",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, progressive_stone_level:8"    
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8"    
                 ],
                 "sections": [
                     {
                         "name": "Haligtree Loretta Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Malenia Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     }
                 ],
@@ -1234,23 +1233,23 @@
                 "name": "Mohgwyn Palace",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, pureblood_knights_medal",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, pureblood_knights_medal, $check_max_level|8, progressive_stone_level:8",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, progressive_stone_level:8"
+                    "$check_boss_lock_option|1, pureblood_knights_medal",
+                    "$check_boss_lock_option|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8"
                 ],
                 "sections": [
                     {
                         "name": "Mohg Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Mohgwyn Palace Golden Seed",
                         "item_count": 1,
                         "visibility_rules": [
-                            "Flask_Upgrade_Sanity"
+                            "Seedsanity"
                         ]
                     },
                     {
@@ -1273,7 +1272,7 @@
                 "name": "Leyndell Ashen Capital",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $fire_giant_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, progressive_stone_level:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, max_stone_level_+1:8"
 
                 ],
                 "sections": [
@@ -1281,14 +1280,38 @@
                         "name": "Hoarah Loux Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, progressive_stone_level:8"
+                            "$check_max_level|8, max_stone_level_+1:8"
                         ]
                     },
                     {
                         "name": "Elden Beast Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, progressive_stone_level:8"
+                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, max_stone_level_+1:8"
+                        ],
+                        "visibility_rules": [
+                            "$check_goal|1",
+                            "$check_goal|2"
+                        ]
+                    },
+                    {
+                        "name": "Elden Beast Defeated - Victory",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, max_stone_level_+1:8"
+                        ],
+                        "visibility_rules": [
+                            "$check_goal|0"
+                        ]
+                    },
+                    {
+                        "name": "Two Gods Ending - Victory",
+                        "item_count": 1,
+                        "access_rules": [
+                            "god_slain:2"
+                        ],
+                        "visibility_rules": [
+                            "$check_goal|2"
                         ]
                     }
                 ],
@@ -1299,8 +1322,1121 @@
                         "y": 2870
                     }
                 ]
+            },
+            {
+                "name": "Gravesite Plain",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Main Gate Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Pillar Path Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Three Path Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Castle Front Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of Consolation Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Near Prospect Town Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "East of Scorched Ruins Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Ailing Village Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Moore Shop Item",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Ghostflame Dragon (Gravesite Plain)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - The Sacred Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    },
+                    {
+                        "name": "Painting - Incursion",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 860, 
+                        "y": 1716
+                    }
+                ]
+            },
+            {
+                "name": "Belurat",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Belurat Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Before Stagefront Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Scorpion Room Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "After Dancing Lion Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2"
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Dancing Lion Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Belurat Well Depths Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 417, 
+                        "y": 1416
+                    }
+                ]
+            },
+            {
+                "name": "Castle Ensis",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Ensis Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Rellana Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Castle Ensis Imbued Sword Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1004, 
+                        "y": 1242
+                    }
+                ]
+            },
+            {
+                "name": "Ellac River",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Ellac River Cave Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 927, 
+                        "y": 1534
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean Coast",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Cerulean Coast Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Cerulean Coast Cave Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Fissure Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Putrescent Knight Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Ghostflame Dragon (Cerulean Coast)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 965, 
+                        "y": 2670
+                    }
+                ]
+            },
+            {
+                "name": "Scadu Altus",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Highroad Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Moorth Ruins Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Camp West of Moorth Ruins Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Camp South of Shadow Keep Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Lake Cave Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Church of the Crusade Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "East of Moorth Ruins Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Bonny Village Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Scaduview Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Metyr Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hole_laden_necklace, o_mother, max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Hole Laden Necklace",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "O Mother",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Ghostflame Dragon (Scadu Altus)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Rabbath's Rise Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Risesanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1412, 
+                        "y": 1157
+                    }
+                ]
+            },
+            {
+                "name": "Recluses River",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Recluses River Waterfall Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    
+                    {
+                        "name": "Near Village of Flies Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Near Ruins of Unte Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1515, 
+                        "y": 912
+                    }
+                ]
+            },
+            {
+                "name": "Shadow Keep (Church District)",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6"
+                ],
+                "sections": [
+                    {
+                        "name": "On Marika Statue Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Scadutree Avatar Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1465, 
+                        "y": 669
+                    }
+                ]
+            },
+            {
+                "name": "Specimen Storehouse",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Hinterlands Entrance Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Storehouse Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Dark Chamber Entrance Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Storehouse Hanging Beast Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Storehouse First Floor Beast Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Messmer Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1359, 
+                        "y": 569
+                    }
+                ]
+            },
+            {
+                "name": "Shadow Keep (Front)",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Golden Hippo Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },                    
+                    {
+                        "name": "Painting - Domain of Dragons",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Paintingsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1269, 
+                        "y": 674
+                    }
+                ]
+            },
+            {
+                "name": "Scaduview",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Scadutree Chalice Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Commander Gaius Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1332, 
+                        "y": 293
+                    }
+                ]
+            },
+            {
+                "name": "Rauh Base",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:6, max_ash:4"
+                ],
+                "sections": [
+                    {
+                        "name": "Temple Town Ruins Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Temple Town Ruins Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 712, 
+                        "y": 1039
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Ruins of Rauh",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "East Ruins Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Cave Near West Ruins Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Near West Ruins Gazebo Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Romina Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 729, 
+                        "y": 699
+                    }
+                ]
+            },
+            {
+                "name": "Jagged Peak",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable, $ADM_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable, $ADM_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Before Senessax Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Bayle Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jagged Peak Drake (solo)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Jagged Peak Drake (duo)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Ancient Dragon Senessax",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "Dragonsanity"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 2234, 
+                        "y": 2254
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Woods",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8",
+                    "pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Abandoned Church Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "North of Abyssal Woods Grace Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Midra's Manse Chandelier Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Midra Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1712, 
+                        "y": 1704
+                    }
+                ]
+            },
+            {
+                "name": "Charo's Hidden Grave",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:9, max_ash:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Lamenter's Gaol Upper Level Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lamenter_gaol_keys"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Lamenter's Gaol Lower Level Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lamenter_gaol_keys"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 834, 
+                        "y": 2280
+                    }
+                ]
+            },
+            {
+                "name": "Enir Ilim",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable, $romina_killable, $can_burn_sealing_tree",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:15, max_ash:8, $can_burn_sealing_tree",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable, $romina_killable, $can_burn_sealing_tree",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:15, max_ash:8, $can_burn_sealing_tree"
+                ],
+                "sections": [
+                    {
+                        "name": "Spiral Rise Cross Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "After Spiral Rise Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Cleansing Chamber Anteroom Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Belurat Tower Secret Room (Near Euporia) Scadu",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "After Spiral Rise Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Southwest of First Rise Ash",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Promised Consort Radahn Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:15, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "$check_goal|0",
+                            "$check_goal|2"
+                        ]
+                    },
+                    {
+                        "name": "Promised Consort Radahn Defeated - Victory",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:15, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "$check_goal|1"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 224, 
+                        "y": 1253
+                    }
+                ]
             }
-
         ]
     }
 ]

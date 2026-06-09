@@ -113,6 +113,102 @@
                         "y": 1444
                     }
                 ]
+            },
+            {
+                "name": "Ghostflame Dragon (Gravesite Plain)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Ghostflame Dragon (Gravesite Plain)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 608, 
+                        "y": 1361
+                    }
+                ]
+            },
+            {
+                "name": "Ghostflame Dragon (Scadu Altus)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Ghostflame Dragon (Scadu Altus)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1349, 
+                        "y": 1387
+                    }
+                ]
+            },
+            {
+                "name": "Ghostflame Dragon (Cerulean Coast)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Ghostflame Dragon (Cerulean Coast)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1097, 
+                        "y": 2506
+                    }
+                ]
+            },
+            {
+                "name": "Jagged Peak Drake (solo)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Jagged Peak/Jagged Peak Drake (solo)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1408, 
+                        "y": 1973
+                    }
+                ]
+            },
+            {
+                "name": "Jagged Peak Drake (duo)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Jagged Peak/Jagged Peak Drake (duo)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1886, 
+                        "y": 2113
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Dragon Sennesax",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Jagged Peak/Ancient Dragon Senessax"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 2243, 
+                        "y": 2268
+                    }
+                ]
             }
         ]
     }

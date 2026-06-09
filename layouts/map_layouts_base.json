@@ -53,32 +53,6 @@
                     }
                 ]
                 } 
-            },
-            {
-                "title": "DLC",
-                "content":{
-                    "type":"tabbed",
-                    "tabs":[
-                    {
-                        "title":"Condensed",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "DLC-Condensed"
-                            ]
-                        }
-                    },
-                    {
-                        "title":"Detailed",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "DLC-Detailed"
-                            ]
-                        }
-                    }
-                ]
-                } 
             }
         ]
     }

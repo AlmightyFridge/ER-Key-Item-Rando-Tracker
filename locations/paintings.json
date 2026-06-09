@@ -113,6 +113,54 @@
                         "y": 1264
                     }
                 ]
+            },
+            {
+                "name": "Painting - The Sacred Tower",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Painting - The Sacred Tower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1003, 
+                        "y": 1758
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Incursion",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Painting - Incursion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 773, 
+                        "y": 2090
+                    }
+                ]
+            },
+            {
+                "name": "Painting - Domain of Dragons",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Shadow Keep (Front)/Painting - Domain of Dragons"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1340, 
+                        "y": 711
+                    }
+                ]
             }
         ]
     }

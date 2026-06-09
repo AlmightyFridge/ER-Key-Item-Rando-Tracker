@@ -32,8 +32,12 @@ function dump_table(o, depth)
 end
 
 function SetSettings()
-    if SLOT_DATA.Flask_Upgrade_Sanity == 1 then
-		Tracker:FindObjectForCode("Flask_Upgrade_Sanity").Active = true
+    Tracker:FindObjectForCode("goal").CurrentStage = SLOT_DATA.goal
+    if SLOT_DATA.Seedsanity == 1 then
+		Tracker:FindObjectForCode("Seedsanity").Active = true
+    end
+    if SLOT_DATA.Tearsanity == 1 then
+		Tracker:FindObjectForCode("Tearsanity").Active = true
     end
     if SLOT_DATA.Shopsanity == 1 then
 		Tracker:FindObjectForCode("Shopsanity").Active = true
@@ -63,10 +67,28 @@ function SetSettings()
     
 	Tracker:FindObjectForCode("Great_Runes_Capital").AcquiredCount = SLOT_DATA.Great_Runes_Capital
 
-	Tracker:FindObjectForCode("Region_Locking").CurrentStage = SLOT_DATA.Region_Locking
+	Tracker:FindObjectForCode("Region_Locking_Base").CurrentStage = SLOT_DATA.Region_Locking_Base
     
     Tracker:FindObjectForCode("Rold_Medallion_Setting").CurrentStage = SLOT_DATA.Rold_Medallion_Setting
 
+    if SLOT_DATA.DLC == 1 then
+		Tracker:FindObjectForCode("DLC").Active = true
+    end
+
+	Tracker:FindObjectForCode("Region_Locking_DLC").CurrentStage = SLOT_DATA.Region_Locking_DLC
+    
+	if SLOT_DATA.Scadusanity == 1 then
+		Tracker:FindObjectForCode("Scadusanity").Active = true
+    end
+    if SLOT_DATA.Ashsanity == 1 then
+		Tracker:FindObjectForCode("Ashsanity").Active = true
+    end
+
+    Tracker:FindObjectForCode("Messmers_Kindling_Setting").CurrentStage = SLOT_DATA.Messmers_Kindling_Setting
+
+	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Total").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Total
+    
+	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Needed").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Needed
 
     
 end
@@ -242,21 +264,48 @@ function onLocationSectionChanged(LocationSection)
         print(string.format("called onLocationSectionChanged. Location name is: %s , location id is: %s", loc_id, v))
     end
 
-    local goal = 1
-    local check_goal = loc_id
-    print(string.format("location name to check for goal: %s", check_goal))
-    print(string.format("location id for goal: %s",LOCATION_TO_ID_MAP[check_goal]))
-    if LOCATION_TO_ID_MAP[check_goal] == goal then
-        Archipelago:StatusUpdate(30)
+    local goal = 0
+
+    if SLOT_DATA ~= nil then
+        if SLOT_DATA.goal == 0 then
+            goal = 1
+        elseif SLOT_DATA.goal == 1 then
+            goal = 192
+        elseif SLOT_DATA.goal == 2 then
+            goal = 211
+        end
     end
-    
 
     if LocationSection.AccessibilityLevel == 7 then
+        local check_goal = loc_id
+        print(string.format("location name to check for goal: %s", check_goal))
+        print(string.format("location id for goal: %s",LOCATION_TO_ID_MAP[check_goal]))
+        if LOCATION_TO_ID_MAP[check_goal] == goal then
+            Archipelago:StatusUpdate(30)
+        end
+        
         new_loc_check = {}
         table.insert(new_loc_check, v)
         Archipelago:LocationChecks(new_loc_check) --send manual check
         
     end
+end
+
+function itemLayoutChange()
+    print(string.format("entered item layout change function"))
+    if Tracker:FindObjectForCode("DLC").Active then
+        Tracker:AddLayouts("layouts/map_layouts_dlc.json")
+        print(string.format("entered item layout change function - dlc active check"))
+        if Tracker:FindObjectForCode("messmers_kindling_setting").CurrentStage == 0 then
+            print(string.format("entered item layout change function - messmers kindling setting check"))
+            Tracker:AddLayouts("layouts/input_layout_dlc_shards.json")
+        else
+            Tracker:AddLayouts("layouts/input_layout_dlc.json")
+        end
+    else
+        Tracker:AddLayouts("layouts/input_layout_base.json")
+        Tracker:AddLayouts("layouts/map_layouts_base.json")
+	end
 end
 
 -- add AP callbacks

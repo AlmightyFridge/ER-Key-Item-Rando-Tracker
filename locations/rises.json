@@ -113,6 +113,22 @@
                         "y": 1434
                     }
                 ]
+            },
+            {
+                "name": "Rabbath's Rise Chest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Rabbath's Rise Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1828, 
+                        "y": 802
+                    }
+                ]
             }
         ]
     }

@@ -473,6 +473,214 @@
                         "y": 2865
                     }
                 ]
+            },
+            {
+                "name": "Elden Beast Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Ashen Capital/Elden Beast Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3050,
+                        "y": 2970
+                    }
+                ]
+            }, 
+            {
+                "name": "Dancing Lion Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Belurat/Dancing Lion Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 408, 
+                        "y": 1306
+                    }
+                ]
+            },
+            {
+                "name": "Rellana Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Castle Ensis/Rellana Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1105, 
+                        "y": 1255
+                    }
+                ]
+            },
+            {
+                "name": "Golden Hippo Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Shadow Keep (Front)/Golden Hippo Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1234, 
+                        "y": 731
+                    }
+                ]
+            },
+            {
+                "name": "Messmer Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Specimen Storehouse/Messmer Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1257, 
+                        "y": 530
+                    }
+                ]
+            },
+            {
+                "name": "Scadutree Avatar Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Shadow Keep (Church District)/Scadutree Avatar Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1515, 
+                        "y": 397
+                    }
+                ]
+            },
+            {
+                "name": "Putrescent Knight Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Putrescent Knight Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1237, 
+                        "y": 2900
+                    }
+                ]
+            },
+            {
+                "name": "Romina Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ancient Ruins of Rauh/Romina Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 311, 
+                        "y": 988
+                    }
+                ]
+            },
+            {
+                "name": "Commander Gaius Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scaduview/Commander Gaius Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1394, 
+                        "y": 486
+                    }
+                ]
+            },
+            {
+                "name": "Midra Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Abyssal Woods/Midra Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1310, 
+                        "y": 2057
+                    }
+                ]
+            },
+            {
+                "name": "Bayle Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Jagged Peak/Bayle Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 2414, 
+                        "y": 2265
+                    }
+                ]
+            },
+            {
+                "name": "Metyr Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Metyr Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1679, 
+                        "y": 962
+                    }
+                ]
+            },
+            {
+                "name": "Promised Consort Radahn Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/Promised Consort Radahn Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 264, 
+                        "y": 1230
+                    }
+                ]
             }
         ]
     }

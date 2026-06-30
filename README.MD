@@ -2,7 +2,7 @@
 
 This PopTracker pack is to be used with the "Elden Ring Key Item Randomizer for Manual Archipelago" found here: https://github.com/AlmightyFridge/AP-Manual-ER-Key-Item-Rando <br />
 <br />
-Tested on PopTracker version 0.35.1. Older versions may have compatibility issues. <br />
+Tested on PopTracker version 0.35.1 (Recommended 0.35.2 or later). Older versions may have compatibility issues. <br />
 <br />
 
 ## Features

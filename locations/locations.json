@@ -86,6 +86,176 @@
                         "visibility_rules": [
                             "Paintingsanity"
                         ]
+                    },
+                    {
+                        "name": "Limgrave Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|221, night_bosses"
+                        ],
+                        "access_rules":[
+                            "evening_hunting_license"
+                        ]
+                    },
+                    {
+                        "name": "Limgrave Deathbird Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|222, night_bosses"
+                        ],
+                        "access_rules":[
+                            "evening_hunting_license"
+                        ]
+                    },
+                    {
+                        "name": "Coastal Cave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|237, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Groveside Cave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|238, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Highroad Cave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|239, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Cave of Knowledge Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|240, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Limgrave Tunnels Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|257, tunnels"
+                        ],
+                        "access_rules":[
+                            "mining_license"
+                        ]
+                    },
+                    {
+                        "name": "Stormfoot Catacombs Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|266, catacombs"
+                        ],
+                        "access_rules":[
+                            "graverobber's_license"
+                        ]
+                    },
+                    {
+                        "name": "Murkwater Catacombs Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|267, catacombs"
+                        ],
+                        "access_rules":[
+                            "graverobber's_license"
+                        ]
+                    },
+                    {
+                        "name": "Deathtouched Catacombs Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|268, catacombs"
+                        ],
+                        "access_rules":[
+                            "graverobber's_license"
+                        ]
+                    },
+                    {
+                        "name": "Fringefolk Hero's Grave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|284, heros_graves"
+                        ],
+                        "access_rules":[
+                            "fringefolk_heros_grave_stonesword_key_x2, tomb_looting_license"
+                        ]
+                    },
+                    {
+                        "name": "Summonwater Village Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|289, historical"
+                        ],
+                        "access_rules":[
+                            "historical_site_license"
+                        ]
+                    },
+                    {
+                        "name": "Waypoint Ruins Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|290, historical"
+                        ],
+                        "access_rules":[
+                            "historical_site_license"
+                        ]
+                    },
+                    {
+                        "name": "Limgrave Tree Sentinel Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|312, roamers"
+                        ],
+                        "access_rules":[
+                            "field_hunting_license"
+                        ]
+                    },
+                    {
+                        "name": "Stormhill Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|329, evergaols"
+                        ],
+                        "access_rules":[
+                            "gaol_inspection_license"
+                        ]
+                    },
+                    {
+                        "name": "Forlorn Hound Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|330, evergaols"
+                        ],
+                        "access_rules":[
+                            "gaol_inspection_license"
+                        ]
+                    },
+                    {
+                        "name": "Warmaster's Shack Bell Bearing Hunter Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|339, hunters"
+                        ],
+                        "access_rules":[
+                            "anti-poaching_license"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -151,6 +321,96 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Risesanity"
+                        ]
+                    },
+                    {
+                        "name": "Weeping Peninsula Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|223, night_bosses"
+                        ],
+                        "access_rules":[
+                            "evening_hunting_license"
+                        ]
+                    },
+                    {
+                        "name": "Weeping Peninsula Deathbird Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|224, night_bosses"
+                        ],
+                        "access_rules":[
+                            "evening_hunting_license"
+                        ]
+                    },
+                    {
+                        "name": "Earthbore Cave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|241, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Tombsward Cave Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|242, caves"
+                        ],
+                        "access_rules":[
+                            "cave_delving_license"
+                        ]
+                    },
+                    {
+                        "name": "Morne Tunnel Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|258, tunnels"
+                        ],
+                        "access_rules":[
+                            "mining_license"
+                        ]
+                    },
+                    {
+                        "name": "Impaler's Catacombs Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|269, catacombs"
+                        ],
+                        "access_rules":[
+                            "graverobber's_license"
+                        ]
+                    },
+                    {
+                        "name": "Tombsward Catacombs Cleared",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|270, catacombs"
+                        ],
+                        "access_rules":[
+                            "graverobber's_license"
+                        ]
+                    },
+                    {
+                        "name": "Weeping Peninsula Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|303, trees"
+                        ],
+                        "access_rules":[
+                            "logger's_license"
+                        ]
+                    },
+                    {
+                        "name": "Weeping Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "visibility_rules": [
+                             "$check_minor_bosses, $display_minor_boss|331, evergaols"
+                        ],
+                        "access_rules":[
+                            "gaol_inspection_license, weeping_evergaol_stonesword_key"
                         ]
                     }
                 ],
@@ -362,7 +622,218 @@
                         "visibility_rules": [
                             "Risesanity"
                         ]
+                    },
+                    {
+                        "name": "Liurnia South Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|225, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia North Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|226, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Deathbird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|227, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Death Rite Bird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|228, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Stillwater Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|243, caves"
+                        ]
+                    },
+                    {
+                        "name": "Lakeside Crystal Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|244, caves"
+                        ]
+                    },
+                    {
+                        "name": "Academy Crystal Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license, academy_crystal_cave_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|245, caves"
+                        ]
+                    },
+                    {
+                        "name": "Raya Lucaria Crystal Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|259,  tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Cliffbottom Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|271, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Road's End Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|272, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Black Knife Catacombs Cleared (Both Bosses)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|273, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Kingsrealm Ruins Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|291, historical"
+                        ]
+                    },
+                    {
+                        "name": "Albinauric Village Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|292, historical"
+                        ]
+                    },
+                    {
+                        "name": "Chapel of Anticipation Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license, chapel_of_anticipation_imbued_sword_key"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|293, historical"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Southwest Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|304, trees"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Northeast Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|305, trees"
+                        ]
+                    },
+                    {
+                        "name": "Liurnia Tibia Mariner Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|313, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Malefactor's Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|332, evergaols"
+                        ]
+                    },
+                    {
+                        "name": "Cuckoo's Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|333, evergaols"
+                        ]
+                    },
+                    {
+                        "name": "Royal Grave Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|334, evergaols"
+                        ]
+                    },
+                    {
+                        "name": "Church of Vows Bell Bearing Hunter Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|2, max_stone_level_+1:1, anti-poaching_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|340, hunters"
+                        ]
                     }
+
                 ],
                 "map_locations": [
                     {
@@ -467,6 +938,16 @@
                         "visibility_rules": [
                             "Shopsanity"
                         ]
+                    },
+                    {
+                        "name": "Siofra River Dragonkin Soldier Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|3, max_stone_level_+1:2, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|323, roamers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -546,6 +1027,156 @@
                         "visibility_rules": [
                             "Paintingsanity"
                         ]
+                    },
+                    {
+                        "name": "Caelid Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|229, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Caelid Death Rite Bird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|230, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Gaol Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, gaol_cave_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|246, caves"
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|247, caves"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Hideaway Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|248, caves"
+                        ]
+                    },
+                    {
+                        "name": "Gael Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|260, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Crystal Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|261, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Minor Erdtree Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|274, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Caelid Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|275, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Wardead Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|276, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Caelem Ruins Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|294, historical"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|295, historical"
+                        ]
+                    },
+                    {
+                        "name": "Redmane Castle Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|296, historical"
+                        ]
+                    },
+                    {
+                        "name": "Caelid Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|306, trees"
+                        ]
+                    },
+                    {
+                        "name": "Commander O'Neil Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|314, roamers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -596,6 +1227,76 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Risesanity"
+                        ]
+                    },
+                    {
+                        "name": "Dragonbarrow Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|231, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Dragonbarrow Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|249, caves"
+                        ]
+                    },
+                    {
+                        "name": "Divine Tower of Caelid Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|297, historical"
+                        ]
+                    },
+                    {
+                        "name": "Dragonbarrow Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|307, trees"
+                        ]
+                    },
+                    {
+                        "name": "Dragonbarrow Black Blade Kindred Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|315, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Sellia Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|336, evergaols"
+                        ]
+                    },
+                    {
+                        "name": "Isolated Merchant Shack Bell Bearing Hunter Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, anti-poaching_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|341, hunters"
                         ]
                     }
 
@@ -695,6 +1396,176 @@
                         "visibility_rules": [
                             "Risesanity"
                         ]
+                    },
+                    {
+                        "name": "Altus Plateau Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|232, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Sages Cave Cleared (Both Bosses)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|250, caves"
+                        ]
+                    },
+                    {
+                        "name": "Perfumers Grotto Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|251, caves"
+                        ]
+                    },
+                    {
+                        "name": "Altus Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|262, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Old Altus Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license, old_altus_tunnel_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|263, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Unsightly Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, unsightly_catacombs_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|277, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Wyndham Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|278, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Sainted Hero's Grave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, tomb_looting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|285, heros_graves"
+                        ]
+                    },
+                    {
+                        "name": "Lux Ruins Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|298, historical"
+                        ]
+                    },
+                    {
+                        "name": "Wyndham Ruins Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|299, historical"
+                        ]
+                    },
+                    {
+                        "name": "Writheblood Ruins Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|300, historical"
+                        ]
+                    },
+                    {
+                        "name": "Windmill Village Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|301, historical"
+                        ]
+                    },
+                    {
+                        "name": "Altus Plateau Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|308, trees"
+                        ]
+                    },
+                    {
+                        "name": "Altus Plateau Fallingstar Beast Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|316, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Altus Plateau Tree Sentinel Duo Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|317, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Altus Plateau Black Knife Assassin Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|318, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Golden Lineage Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|4, max_stone_level_+1:4, gaol_inspection_license, golden_lineage_evergaol_stonesword_key"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|337, evergaols"
+                        ]
                     }
 
                 ],
@@ -733,6 +1604,66 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Draconic Tree Sentinel Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6"
+                        ],
+                        "visibility_rules": [
+                            "critical_path"
+                        ]
+                    },
+                    {
+                        "name": "Capital Outskirts Deathbird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|233, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Sealed Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|264, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Auriza Side Tomb Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|279, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Auriza Hero's Grave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|286, heros_graves"
+                        ]
+                    },
+                    {
+                        "name": "Hermit Merchant Shack Bell Bearing Hunter Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, anti-poaching_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|342, hunters"
                         ]
                     }
                 ],
@@ -792,6 +1723,16 @@
                         "visibility_rules": [
                             "Paintingsanity"
                         ]
+                    },
+                    {
+                        "name": "Leyndell Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|6, max_stone_level_+1:6, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|280, catacombs"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -849,6 +1790,86 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Shopsanity"
+                        ]
+                    },
+                    {
+                        "name": "Seethewater Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license, seethewater_cave_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|252, caves"
+                        ]
+                    },
+                    {
+                        "name": "Volcano Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|253, caves"
+                        ]
+                    },
+                    {
+                        "name": "Subterranean Inquisition Chamber Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, academy_glintstone_key, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|254, caves"
+                        ]
+                    },
+                    {
+                        "name": "Gelmir Hero's Grave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|287, heros_graves"
+                        ]
+                    },
+                    {
+                        "name": "Hermit Village Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|302, historical"
+                        ]
+                    },
+                    {
+                        "name": "Mt. Gelmir Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, logger's_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|309, trees"
+                        ]
+                    },
+                    {
+                        "name": "Mt. Gelmir Magma Wyrm Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|319, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Mt. Gelmir Fullgrown Fallingstar Beast Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|320, roamers"
                         ]
                     }
                 ],
@@ -938,6 +1959,52 @@
                 ]
             },
             {
+                "name": "Deeproot Depths",
+                "access_rules": [
+                    "$check_boss_lock_option|1",
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
+                ],
+                "sections": [
+                    {
+                        "name": "Fia's Champions Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6"
+                        ],
+                        "visibility_rules": [
+                           "critical_path"
+                        ]
+                    },
+                    {
+                        "name": "Fortissax Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, max_stone_level_+1:8, cursemark_of_death"
+                        ],
+                        "visibility_rules": [
+                           "fortissax"
+                        ]
+                    },
+                    {
+                        "name": "Deeproot Depths Crucible Knight Siluria Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|322, roamers"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Condensed",
+                        "x": 1670,
+                        "y": 480
+                    }
+                ]
+            },
+            {
                 "name": "Lake of Rot",
                 "access_rules": [
                     "$check_boss_lock_option|1",
@@ -950,13 +2017,23 @@
                         "access_rules": [
                             "$astel_killable"
                         ]
+                    },
+                    {
+                        "name": "Lake of Rot Dragonkin Soldier Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                           "$check_minor_bosses, $display_minor_boss|321, roamers"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Underworld-Condensed",
-                        "x": 200,
-                        "y": 3080
+                        "x": 410,
+                        "y": 2320
                     }
                 ]
             },
@@ -986,6 +2063,16 @@
                         "visibility_rules": [
                             "Risesanity"
                         ]
+                    },
+                    {
+                        "name": "Ringleader's Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|335, evergaols"
+                        ]
                     }
 
                 ],
@@ -1010,7 +2097,39 @@
                         "visibility_rules": [
                             "Seedsanity"
                         ]
+                    },
+                    {
+                        "name": "Forbidden Lands Night's Cavalry Defeated",
+                        "item_count": 1,
+                        "access_rules":[
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|234, night_bosses"
+                        ]
+                        
+                    },
+                    {
+                        "name": "Forbidden Lands Black Blade Kindred Defeated",
+                        "item_count": 1,
+                        "access_rules":[
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|324, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Near Forbidden Lands Fell Twins Defeated",
+                        "item_count": 1,
+                        "access_rules":[
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|325, roamers"
+                        ]
                     }
+                    
                 ],
                 "map_locations": [
                     {
@@ -1106,6 +2225,76 @@
                         "visibility_rules": [
                             "Risesanity"
                         ]
+                    },
+                    {
+                        "name": "Spiritcaller Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, spiritcaller_cave_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|255, caves"
+                        ]
+                    },
+                    {
+                        "name": "Giant's Mountaintop Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|281, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Giant Conquering Hero's Grave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, tomb_looting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|288, heros_graves"
+                        ]
+                    },
+                    {
+                        "name": "Mountaintops Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|310, trees"
+                        ]
+                    },
+                    {
+                        "name": "Mountaintops Death Rite Bird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|326, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Mountaintops Tibia Mariner Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|327, roamers"
+                        ]
+                    },
+                    {
+                        "name": "Lord Contender's Evergaol Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|338, evergaols"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1188,6 +2377,86 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "Seedsanity"
+                        ]
+                    },
+                    {
+                        "name": "Consecrated Snowfield Night's Cavalry Duo Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|235, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Consecrated Snowfield Death Rite Bird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|236, night_bosses"
+                        ]
+                    },
+                    {
+                        "name": "Cave of the Forlorn Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, cave_of_the_forlorn_stonesword_key_x2"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|256, caves"
+                        ]
+                    },
+                    {
+                        "name": "Yelough Anix Tunnel Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, mining_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|265, tunnels"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Path to Haligtree Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|282, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Consecrated Snowfield Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|283, catacombs"
+                        ]
+                    },
+                    {
+                        "name": "Consecrated Snowfield Minor Erdtree Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, logger's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|311, trees"
+                        ]
+                    },
+                    {
+                        "name": "Magma Wyrm Theodorix Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|328, roamers"
                         ]
                     }
                 ],
@@ -1312,6 +2581,16 @@
                         ],
                         "visibility_rules": [
                             "$check_goal|2"
+                        ]
+                    },
+                    {
+                        "name": "Sir Gideon Ofnir Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$check_max_level|8, max_stone_level_+1:8"
+                        ],
+                        "visibility_rules": [
+                            "critical_path"
                         ]
                     }
                 ],
@@ -1450,6 +2729,56 @@
                         ],
                         "visibility_rules": [
                             "Paintingsanity"
+                        ]
+                    },
+                    {
+                        "name": "Ancient Dragon Man Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2"
+                        ],
+                        "visibility_rules": [
+                            "critical_path"
+                        ]
+                    },
+                    {
+                        "name": "Gravesite Plain Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|343, golems"
+                        ]
+                    },
+                    {
+                        "name": "Belurat Gaol Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|351, gaols"
+                        ]
+                    },
+                    {
+                        "name": "Western Nameless Mausoleum Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2, ghostbusting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|354, mausoleums"
+                        ]
+                    },
+                    {
+                        "name": "Fog Rift Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|367, dlc-catacombs"
                         ]
                     }
                 ],
@@ -1605,6 +2934,16 @@
                         "visibility_rules": [
                             "Ashsanity"
                         ]
+                    },
+                    {
+                        "name": "Rivermouth Cave Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:3, max_ash:2, cave_delving_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|366, dlc-caves"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1672,6 +3011,36 @@
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
+                        ]
+                    },
+                    {
+                        "name": "Cerulean Coast Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|346, golems"
+                        ]
+                    },
+                    {
+                        "name": "Southern Nameless Mausoleum Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, ghostbusting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|356, mausoleums"
+                        ]
+                    },
+                    {
+                        "name": "Demi Human Queen Marigga Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|360, roamers"
                         ]
                     }
                 ],
@@ -1831,6 +3200,86 @@
                         "visibility_rules": [
                             "Risesanity"
                         ]
+                    },
+                    {
+                        "name": "Upper Scadu Altus Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|344, golems"
+                        ]
+                    },
+                    {
+                        "name": "Lower Scadu Altus Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|345, golems"
+                        ]
+                    },
+                    {
+                        "name": "Bonny Gaol Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|352, gaols"
+                        ]
+                    },
+                    {
+                        "name": "Ralva Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|358, dlc-roamers"
+                        ]
+                    },
+                    {
+                        "name": "Black Knight Edredd Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|369, dlc-historical"
+                        ]
+                    },
+                    {
+                        "name": "Black Knight Garrew Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|370, dlc-historical"
+                        ]
+                    },
+                    {
+                        "name": "Dryleaf Dane Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, may_the_best_win, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|371, dlc-historical"
+                        ]
+                    },
+                    {
+                        "name": "Count Ymir Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hole_laden_necklace, o_mother, max_scadu:12, max_ash:8, historical_site_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|372, dlc-historical"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1879,6 +3328,46 @@
                         ],
                         "visibility_rules": [
                             "Ashsanity"
+                        ]
+                    },
+                    {
+                        "name": "Darklight Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "critical_path"
+                        ]
+                    },
+                    {
+                        "name": "Recluses River Asleep Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|349, golems"
+                        ]
+                    },
+                    {
+                        "name": "Recluses River Awake Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|350, golems"
+                        ]
+                    },
+                    {
+                        "name": "Eastern Nameless Mausoleum Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, ghostbusting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|357, mausoleums"
                         ]
                     }
                 ],
@@ -2081,6 +3570,42 @@
                 ]
             },
             {
+                "name": "Hinterlands",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Runes_Capital, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8, o_mother",
+                    "pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8, o_mother"
+                ],
+                "sections": [
+                    {
+                        "name": "Hinterlands Fallingstar Beast Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|363, dlc-roamers"
+                        ]
+                    },
+                    {
+                        "name": "Hinterlands Tree Sentinel Duo Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|364, dlc-roamers"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Condensed",
+                        "x": 1332, 
+                        "y": 293
+                    }
+                ]
+            },
+            {
                 "name": "Rauh Base",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
@@ -2107,6 +3632,36 @@
                         ],
                         "visibility_rules": [
                             "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Northern Nameless Mausoleum Boss Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, ghostbusting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|355, mausoleums"
+                        ]
+                    },
+                    {
+                        "name": "Rugalea Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|359, dlc-roamers"
+                        ]
+                    },
+                    {
+                        "name": "Scorpion River Catacombs Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:6, max_ash:4, graverobber's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|368, dlc-catacombs"
                         ]
                     }
                 ],
@@ -2166,7 +3721,28 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Ancient Ruins of Rauh Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|348, golems"
+                        ]
+                    },
+                    {
+                        "name": "Deathblight Dancing Lion Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:12, max_ash:8, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|365, dlc-roamers"
+                        ]
                     }
+
                 ],
                 "map_locations": [
                     {
@@ -2328,6 +3904,46 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Charo's Hidden Grave Furnace Golem Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, firefighter's_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|347, golems"
+                        ]
+                    },
+                    {
+                        "name": "Lamenter's Gaol Cleared",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, lamenter_gaol_keys, gaol_inspection_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|353, gaols"
+                        ]
+                    },
+                    {
+                        "name": "Charo's Hidden Grave Death Rite Bird Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|361, dlc-roamers"
+                        ]
+                    },
+                    {
+                        "name": "Charo's Hidden Grave Tibia Mariner Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:9, max_ash:6, field_hunting_license"
+                        ],
+                        "visibility_rules": [
+                            "$check_minor_bosses, $display_minor_boss|362, dlc-roamers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2426,6 +4042,16 @@
                         ],
                         "visibility_rules": [
                             "$check_goal|1"
+                        ]
+                    },
+                    {
+                        "name": "Leda and Allies Defeated",
+                        "item_count": 1,
+                        "access_rules": [
+                            "max_scadu:15, max_ash:8"
+                        ],
+                        "visibility_rules": [
+                            "critical_path"
                         ]
                     }
                 ],

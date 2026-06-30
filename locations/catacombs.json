@@ -1,0 +1,295 @@
+[
+    {
+        "name": "Catacombs",
+        "children": [
+            {
+                "name": "Stormfoot Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Stormfoot Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2065, 
+                        "y": 5480
+                    }
+                ]
+            },
+            {
+                "name": "Murkwater Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Murkwater Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2514, 
+                        "y": 5211
+                    }
+                ]
+            },
+            {
+                "name": "Deathtouched Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Deathtouched Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2374, 
+                        "y": 5033
+                    }
+                ]
+            },
+            {
+                "name": "Impaler's Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Impaler's Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2834, 
+                        "y": 6124
+                    }
+                ]
+            },
+            {
+                "name": "Tombsward Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Tombsward Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2366, 
+                        "y": 6204
+                    }
+                ]
+            },
+            {
+                "name": "Cliffbottom Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Cliffbottom Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1682, 
+                        "y": 4592
+                    }
+                ]
+            },
+            {
+                "name": "Road's End Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Road's End Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 378, 
+                        "y": 4253
+                    }
+                ]
+            },
+            {
+                "name": "Black Knife Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Black Knife Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1560, 
+                        "y": 3117
+                    }
+                ]
+            },
+            {
+                "name": "Minor Erdtree Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Minor Erdtree Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3228, 
+                        "y": 4804
+                    }
+                ]
+            },
+            {
+                "name": "Caelid Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelid Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3541, 
+                        "y": 5620
+                    }
+                ]
+            },
+            {
+                "name": "Wardead Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Wardead Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4323, 
+                        "y": 4756
+                    }
+                ]
+            },
+            {
+                "name": "Unsightly Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Unsightly Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 973, 
+                        "y": 2507
+                    }
+                ]
+            },
+            {
+                "name": "Wyndham Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Wyndham Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1313, 
+                        "y": 2286
+                    }
+                ]
+            },
+            {
+                "name": "Auriza Side Tomb Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Auriza Side Tomb Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2938, 
+                        "y": 2368
+                    }
+                ]
+            },
+            {
+                "name": "Leyndell Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Royal Capital/Leyndell Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2710, 
+                        "y": 2639
+                    }
+                ]
+            },
+            {
+                "name": "Giant's Mountaintop Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Giant's Mountaintop Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3904,
+                        "y": 2095
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Path to Haligtree Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Hidden Path to Haligtree Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3593, 
+                        "y": 2075
+                    }
+                ]
+            },
+            {
+                "name": "Consecrated Snowfield Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Consecrated Snowfield Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3827, 
+                        "y": 1842
+                    }
+                ]
+            }
+        ]
+    }
+]

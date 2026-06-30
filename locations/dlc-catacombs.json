@@ -1,0 +1,55 @@
+[
+    {
+        "name": "DLC-Catacombs",
+        "children": [
+            {
+                "name": "Fog Rift Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Fog Rift Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 878, 
+                        "y": 943
+                    }
+                ]
+            },
+            {
+                "name": "Bonny Gaol Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Bonny Gaol Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1516, 
+                        "y": 1487
+                    }
+                ]
+            },
+            {
+                "name": "Scorpion River Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Rauh Base/Scorpion River Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 307, 
+                        "y": 837
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -33,64 +33,66 @@ end
 
 function SetSettings()
     Tracker:FindObjectForCode("goal").CurrentStage = SLOT_DATA.goal
-    if SLOT_DATA.Seedsanity == 1 then
-		Tracker:FindObjectForCode("Seedsanity").Active = true
-    end
-    if SLOT_DATA.Tearsanity == 1 then
-		Tracker:FindObjectForCode("Tearsanity").Active = true
-    end
-    if SLOT_DATA.Shopsanity == 1 then
-		Tracker:FindObjectForCode("Shopsanity").Active = true
-    end
-    if SLOT_DATA.Early_Academy_Key == 1 then
-		Tracker:FindObjectForCode("Early_Academy_Key").Active = true
-    end
-    if SLOT_DATA.Vanilla_Great_Runes == 1 then
-		Tracker:FindObjectForCode("Vanilla_Great_Runes").Active = true
-    end
-    if SLOT_DATA.Dragonsanity == 1 then
-		Tracker:FindObjectForCode("Dragonsanity").Active = true
-    end
-    if SLOT_DATA.Paintingsanity == 1 then
-		Tracker:FindObjectForCode("Paintingsanity").Active = true
-    end
-    if SLOT_DATA.Risesanity == 1 then
-		Tracker:FindObjectForCode("Risesanity").Active = true
-    end
-    if SLOT_DATA.Volcano_Manor_Abduction_Skip == 1 then
-		Tracker:FindObjectForCode("Volcano_Manor_Abduction_Skip").Active = true
-    end
 
-	Tracker:FindObjectForCode("Great_Runes_Victory").AcquiredCount = SLOT_DATA.Great_Runes_Victory
+	Tracker:FindObjectForCode("Seedsanity").Active = (SLOT_DATA.Seedsanity == 1)
+	Tracker:FindObjectForCode("Tearsanity").Active = (SLOT_DATA.Tearsanity == 1)
+    Tracker:FindObjectForCode("Shopsanity").Active = (SLOT_DATA.Shopsanity == 1)
+	Tracker:FindObjectForCode("Dragonsanity").Active = (SLOT_DATA.Dragonsanity == 1)
+	Tracker:FindObjectForCode("Paintingsanity").Active = (SLOT_DATA.Paintingsanity == 1)
+	Tracker:FindObjectForCode("Risesanity").Active = (SLOT_DATA.Risesanity == 1)
 
+	Tracker:FindObjectForCode("Volcano_Manor_Abduction_Skip").Active = (SLOT_DATA.Volcano_Manor_Abduction_Skip)
+    Tracker:FindObjectForCode("Early_Academy_Key").Active = (SLOT_DATA.Early_Academy_Key == 1)
+    Tracker:FindObjectForCode("Vanilla_Great_Runes").Active = (SLOT_DATA.Vanilla_Great_Runes == 1)
+    
+    Tracker:FindObjectForCode("Great_Runes_Victory").AcquiredCount = SLOT_DATA.Great_Runes_Victory
 	Tracker:FindObjectForCode("Great_Runes_Rold").AcquiredCount = SLOT_DATA.Great_Runes_Rold
-    
 	Tracker:FindObjectForCode("Great_Runes_Capital").AcquiredCount = SLOT_DATA.Great_Runes_Capital
-
 	Tracker:FindObjectForCode("Region_Locking_Base").CurrentStage = SLOT_DATA.Region_Locking_Base
-    
     Tracker:FindObjectForCode("Rold_Medallion_Setting").CurrentStage = SLOT_DATA.Rold_Medallion_Setting
 
-    if SLOT_DATA.DLC == 1 then
-		Tracker:FindObjectForCode("DLC").Active = true
+    if SLOT_DATA.DLC == 0 then
+        Tracker:FindObjectForCode("DLC").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("DLC").CurrentStage = 1
     end
-
-	Tracker:FindObjectForCode("Region_Locking_DLC").CurrentStage = SLOT_DATA.Region_Locking_DLC
     
-	if SLOT_DATA.Scadusanity == 1 then
-		Tracker:FindObjectForCode("Scadusanity").Active = true
-    end
-    if SLOT_DATA.Ashsanity == 1 then
-		Tracker:FindObjectForCode("Ashsanity").Active = true
-    end
+	Tracker:FindObjectForCode("Region_Locking_DLC").CurrentStage = SLOT_DATA.Region_Locking_DLC
+
+	Tracker:FindObjectForCode("Scadusanity").Active = (SLOT_DATA.Scadusanity == 1)
+	Tracker:FindObjectForCode("Ashsanity").Active = (SLOT_DATA.Ashsanity == 1)
 
     Tracker:FindObjectForCode("Messmers_Kindling_Setting").CurrentStage = SLOT_DATA.Messmers_Kindling_Setting
-
 	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Total").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Total
-    
 	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Needed").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Needed
 
-    
+    if SLOT_DATA.minor_bosses == 0 then
+        Tracker:FindObjectForCode("minor_bosses").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("minor_bosses").CurrentStage = 1
+    end
+
+    Tracker:FindObjectForCode("night_bosses").Active = (SLOT_DATA.Minor_Bosses_Nightsanity == 1)
+    Tracker:FindObjectForCode("catacombs").Active = (SLOT_DATA.Minor_Bosses_Catacombsanity == 1)
+    Tracker:FindObjectForCode("caves").Active = (SLOT_DATA.Minor_Bosses_Cavesanity == 1)
+    Tracker:FindObjectForCode("dlc-catacombs").Active = (SLOT_DATA.Minor_Bosses_DLC_Catacombsanity == 1)
+    Tracker:FindObjectForCode("dlc-caves").Active = (SLOT_DATA.Minor_Bosses_DLC_Cavesanity == 1)
+    Tracker:FindObjectForCode("dlc-historical").Active = (SLOT_DATA.Minor_Bosses_DLC_Ruinsanity == 1)
+    Tracker:FindObjectForCode("dlc-roamers").Active = (SLOT_DATA.Minor_Bosses_DLC_Fieldsanity == 1)
+    Tracker:FindObjectForCode("evergaols").Active = (SLOT_DATA.Minor_Bosses_Evergaolsanity == 1)
+    Tracker:FindObjectForCode("gaols").Active = (SLOT_DATA.Minor_Bosses_Gaolsanity == 1)
+    Tracker:FindObjectForCode("golems").Active = (SLOT_DATA.Minor_Bosses_Golemsanity == 1)
+    Tracker:FindObjectForCode("heros_graves").Active = (SLOT_DATA.Minor_Bosses_Heros_Gravesanity == 1)
+    Tracker:FindObjectForCode("historical").Active = (SLOT_DATA.Minor_Bosses_Ruinsanity == 1)
+    Tracker:FindObjectForCode("hunters").Active = (SLOT_DATA.Minor_Bosses_Huntersanity == 1)
+    Tracker:FindObjectForCode("mausoleums").Active = (SLOT_DATA.Minor_Bosses_Mausoleumsanity == 1)
+    Tracker:FindObjectForCode("roamers").Active = (SLOT_DATA.Minor_Bosses_Fieldsanity == 1)
+    Tracker:FindObjectForCode("trees").Active = (SLOT_DATA.Minor_Bosses_Treesanity == 1)
+    Tracker:FindObjectForCode("tunnels").Active = (SLOT_DATA.Minor_Bosses_Tunnelsanity == 1)
+
+    Tracker:FindObjectForCode("fortissax").Active = (SLOT_DATA.Include_Fortissax == 1)
+    Tracker:FindObjectForCode("critical_path").Active = (SLOT_DATA.Include_Critical_Path_Bosses == 1)
+
 end
 
 function onClear(slot_data)
@@ -279,7 +281,7 @@ function onLocationSectionChanged(LocationSection)
     if LocationSection.AccessibilityLevel == 7 then
         local check_goal = loc_id
         print(string.format("location name to check for goal: %s", check_goal))
-        print(string.format("location id for goal: %s",LOCATION_TO_ID_MAP[check_goal]))
+        print(string.format("location id to check for goal: %s",LOCATION_TO_ID_MAP[check_goal]))
         if LOCATION_TO_ID_MAP[check_goal] == goal then
             Archipelago:StatusUpdate(30)
         end
@@ -293,18 +295,48 @@ end
 
 function itemLayoutChange()
     print(string.format("entered item layout change function"))
-    if Tracker:FindObjectForCode("DLC").Active then
+
+    --dlc
+    if Tracker:FindObjectForCode("DLC").CurrentStage == 1 then
         Tracker:AddLayouts("layouts/map_layouts_dlc.json")
         print(string.format("entered item layout change function - dlc active check"))
+
+        --messmers kindling
         if Tracker:FindObjectForCode("messmers_kindling_setting").CurrentStage == 0 then
             print(string.format("entered item layout change function - messmers kindling setting check"))
-            Tracker:AddLayouts("layouts/input_layout_dlc_shards.json")
+            
+            --minor bosses
+            if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
+                Tracker:AddLayouts("layouts/main.json")
+                Tracker:AddLayouts("layouts/input_layout_dlc_shards.json")
+            else
+                Tracker:AddLayouts("layouts/main_mb.json")
+                Tracker:AddLayouts("layouts/input_layout_dlc_shards_mb.json")
+            end
+
         else
-            Tracker:AddLayouts("layouts/input_layout_dlc.json")
+            if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
+                Tracker:AddLayouts("layouts/main.json")
+                Tracker:AddLayouts("layouts/input_layout_dlc.json")
+            else
+                Tracker:AddLayouts("layouts/main_mb.json")
+                Tracker:AddLayouts("layouts/input_layout_dlc_mb.json")
+            end
+
         end
+
+    --base
     else
-        Tracker:AddLayouts("layouts/input_layout_base.json")
         Tracker:AddLayouts("layouts/map_layouts_base.json")
+
+        --minor bosses
+        if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
+            Tracker:AddLayouts("layouts/main.json")
+            Tracker:AddLayouts("layouts/input_layout_base.json")
+        else
+            Tracker:AddLayouts("layouts/main_mb.json")
+            Tracker:AddLayouts("layouts/input_layout_base_mb.json")
+        end
 	end
 end
 

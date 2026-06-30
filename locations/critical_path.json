@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Critical_Path",
+        "children": [
+            {
+                "name": "Draconic Tree Sentinel Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Draconic Tree Sentinel Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2876, 
+                        "y": 2350
+                    }
+                ]
+            },
+            {
+                "name": "Fia's Champions Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Deeproot Depths/Fia's Champions Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 1756, 
+                        "y": 268
+                    }
+                ]
+            },
+            {
+                "name": "Sir Gideon Ofnir Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Leyndell Ashen Capital/Sir Gideon Ofnir Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2762, 
+                        "y": 2778
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Dragon Man Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Ancient Dragon Man Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1072, 
+                        "y": 1862
+                    }
+                ]
+            },
+            {
+                "name": "Darklight Catacombs Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Recluses River/Darklight Catacombs Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1710, 
+                        "y": 1411
+                    }
+                ]
+            },
+            {
+                "name": "Leda and Allies Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Enir Ilim/Leda and Allies Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 262, 
+                        "y": 1401
+                    }
+                ]
+            },
+            {
+                "name": "Fortissax Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Deeproot Depths/Fortissax Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 1737, 
+                        "y": 321
+                    }
+                ]
+            }
+
+        ]
+    }
+]

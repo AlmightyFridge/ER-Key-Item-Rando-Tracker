@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Historical",
+        "children": [
+            {
+                "name": "Summonwater Village Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Summonwater Village Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2821, 
+                        "y": 5040
+                    }
+                ]
+            },
+            {
+                "name": "Waypoint Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Waypoint Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2658, 
+                        "y": 5640
+                    }
+                ]
+            },
+            {
+                "name": "Kingsrealm Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Kingsrealm Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 653, 
+                        "y": 3124
+                    }
+                ]
+            },
+            {
+                "name": "Albinauric Village Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Albinauric Village Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 651, 
+                        "y": 4499
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Anticipation Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Chapel of Anticipation Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1485, 
+                        "y": 5156
+                    }
+                ]
+            },
+            {
+                "name": "Caelem Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelem Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3392, 
+                        "y": 4921
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Sellia Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3755, 
+                        "y": 4998
+                    }
+                ]
+            },
+            {
+                "name": "Redmane Castle Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Redmane Castle Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4149, 
+                        "y": 5643
+                    }
+                ]
+            },
+            {
+                "name": "Divine Tower of Caelid Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Divine Tower of Caelid Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3736, 
+                        "y": 4681
+                    }
+                ]
+            },
+            {
+                "name": "Lux Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Lux Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1381, 
+                        "y": 2572
+                    }
+                ]
+            },
+            {
+                "name": "Wyndham Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Wyndham Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1385, 
+                        "y": 2405
+                    }
+                ]
+            },
+            {
+                "name": "Writheblood Ruins Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Writheblood Ruins Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1772, 
+                        "y": 2135
+                    }
+                ]
+            },
+            {
+                "name": "Windmill Village Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Windmill Village Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2214, 
+                        "y": 1805
+                    }
+                ]
+            },
+            {
+                "name": "Hermit Village Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Hermit Village Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1221, 
+                        "y": 2250
+                    }
+                ]
+            }
+        ]
+    }
+]

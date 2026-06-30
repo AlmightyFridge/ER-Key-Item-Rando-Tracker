@@ -1,0 +1,263 @@
+[
+    {
+        "name": "Night_Bosses",
+        "children": [
+            {
+                "name": "Limgrave Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Limgrave Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2519, 
+                        "y": 5546
+                    }
+                ]
+            },
+            {
+                "name": "Limgrave Deathbird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Limgrave Deathbird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2343, 
+                        "y": 5220
+                    }
+                ]
+            },
+            {
+                "name": "Weeping Peninsula Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Weeping Peninsula Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2670, 
+                        "y": 6380
+                    }
+                ]
+            },
+            {
+                "name": "Weeping Peninsula Deathbird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Weeping Peninsula Deathbird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2569, 
+                        "y": 6477
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia South Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia South Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1542, 
+                        "y": 4267
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia North Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia North Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1017, 
+                        "y": 3185
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Deathbird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Deathbird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1173, 
+                        "y": 4364
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Death Rite Bird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Death Rite Bird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 984, 
+                        "y": 3815
+                    }
+                ]
+            },
+            {
+                "name": "Caelid Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelid Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3525, 
+                        "y": 5480
+                    }
+                ]
+            },
+            {
+                "name": "Caelid Death Rite Bird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelid Death Rite Bird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3753, 
+                        "y": 5463
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4297, 
+                        "y": 4551
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1621, 
+                        "y": 2667
+                    }
+                ]
+            },
+            {
+                "name": "Capital Outskirts Deathbird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Capital Outskirts Deathbird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2612, 
+                        "y": 2142
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Lands Night's Cavalry Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Forbidden Lands/Forbidden Lands Night's Cavalry Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3401, 
+                        "y": 2555
+                    }
+                ]
+            },
+            {
+                "name": "Consecrated Snowfield Night's Cavalry Duo Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Consecrated Snowfield Night's Cavalry Duo Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3509, 
+                        "y": 1791
+                    }
+                ]
+            },
+            {
+                "name": "Consecrated Snowfield Death Rite Bird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Consecrated Snowfield Death Rite Bird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3408, 
+                        "y": 1250
+                    }
+                ]
+            }
+        ]
+    }
+]

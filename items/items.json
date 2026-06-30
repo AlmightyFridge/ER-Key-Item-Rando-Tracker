@@ -242,5 +242,160 @@
         "img": "images/items/god_slain.png",
         "codes": "god_slain",
         "max_quantity": 2
+    },
+    {
+        "name": "Evening Hunting License",
+        "type": "toggle",
+        "img": "images/items/licenses/evening_hunting_license.png",
+        "codes": "evening_hunting_license"
+                
+    },
+    {
+        "name": "Cave Delving License",
+        "type": "toggle",
+        "img": "images/items/licenses/cave_delving_license.png",
+        "codes": "cave_delving_license"
+             
+    },
+    {
+        "name": "Mining License",
+        "type": "toggle",
+        "img": "images/items/licenses/mining_license.png",
+        "codes": "mining_license"
+                 
+    },
+    {
+        "name": "Graverobber's License",
+        "type": "toggle",
+        "img": "images/items/licenses/graverobber's_license.png",
+        "codes": "graverobber's_license"
+                  
+    },
+    {
+        "name": "Tomb Looting License",
+        "type": "toggle",
+        "img": "images/items/licenses/tomb_looting_license.png",
+        "codes": "tomb_looting_license"
+               
+    },
+    {
+        "name": "Historical Site License",
+        "type": "toggle",
+        "img": "images/items/licenses/historical_site_license.png",
+        "codes": "historical_site_license"                  
+    },
+    {
+        "name": "Logger's License",
+        "type": "toggle",
+        "img": "images/items/licenses/logger's_license.png",
+        "codes": "logger's_license"                  
+    },
+    {
+        "name": "Field Hunting License",
+        "type": "toggle",
+        "img": "images/items/licenses/field_hunting_license.png",
+        "codes": "field_hunting_license"                  
+    },
+    {
+        "name": "Gaol Inspection License",
+        "type": "toggle",
+        "img": "images/items/licenses/gaol_inspection_license.png",
+        "codes": "gaol_inspection_license"                  
+    },
+    {
+        "name": "Anti-Poaching License",
+        "type": "toggle",
+        "img": "images/items/licenses/anti-poaching_license.png",
+        "codes": "anti-poaching_license"                  
+    },
+    {
+        "name": "Firefighter's License",
+        "type": "toggle",
+        "img": "images/items/licenses/firefighter's_license.png",
+        "codes": "firefighter's_license"                  
+    },
+    {
+        "name": "Ghostbusting License",
+        "type": "toggle",
+        "img": "images/items/licenses/ghostbusting_license.png",
+        "codes": "ghostbusting_license"                  
+    },
+    {
+        "name": "Fringefolk Heros Grave Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/fringefolk_heros_grave_stonesword_key_x2.png",
+        "codes": "fringefolk_heros_grave_stonesword_key_x2"        
+    },
+    {
+        "name": "Seethewater Cave Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/seethewater_cave_stonesword_key_x2.png",
+        "codes": "seethewater_cave_stonesword_key_x2"        
+    },
+    {
+        "name": "Academy Crystal Cave Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/academy_crystal_cave_stonesword_key_x2.png",
+        "codes": "academy_crystal_cave_stonesword_key_x2"        
+    },
+    {
+        "name": "Cave of the Forlorn Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/cave_of_the_forlorn_stonesword_key_x2.png",
+        "codes": "cave_of_the_forlorn_stonesword_key_x2"
+    },
+    {
+        "name": "Gaol Cave Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/gaol_cave_stonesword_key_x2.png",
+        "codes": "gaol_cave_stonesword_key_x2"        
+    },
+    {
+        "name": "Spiritcaller Cave Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/spiritcaller_cave_stonesword_key_x2.png",
+        "codes": "spiritcaller_cave_stonesword_key_x2"        
+    },
+    {
+        "name": "Chapel of Anticipation Imbued Sword Key",
+        "type": "toggle",
+        "img": "images/items/chapel_of_anticipation_imbued_sword_key.png",
+        "codes": "chapel_of_anticipation_imbued_sword_key"        
+    },
+    {
+        "name": "Unsightly Catacombs Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/unsightly_catacombs_stonesword_key_x2.png",
+        "codes": "unsightly_catacombs_stonesword_key_x2"        
+    },
+    {
+        "name": "Old Altus Tunnel Stonesword Key x2",
+        "type": "toggle",
+        "img": "images/items/old_altus_tunnel_stonesword_key_x2.png",
+        "codes": "old_altus_tunnel_stonesword_key_x2"        
+    },
+    {
+        "name": "Weeping Evergaol Stonesword Key",
+        "type": "toggle",
+        "img": "images/items/weeping_evergaol_stonesword_key.png",
+        "codes": "weeping_evergaol_stonesword_key"        
+    },
+    {
+        "name": "Golden Lineage Evergaol Stonesword Key",
+        "type": "toggle",
+        "img": "images/items/golden_lineage_evergaol_stonesword_key.png",
+        "codes": "golden_lineage_evergaol_stonesword_key"        
+    },
+    {
+        "name": "May the Best Win",
+        "type": "toggle",
+        "img": "images/items/may_the_best_win.png",
+        "codes": "may_the_best_win"        
+    },
+    {
+        "name": "Cursemark of Death",
+        "type": "toggle",
+        "img": "images/items/cursemark_of_death.png",
+        "codes": "cursemark_of_death"        
     }
 ]

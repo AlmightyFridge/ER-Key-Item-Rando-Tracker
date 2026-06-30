@@ -1,0 +1,244 @@
+{
+    "max_level": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "128, 32",
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "max_rune_level_+10"
+            ]
+        ]
+    },
+    "dlc_max_level": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "max_stone_level_+1",
+                "max_scadu",
+                "max_ash"
+            ]
+        ]
+    },
+    "stones_runes": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "great_rune",
+                "messmers_kindling_shard_item"
+            ]
+        ]
+    },
+    "keys": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "drawing_room_key",
+                "academy_glintstone_key"
+            ],
+            [
+                "discarded_palace_key",
+                "farum_azula_stonesword_key"
+            ],
+            [
+                "carian_inverted_statue",
+                "dark_moon_ring"
+            ]
+        ]
+    },
+        "medallions": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "dectus_medallion_(left)",
+                "dectus_medallion_(right)"
+            ],
+            [
+                "haligtree_secret_medallion_(left)",
+                "haligtree_secret_medallion_(right)"
+            ],
+            [
+                "rold_medallion",
+                "pureblood_knights_medal"
+            ]
+
+        ]
+    },
+    "DLC_keys":{
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "cursemark_of_death",
+                "o_mother",
+                "hole_laden_necklace",
+                "lamenter_gaol_keys"
+            ]
+        ]
+    },
+    "free_items": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "free_weapon",
+                "free_shield",
+                "free_armor",
+                "free_spell"
+            ],
+            [
+                "free_+0_talisman",
+                "free_+1_talisman",
+                "free_+2_talisman",
+                "free_+3_talisman"
+            ]
+        ]
+    },
+    "licenses": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "graverobber's_license",
+                "cave_delving_license",
+                "gaol_inspection_license",
+                "tomb_looting_license"
+            ],
+            [
+                "historical_site_license",
+                "anti-poaching_license",
+                "evening_hunting_license",
+                "field_hunting_license"
+            ],
+            [
+                "logger's_license",
+                "mining_license",
+                "firefighter's_license",
+                "ghostbusting_license"
+            ]
+        ]
+    },
+    "minor_boss_keys": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "fringefolk_heros_grave_stonesword_key_x2",
+                "academy_crystal_cave_stonesword_key_x2",
+                "chapel_of_anticipation_imbued_sword_key",
+                "gaol_cave_stonesword_key_x2"
+            ],
+            [
+                "seethewater_cave_stonesword_key_x2",
+                "unsightly_catacombs_stonesword_key_x2",
+                "old_altus_tunnel_stonesword_key_x2",
+                "spiritcaller_cave_stonesword_key_x2"
+            ],
+            [
+                "cave_of_the_forlorn_stonesword_key_x2",
+                "weeping_evergaol_stonesword_key",
+                "golden_lineage_evergaol_stonesword_key",
+                "may_the_best_win"
+            ]
+        ]
+    },
+
+    "tracker_key_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "max_level"
+            },
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "dlc_max_level"
+            },
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "stones_runes"
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                    {
+                        "type": "layout",
+                        "dropshadow": false,
+                        "margin": 0,
+                        "key": "keys"
+                    },
+                    {
+                        "type": "layout",
+                        "dropshadow": false,
+                        "margin": 0,
+                        "key": "medallions"
+                    }
+                ]
+            },
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "DLC_keys"
+            }  
+        ]
+    },
+    "tracker_free_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "free_items"
+            }
+        ]
+    },
+     "tracker_minor_boss_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "licenses"
+            },
+            {
+                "type": "layout",
+                "dropshadow": false,
+                "margin": 0,
+                "key": "minor_boss_keys"
+            }
+        ]
+    }
+}

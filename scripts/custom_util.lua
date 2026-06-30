@@ -29,6 +29,14 @@ function has_abduction_skip()
 	end
 end
 
+function check_minor_bosses()
+	if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 1 then
+		return true
+	elseif Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
+		return false
+	end
+end
+
 function has_rold_access()
 	if Tracker:FindObjectForCode("Rold_Medallion_Setting").CurrentStage > 0 and Tracker:FindObjectForCode("rold_medallion").Active then
 		return true
@@ -115,4 +123,34 @@ end
 
 function romina_killable()
 	return (Tracker:ProviderCountForCode("max_scadu") >= 4 and Tracker:ProviderCountForCode("max_ash") >= 4)
+end
+
+
+function display_minor_boss(index)
+	if Archipelago.PlayerNumber == -1 then
+		return true
+	else
+		minor_boss_data = convert_hex_to_binary(SLOT_DATA.Minor_Boss_Data)
+		index = index - 219
+		--print(string.format(minor_boss_data))
+		if string.sub(minor_boss_data, index, index) == "1" then
+			return true
+		else
+			--print(string.format("it returned false"))
+			return false
+		end
+	end
+end
+
+function convert_hex_to_binary(hex_str)
+    local hex_to_bin = {
+        ['0'] = '0000', ['1'] = '0001', ['2'] = '0010', ['3'] = '0011',
+        ['4'] = '0100', ['5'] = '0101', ['6'] = '0110', ['7'] = '0111',
+        ['8'] = '1000', ['9'] = '1001', ['A'] = '1010', ['B'] = '1011',
+        ['C'] = '1100', ['D'] = '1101', ['E'] = '1110', ['F'] = '1111'
+    }
+
+    hex_str = string.gsub(hex_str, "0x", "", 1)
+
+    return ((hex_str:upper():gsub(".", hex_to_bin)):sub(1))
 end

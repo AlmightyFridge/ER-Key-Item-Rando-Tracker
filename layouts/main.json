@@ -9,8 +9,7 @@
           "dock": "left",
           "content": [
             {
-              "type": "group",
-              "header": "Items",
+              "type": "array",
               "dock": "left",
               "v_alignment": "center",
               "content": [

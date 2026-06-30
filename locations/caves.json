@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Caves",
+        "children": [
+            {
+                "name": "Coastal Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Coastal Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2071, 
+                        "y": 5707
+                    }
+                ]
+            },
+            {
+                "name": "Groveside Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Groveside Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2189, 
+                        "y": 5481
+                    }
+                ]
+            },
+            {
+                "name": "Highroad Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Highroad Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2490, 
+                        "y": 4981
+                    }
+                ]
+            },
+            {
+                "name": "Cave of Knowledge Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Cave of Knowledge Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2282, 
+                        "y": 5761
+                    }
+                ]
+            },
+            {
+                "name": "Earthbore Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Earthbore Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2567, 
+                        "y": 6118
+                    }
+                ]
+            },
+            {
+                "name": "Tombsward Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Tombsward Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2146, 
+                        "y": 6268
+                    }
+                ]
+            },
+            {
+                "name": "Stillwater Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Stillwater Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1633,
+                        "y": 4884
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Crystal Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Lakeside Crystal Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1118, 
+                        "y": 4641
+                    }
+                ]
+            },
+            {
+                "name": "Academy Crystal Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Academy Crystal Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 640, 
+                        "y": 3725
+                    }
+                ]
+            },
+            {
+                "name": "Gaol Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Gaol Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3213, 
+                        "y": 5237
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Abandoned Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3576, 
+                        "y": 5015
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Hideaway Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Sellia Hideaway Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3983, 
+                        "y": 5006
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4075, 
+                        "y": 4783
+                    }
+                ]
+            },
+            {
+                "name": "Sages Cave Cleared (Both Bosses)",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Sages Cave Cleared (Both Bosses)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1290, 
+                        "y": 2427
+                    }
+                ]
+            },
+            {
+                "name": "Perfumers Grotto Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Perfumers Grotto Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2072, 
+                        "y": 2572
+                    }
+                ]
+            },
+            {
+                "name": "Seethewater Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Seethewater Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1202, 
+                        "y": 2067
+                    }
+                ]
+            },
+            {
+                "name": "Volcano Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Volcano Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1155, 
+                        "y": 1819
+                    }
+                ]
+            },
+            {
+                "name": "Subterranean Inquisition Chamber Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Subterranean Inquisition Chamber Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1166, 
+                        "y": 2293
+                    }
+                ]
+            },
+            {
+                "name": "Spiritcaller Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Spiritcaller Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4468, 
+                        "y": 1474
+                    }
+                ]
+            },
+            {
+                "name": "Cave of the Forlorn Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Cave of the Forlorn Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3838, 
+                        "y": 1535
+                    }
+                ]
+            }
+        ]
+    }
+]

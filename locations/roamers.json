@@ -1,0 +1,279 @@
+[
+    {
+        "name": "Roamers",
+        "children": [
+            {
+                "name": "Limgrave Tree Sentinel Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Limgrave Tree Sentinel Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2227, 
+                        "y": 5651
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Tibia Mariner Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Tibia Mariner Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1552, 
+                        "y": 4054
+                    }
+                ]
+            },
+            {
+                "name": "Commander O'Neil Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Commander O'Neil Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3655, 
+                        "y": 5226
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Black Blade Kindred Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Black Blade Kindred Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4089, 
+                        "y": 4259
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Fallingstar Beast Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Fallingstar Beast Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2067, 
+                        "y": 2716
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Tree Sentinel Duo Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Tree Sentinel Duo Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2104, 
+                        "y": 2628
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Black Knife Assassin Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Black Knife Assassin Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1898, 
+                        "y": 2380
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Gelmir Magma Wyrm Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Mt. Gelmir Magma Wyrm Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 799, 
+                        "y": 2247
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Gelmir Fullgrown Fallingstar Beast Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Mt. Gelmir Fullgrown Fallingstar Beast Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1081, 
+                        "y": 2005
+                    }
+                ]
+            },
+            {
+                "name": "Lake of Rot Dragonkin Soldier Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Lake of Rot/Lake of Rot Dragonkin Soldier Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 706, 
+                        "y": 2009
+                    }
+                ]
+            },
+            {
+                "name": "Deeproot Depths Crucible Knight Siluria Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Deeproot Depths/Deeproot Depths Crucible Knight Siluria Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 1356, 
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Siofra River Dragonkin Soldier Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Siofra River/Siofra River Dragonkin Soldier Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Underworld-Detailed",
+                        "x": 2445, 
+                        "y": 1361
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Lands Black Blade Kindred Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Forbidden Lands/Forbidden Lands Black Blade Kindred Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3662, 
+                        "y": 2360
+                    }
+                ]
+            },
+            {
+                "name": "Near Forbidden Lands Fell Twins Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Forbidden Lands/Near Forbidden Lands Fell Twins Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3271, 
+                        "y": 2708
+                    }
+                ]
+            },
+            {
+                "name": "Mountaintops Death Rite Bird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Mountaintops Death Rite Bird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3930, 
+                        "y": 1395
+                    }
+                ]
+            },
+            {
+                "name": "Mountaintops Tibia Mariner Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Mountaintops Tibia Mariner Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4097, 
+                        "y": 1361
+                    }
+                ]
+            },
+            {
+                "name": "Magma Wyrm Theodorix Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Magma Wyrm Theodorix Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3879, 
+                        "y": 1568
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Trees",
+        "children": [
+            {
+                "name": "Weeping Peninsula Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Weeping Peninsula Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2397, 
+                        "y": 6306
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Southwest Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Southwest Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 419, 
+                        "y": 4211
+                    }
+                ]
+            },
+            {
+                "name": "Liurnia Northeast Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Liurnia Northeast Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1400, 
+                        "y": 3283
+                    }
+                ]
+            },
+            {
+                "name": "Caelid Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Caelid Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3179, 
+                        "y": 4769
+                    }
+                ]
+            },
+            {
+                "name": "Dragonbarrow Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Dragonbarrow Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4123, 
+                        "y": 4812
+                    }
+                ]
+            },
+            {
+                "name": "Altus Plateau Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Plateau Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1955, 
+                        "y": 2176
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Gelmir Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Mt. Gelmir Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1184, 
+                        "y": 2001
+                    }
+                ]
+            },
+            {
+                "name": "Mountaintops Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Mountaintops Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4260, 
+                        "y": 1505
+                    }
+                ]
+            },
+            {
+                "name": "Consecrated Snowfield Minor Erdtree Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Consecrated Snowfield Minor Erdtree Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3807, 
+                        "y": 1470
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -20,25 +20,24 @@
     {
         "name": "Rold Medallion",
         "loop": true,
-        "codes": "Rold_Medallion_Setting",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
             {
                 "img": "images/options/Rold_Medallion_Great_Runes.png",
-                "codes": "Rold_Medallion_Great_Runes",
+                "codes": "Rold_Medallion_Setting, Rold_Medallion_Great_Runes",
                 "inherit_codes": false,
                 "name": "Great Runes"
             },
             {
                 "img": "images/options/Rold_Medallion_Vanilla_Item.png",
-                "codes": "Rold_Medallion_Vanilla_Item",
+                "codes": "Rold_Medallion_Setting, Rold_Medallion_Vanilla_Item",
                 "inherit_codes": false,
                 "name": "Vanilla Item"
             },
             {
                 "img": "images/options/Rold_Medallion_Randomized_Item.png",
-                "codes": "Rold_Medallion_Randomized_Item",
+                "codes": "Rold_Medallion_Setting, Rold_Medallion_Randomized_Item",
                 "inherit_codes": false,
                 "name": "Randomized Item"
             }
@@ -56,19 +55,18 @@
     {
         "name": "Region Locking Base",
         "loop": true,
-        "codes": "Region_Locking_Base",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
             {
                 "img": "images/options/Region_Lock_All.png",
-                "codes": "Region_Locking_Base_All_Locations",
+                "codes": "Region_Locking_Base, Region_Locking_Base_All_Locations",
                 "inherit_codes": false,
                 "name": "All Locations"
             },
             {
                 "img": "images/options/Region_Lock_Boss.png",
-                "codes": "Region_Locking_Base_Boss_Locations",
+                "codes": "Region_Locking_Base, Region_Locking_Base_Boss_Locations",
                 "inherit_codes": false,
                 "name": "Boss Locations"
             }
@@ -130,10 +128,23 @@
     },
     {
         "name": "DLC",
-        "codes": "DLC",
-        "type": "toggle",
-        "img": "images/options/dlc_on.png",
-        "disabled_img": "images/options/dlc_off.png"
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/options/dlc_off.png",
+                "codes": "DLC, DLC_off",
+                "inherit_codes": false,
+                "name": "DLC: OFF"
+            },
+            {
+                "img": "images/options/dlc_on.png",
+                "codes": "DLC, DLC_on",
+                "inherit_codes": false,
+                "name": "DLC: ON"
+            }
+        ]
     },
     {
         "name": "Scadusanity",
@@ -193,19 +204,18 @@
     {
         "name": "Region Locking DLC",
         "loop": true,
-        "codes": "Region_Locking_DLC",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
             {
                 "img": "images/options/Region_Lock_All.png",
-                "codes": "Region_Locking_DLC_All_Locations",
+                "codes": "Region_Locking_DLC, Region_Locking_DLC_All_Locations",
                 "inherit_codes": false,
                 "name": "All Locations"
             },
             {
                 "img": "images/options/Region_Lock_Boss.png",
-                "codes": "Region_Locking_DLC_Boss_Locations",
+                "codes": "Region_Locking_DLC, Region_Locking_DLC_Boss_Locations",
                 "inherit_codes": false,
                 "name": "Boss Locations"
             }
@@ -238,16 +248,144 @@
         ]
     },
     {
+        "name": "Minor Bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+         "stages": [
+            {
+                "img": "images/options/minor_bosses_off.png",
+                "codes": "minor_bosses, minor_bosses_off",
+                "inherit_codes": false,
+                "name": "Minor Bosses: OFF"
+            },
+            {
+                "img": "images/options/minor_bosses_on.png",
+                "codes": "minor_bosses, minor_bosses_on",
+                "inherit_codes": false,
+                "name": "Minor Bosses: ON"
+            }
+        ]
+    },
+    {
+        "name": "Catacombs",
+        "codes": "catacombs",
+        "type": "toggle",
+        "img": "images/options/catacombs.png"
+    },
+    {
+        "name": "Caves",
+        "codes": "caves",
+        "type": "toggle",
+        "img": "images/options/caves.png"
+    },
+    {
+        "name": "DLC Catacombs",
+        "codes": "dlc-catacombs",
+        "type": "toggle",
+        "img": "images/options/dlc-catacombs.png"
+    },
+    {
+        "name": "DLC Caves",
+        "codes": "dlc-caves",
+        "type": "toggle",
+        "img": "images/options/dlc-caves.png"
+    },
+    {
+        "name": "DLC Ruins",
+        "codes": "dlc-historical",
+        "type": "toggle",
+        "img": "images/options/dlc-historical.png"
+    },
+    {
+        "name": "DLC Field Bosses",
+        "codes": "dlc-roamers",
+        "type": "toggle",
+        "img": "images/options/dlc-roamers.png"
+    },
+    {
+        "name": "Evergaols",
+        "codes": "evergaols",
+        "type": "toggle",
+        "img": "images/options/evergaols.png"
+    },
+    {
+        "name": "Gaols",
+        "codes": "gaols",
+        "type": "toggle",
+        "img": "images/options/gaols.png"
+    },
+    {
+        "name": "Furnace Golems",
+        "codes": "golems",
+        "type": "toggle",
+        "img": "images/options/golems.png"
+    },
+    {
+        "name": "Hero's Graves",
+        "codes": "heros_graves",
+        "type": "toggle",
+        "img": "images/options/heros_graves.png"
+    },
+    {
+        "name": "Ruins",
+        "codes": "historical",
+        "type": "toggle",
+        "img": "images/options/historical.png"
+    },
+    {
+        "name": "Bell Bearing Hunters",
+        "codes": "hunters",
+        "type": "toggle",
+        "img": "images/options/hunters.png"
+    },
+    {
+        "name": "Mausoleums",
+        "codes": "mausoleums",
+        "type": "toggle",
+        "img": "images/options/mausoleums.png"
+    },
+    {
+        "name": "Night Bosses",
+        "codes": "night_bosses",
+        "type": "toggle",
+        "img": "images/options/night_bosses.png"
+    },
+    {
+        "name": "Field Bosses",
+        "codes": "roamers",
+        "type": "toggle",
+        "img": "images/options/roamers.png"
+    },
+    {
+        "name": "Tree Bosses",
+        "codes": "trees",
+        "type": "toggle",
+        "img": "images/options/trees.png"
+    },
+    {
+        "name": "Tunnels",
+        "codes": "tunnels",
+        "type": "toggle",
+        "img": "images/options/tunnels.png"
+    },
+    {
+        "name": "Fortissax",
+        "codes": "fortissax",
+        "type": "toggle",
+        "img": "images/options/fortissax.png"
+    },
+    {
+        "name": "Critical Path",
+        "codes": "critical_path",
+        "type": "toggle",
+        "img": "images/options/critical_path.png"
+    },
+    {
         "name": "Base Nameplate",
         "codes": "Base_Nameplate",
         "type": "static",
         "img": "images/options/base_nameplate.png"
-    },
-    {
-        "name": "DLC Nameplate",
-        "codes": "DLC_Nameplate",
-        "type": "static",
-        "img": "images/options/dlc_nameplate.png"
     }
 
 ]

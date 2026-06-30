@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Gaols",
+        "children": [
+            {
+                "name": "Belurat Gaol Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Belurat Gaol Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 498, 
+                        "y": 1369
+                    }
+                ]
+            },
+            {
+                "name": "Bonny Gaol Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Bonny Gaol Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1516, 
+                        "y": 1487
+                    }
+                ]
+            },
+            {
+                "name": "Lamenter's Gaol Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Charo's Hidden Grave/Lamenter's Gaol Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 830, 
+                        "y": 2061
+                    }
+                ]
+            },
+            {
+                "name": "Rivermouth Cave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ellac River/Rivermouth Cave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 688, 
+                        "y": 1198
+                    }
+                ]
+            }
+
+        ]
+    }
+]

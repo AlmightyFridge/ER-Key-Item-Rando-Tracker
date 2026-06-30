@@ -8,7 +8,7 @@
     {
         "name": "Underworld-Condensed",
         "img": "images/maps/underworld.jpg",
-        "location_size": 100,
+        "location_size": 150,
         "location_border_thickness": 1
     },
     {

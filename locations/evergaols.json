@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Evergaols",
+        "children": [
+            {
+                "name": "Stormhill Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Stormhill Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2184, 
+                        "y": 5432
+                    }
+                ]
+            },
+            {
+                "name": "Forlorn Hound Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Forlorn Hound Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2635, 
+                        "y": 5972
+                    }
+                ]
+            },
+            {
+                "name": "Weeping Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Weeping Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2150, 
+                        "y": 6205
+                    }
+                ]
+            },
+            {
+                "name": "Malefactor's Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Malefactor's Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1413, 
+                        "y": 4731
+                    }
+                ]
+            },
+            {
+                "name": "Cuckoo's Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Cuckoo's Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 362, 
+                        "y": 3854
+                    }
+                ]
+            },
+            {
+                "name": "Royal Grave Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Royal Grave Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1084, 
+                        "y": 2783
+                    }
+                ]
+            },
+            {
+                "name": "Ringleader's Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Moonlight Altar/Ringleader's Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 362, 
+                        "y": 4386
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Sellia Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3604, 
+                        "y": 5050
+                    }
+                ]
+            },
+            {
+                "name": "Golden Lineage Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Golden Lineage Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1568, 
+                        "y": 2859
+                    }
+                ]
+            },
+            {
+                "name": "Lord Contender's Evergaol Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Lord Contender's Evergaol Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 4462, 
+                        "y": 1654
+                    }
+                ]
+            }
+
+        ]
+    }
+]

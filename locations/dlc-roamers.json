@@ -1,0 +1,135 @@
+[
+    {
+        "name": "DLC-Roamers",
+        "children": [
+            {
+                "name": "Ralva Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Ralva Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1394, 
+                        "y": 995
+                    }
+                ]
+            },
+            {
+                "name": "Rugalea Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Rauh Base/Rugalea Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 351, 
+                        "y": 622
+                    }
+                ]
+            },
+            {
+                "name": "Demi Human Queen Marigga Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Demi Human Queen Marigga Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 712, 
+                        "y": 2089
+                    }
+                ]
+            },
+            {
+                "name": "Charo's Hidden Grave Death Rite Bird Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Charo's Hidden Grave/Charo's Hidden Grave Death Rite Bird Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1010, 
+                        "y": 2226
+                    }
+                ]
+            },
+            {
+                "name": "Charo's Hidden Grave Tibia Mariner Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Charo's Hidden Grave/Charo's Hidden Grave Tibia Mariner Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1169, 
+                        "y": 2386
+                    }
+                ]
+            },
+            {
+                "name": "Hinterlands Fallingstar Beast Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Hinterlands/Hinterlands Fallingstar Beast Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1975, 
+                        "y": 405
+                    }
+                ]
+            },
+            {
+                "name": "Hinterlands Tree Sentinel Duo Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Hinterlands/Hinterlands Tree Sentinel Duo Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1562, 
+                        "y": 558
+                    }
+                ]
+            },
+            {
+                "name": "Deathblight Dancing Lion Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ancient Ruins of Rauh/Deathblight Dancing Lion Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 709, 
+                        "y": 916
+                    }
+                ]
+            }
+        ]
+    }
+]

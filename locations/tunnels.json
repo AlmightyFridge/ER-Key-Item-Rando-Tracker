@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Tunnels",
+        "children": [
+            {
+                "name": "Limgrave Tunnels Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Limgrave Tunnels Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2349, 
+                        "y": 5492
+                    }
+                ]
+            },
+            {
+                "name": "Morne Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Weeping Peninsula/Morne Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2476, 
+                        "y": 6345
+                    }
+                ]
+            },
+            {
+                "name": "Raya Lucaria Crystal Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Raya Lucaria Crystal Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1120, 
+                        "y": 3399
+                    }
+                ]
+            },
+            {
+                "name": "Gael Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Gael Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3110, 
+                        "y": 5023
+                    }
+                ]
+            },
+            {
+                "name": "Sellia Crystal Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Caelid/Sellia Crystal Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3691, 
+                        "y": 4969
+                    }
+                ]
+            },
+            {
+                "name": "Altus Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Altus Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1991, 
+                        "y": 2348
+                    }
+                ]
+            },
+            {
+                "name": "Old Altus Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Old Altus Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1494, 
+                        "y": 2270
+                    }
+                ]
+            },
+            {
+                "name": "Sealed Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Sealed Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2393, 
+                        "y": 2765
+                    }
+                ]
+            },
+            {
+                "name": "Yelough Anix Tunnel Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Consecrated Snowfield/Yelough Anix Tunnel Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3305, 
+                        "y": 1814
+                    }
+                ]
+            }
+        ]
+    }
+]

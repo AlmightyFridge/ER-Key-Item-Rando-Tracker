@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Heros_Graves",
+        "children": [
+            {
+                "name": "Fringefolk Hero's Grave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Fringefolk Hero's Grave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2271, 
+                        "y": 5693
+                    }
+                ]
+            },
+            {
+                "name": "Sainted Hero's Grave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Altus Plateau/Sainted Hero's Grave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1848, 
+                        "y": 2382
+                    }
+                ]
+            },
+            {
+                "name": "Auriza Hero's Grave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Auriza Hero's Grave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2906, 
+                        "y": 2483
+                    }
+                ]
+            },
+            {
+                "name": "Gelmir Hero's Grave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mt. Gelmir/Gelmir Hero's Grave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1293, 
+                        "y": 2166
+                    }
+                ]
+            },
+            {
+                "name": "Giant Conquering Hero's Grave Cleared",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Mountaintops of the Giants/Giant Conquering Hero's Grave Cleared"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3788, 
+                        "y": 2087
+                    }
+                ]
+            }
+        ]
+    }
+]

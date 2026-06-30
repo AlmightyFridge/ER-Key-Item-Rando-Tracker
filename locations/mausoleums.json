@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Mausoleums",
+        "children": [
+            {
+                "name": "Western Nameless Mausoleum Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Western Nameless Mausoleum Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 655, 
+                        "y": 1834
+                    }
+                ]
+            },
+            {
+                "name": "Northern Nameless Mausoleum Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Rauh Base/Northern Nameless Mausoleum Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 817, 
+                        "y": 1125
+                    }
+                ]
+            },
+            {
+                "name": "Southern Nameless Mausoleum Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Southern Nameless Mausoleum Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 751, 
+                        "y": 2527
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Nameless Mausoleum Boss Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Recluses River/Eastern Nameless Mausoleum Boss Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1725, 
+                        "y": 1238
+                    }
+                ]
+            }
+        ]
+    }
+]

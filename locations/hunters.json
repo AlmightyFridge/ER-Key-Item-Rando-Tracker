@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Hunters",
+        "children": [
+            {
+                "name": "Warmaster's Shack Bell Bearing Hunter Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Limgrave/Warmaster's Shack Bell Bearing Hunter Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2246, 
+                        "y": 5197
+                    }
+                ]
+            },
+            {
+                "name": "Church of Vows Bell Bearing Hunter Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Liurnia of the Lakes/Church of Vows Bell Bearing Hunter Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 1168, 
+                        "y": 3611
+                    }
+                ]
+            },
+            {
+                "name": "Isolated Merchant Shack Bell Bearing Hunter Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Dragonbarrow/Isolated Merchant Shack Bell Bearing Hunter Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 3403, 
+                        "y": 4709
+                    }
+                ]
+            },
+            {
+                "name": "Hermit Merchant Shack Bell Bearing Hunter Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Capital Outskirts/Hermit Merchant Shack Bell Bearing Hunter Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld-Detailed",
+                        "x": 2444, 
+                        "y": 2183
+                    }
+                ]
+            }
+        ]
+    }
+]

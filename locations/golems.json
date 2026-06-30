@@ -1,0 +1,135 @@
+[
+    {
+        "name": "Golems",
+        "children": [
+            {
+                "name": "Gravesite Plain Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Gravesite Plain/Gravesite Plain Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 845, 
+                        "y": 1763
+                    }
+                ]
+            },
+            {
+                "name": "Upper Scadu Altus Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Upper Scadu Altus Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1150, 
+                        "y": 909
+                    }
+                ]
+            },
+            {
+                "name": "Lower Scadu Altus Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Scadu Altus/Lower Scadu Altus Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1826, 
+                        "y": 1043
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean Coast Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Cerulean Coast/Cerulean Coast Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1131, 
+                        "y": 2134
+                    }
+                ]
+            },
+            {
+                "name": "Charo's Hidden Grave Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Charo's Hidden Grave/Charo's Hidden Grave Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 655, 
+                        "y": 2285
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Ruins of Rauh Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Ancient Ruins of Rauh/Ancient Ruins of Rauh Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 518, 
+                        "y": 925
+                    }
+                ]
+            },
+            {
+                "name": "Recluses River Asleep Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Recluses River/Recluses River Asleep Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1499, 
+                        "y": 806
+                    }
+                ]
+            },
+            {
+                "name": "Recluses River Awake Furnace Golem Defeated",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "ref": "Locations/Recluses River/Recluses River Awake Furnace Golem Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DLC-Detailed",
+                        "x": 1444, 
+                        "y": 879
+                    }
+                ]
+            }
+        ]
+    }
+]

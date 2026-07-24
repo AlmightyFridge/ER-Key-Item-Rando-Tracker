@@ -63,6 +63,68 @@
                         "y": 3020
                     }
                 ]
+            },
+            {
+                "name": "Great Rune Hunt - Victory",
+                "access_rules": [
+                    "$OptionCount|great_rune|Great_Rune_Hunt_Count"
+                ],
+                "visibility_rules": [
+                    "$check_goal|3"
+                ],
+                "sections": [ 
+                    {
+                        "name": "Great Rune Hunt - Victory",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "shape": "trapezoid",
+                        "map": "Overworld-Detailed",
+                        "x": 2890, 
+                        "y": 3942,
+                        "size": 400
+                    },
+                    {
+                        "shape": "trapezoid",
+                        "map": "Overworld-Condensed",
+                        "x": 2890, 
+                        "y": 3942,
+                        "size": 400
+                    }
+                ]
+            },
+            {
+                "name": "Custom Goal - Victory",
+                "access_rules": [
+                    "victory_token:1"
+                ],
+                "visibility_rules": [
+                    "$check_goal|4"
+                ],
+                "sections": [ 
+                    {
+                        "name": "Custom Goal - Victory",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "shape": "trapezoid",
+                        "map": "Overworld-Detailed",
+                        "x": 2890, 
+                        "y": 3942,
+                        "size": 400
+                    },
+                    {
+                        "shape": "trapezoid",
+                        "map": "Overworld-Condensed",
+                        "x": 2890, 
+                        "y": 3942,
+                        "size": 400
+                    }
+                ]
             }
         ]
     }

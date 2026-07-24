@@ -8,10 +8,16 @@ ScriptHost:LoadScript("scripts/util.lua")
 ScriptHost:LoadScript("scripts/custom_util.lua")
 
 Tracker:AddLayouts("layouts/options_layout.json")
-Tracker:AddLayouts("layouts/input_layout_base.json")
 Tracker:AddLayouts("layouts/map_layouts_base.json")
-Tracker:AddLayouts("layouts/main.json")
-Tracker:AddLayouts("layouts/main_mb.json")
+Tracker:AddLayouts("layouts/new_main.json")
+
+-- loads item component layouts
+Tracker:AddLayouts("layouts/new_input_void.json")
+Tracker:AddLayouts("layouts/new_input_max_level.json")
+Tracker:AddLayouts("layouts/new_input_keys_medallions.json")
+Tracker:AddLayouts("layouts/new_input_free_items.json")
+Tracker:AddLayouts("layouts/new_input_upgrades_base.json")
+
 
 Tracker:AddLocations("locations/victory.json")
 Tracker:AddLocations("locations/key_items.json")

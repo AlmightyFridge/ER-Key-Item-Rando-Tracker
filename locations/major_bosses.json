@@ -7,7 +7,7 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Stormvale Castle/Margit Defeated"
+                        "ref": "Locations/Stormveil Castle/Margit Defeated"
                     }
                 ],
                 "map_locations": [
@@ -19,11 +19,11 @@
                 ]
             },
             {
-                 "name": "Godrick the Grafted Defeated",
+                 "name": "Godrick Defeated",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Stormvale Castle/Godrick the Grafted Defeated"
+                        "ref": "Locations/Stormveil Castle/Godrick Defeated"
                     }
                 ],
                 "map_locations": [

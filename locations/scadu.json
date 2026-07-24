@@ -386,11 +386,11 @@
                 ]
             },
             {
-                "name": "Hinterlands Entrance Scadu",
+                "name": "Hinterland Entrance Scadu",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Specimen Storehouse/Hinterlands Entrance Scadu"
+                        "ref": "Locations/Specimen Storehouse/Hinterland Entrance Scadu"
                     }
                 ],
                 "map_locations": [
@@ -406,7 +406,19 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu"
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu 1"
+                    },
+                    {
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu 2"
+                    },
+                    {
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu 3"
+                    },
+                    {
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu 4"
+                    },
+                    {
+                        "ref": "Locations/Scaduview/Scadutree Chalice Scadu 5"
                     }
                 ],
                 "map_locations": [

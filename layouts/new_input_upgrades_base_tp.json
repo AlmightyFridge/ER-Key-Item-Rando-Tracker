@@ -1,0 +1,15 @@
+{
+    "upgrades": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "max_stone_level_+1",
+                "great_rune",
+                "talisman_pouch"
+            ]
+        ]
+    }
+}

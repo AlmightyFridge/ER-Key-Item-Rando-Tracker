@@ -1,0 +1,27 @@
+{
+        "keys_medallions": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "drawing_room_key",
+                "farum_azula_stonesword_key",
+                "dark_moon_ring",
+                "dectus_medallion_(left)",
+                "dectus_medallion_(right)",
+                "rold_medallion"
+            ],
+            [
+                "academy_glintstone_key",
+                "discarded_palace_key",
+                "carian_inverted_statue",
+                "haligtree_secret_medallion_(left)",
+                "haligtree_secret_medallion_(right)",
+                "pureblood_knights_medal"
+                
+            ]
+        ]
+    }
+}

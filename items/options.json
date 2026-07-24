@@ -1,10 +1,10 @@
 [
     {
-        "name": "Great Runes Victory",
-        "codes": "Great_Runes_Victory",
+        "name": "Great Runes Elden Beast",
+        "codes": "Great_Runes_Elden_Beast",
         "type": "consumable",
         "initial_quantity": 0,
-        "img": "images/options/Great_Runes_Victory.png",
+        "img": "images/options/Great_Runes_EB.png",
         "min_quantity": 0,
         "max_quantity": 7
     },
@@ -53,6 +53,15 @@
         "max_quantity": 7
     },
     {
+        "name": "Great Rune Hunt Count",
+        "codes": "Great_Rune_Hunt_Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "img": "images/options/goal_great_rune_hunt.png",
+        "min_quantity": 0,
+        "max_quantity": 7
+    },
+    {
         "name": "Region Locking Base",
         "loop": true,
         "type": "progressive",
@@ -62,13 +71,13 @@
                 "img": "images/options/Region_Lock_All.png",
                 "codes": "Region_Locking_Base, Region_Locking_Base_All_Locations",
                 "inherit_codes": false,
-                "name": "All Locations"
+                "name": "Region Lock: All Locations"
             },
             {
                 "img": "images/options/Region_Lock_Boss.png",
                 "codes": "Region_Locking_Base, Region_Locking_Base_Boss_Locations",
                 "inherit_codes": false,
-                "name": "Boss Locations"
+                "name": "Region Lock: Boss Locations"
             }
         ]
     },
@@ -211,13 +220,13 @@
                 "img": "images/options/Region_Lock_All.png",
                 "codes": "Region_Locking_DLC, Region_Locking_DLC_All_Locations",
                 "inherit_codes": false,
-                "name": "All Locations"
+                "name": "Region Lock: All Locations"
             },
             {
                 "img": "images/options/Region_Lock_Boss.png",
                 "codes": "Region_Locking_DLC, Region_Locking_DLC_Boss_Locations",
                 "inherit_codes": false,
-                "name": "Boss Locations"
+                "name": "Region Lock: Boss Locations"
             }
         ]
     },
@@ -244,7 +253,20 @@
                 "codes": "goal, goal_two_gods",
                 "inherit_codes": false,
                 "name": "Goal: Two Gods Ending"
+            },
+            {
+                "img": "images/options/goal_great_rune_hunt.png",
+                "codes": "goal, goal_great_rune_hunt",
+                "inherit_codes": false,
+                "name": "Goal: Great Rune Hunt"
+            },
+            {
+                "img": "images/options/custom_goal.png",
+                "codes": "goal, goal_custom",
+                "inherit_codes": false,
+                "name": "Goal: Custom Goal"
             }
+
         ]
     },
     {
@@ -386,6 +408,25 @@
         "codes": "Base_Nameplate",
         "type": "static",
         "img": "images/options/base_nameplate.png"
+    },
+    {
+        "name": "Add Flask Restrictions",
+        "codes": "flask_restrictions_setting",
+        "type": "toggle",
+        "img": "images/options/flask.png"
+    },
+    {
+        "name": "Add Talisman Pouches",
+        "codes": "talisman_pouches_setting",
+        "type": "toggle",
+        "img": "images/options/talisman_pouch.png"
+    },
+    {
+        "name": "Add Whetblades",
+        "codes": "whetblades_setting",
+        "type": "toggle",
+        "img": "images/options/iron_whetblade.png"
     }
+
 
 ]

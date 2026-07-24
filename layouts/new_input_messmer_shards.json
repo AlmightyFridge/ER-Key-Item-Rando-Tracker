@@ -1,0 +1,13 @@
+{
+    "messmer_kindling": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "messmers_kindling_shard_item"
+            ]
+        ]
+    }
+}

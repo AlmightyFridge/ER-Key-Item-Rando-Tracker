@@ -1,0 +1,13 @@
+{
+        "victory_token":{
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "victory_token"
+            ]
+        ]
+    }
+}

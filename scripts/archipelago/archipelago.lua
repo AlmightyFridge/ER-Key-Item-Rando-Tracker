@@ -45,17 +45,21 @@ function SetSettings()
     Tracker:FindObjectForCode("Early_Academy_Key").Active = (SLOT_DATA.Early_Academy_Key == 1)
     Tracker:FindObjectForCode("Vanilla_Great_Runes").Active = (SLOT_DATA.Vanilla_Great_Runes == 1)
     
-    Tracker:FindObjectForCode("Great_Runes_Victory").AcquiredCount = SLOT_DATA.Great_Runes_Victory
+    Tracker:FindObjectForCode("Great_Runes_Elden_Beast").AcquiredCount = SLOT_DATA.Great_Runes_Elden_Beast
 	Tracker:FindObjectForCode("Great_Runes_Rold").AcquiredCount = SLOT_DATA.Great_Runes_Rold
 	Tracker:FindObjectForCode("Great_Runes_Capital").AcquiredCount = SLOT_DATA.Great_Runes_Capital
 	Tracker:FindObjectForCode("Region_Locking_Base").CurrentStage = SLOT_DATA.Region_Locking_Base
     Tracker:FindObjectForCode("Rold_Medallion_Setting").CurrentStage = SLOT_DATA.Rold_Medallion_Setting
 
-    if SLOT_DATA.DLC == 0 then
-        Tracker:FindObjectForCode("DLC").CurrentStage = 0
-    else
-        Tracker:FindObjectForCode("DLC").CurrentStage = 1
+    if SLOT_DATA.goal == 3 then
+        Tracker:FindObjectForCode("Great_Rune_Hunt_Count").AcquiredCount = SLOT_DATA.Great_Rune_Hunt_Victory_Count
     end
+
+    Tracker:FindObjectForCode("whetblades_setting").Active = (SLOT_DATA.Add_Whetblades == 1)
+    Tracker:FindObjectForCode("talisman_pouches_setting").Active = (SLOT_DATA.Add_Talisman_Pouches == 1)
+    Tracker:FindObjectForCode("flask_restrictions_setting").Active = (SLOT_DATA.Add_Flask_Restrictions == 1)
+
+    Tracker:FindObjectForCode("DLC").CurrentStage = SLOT_DATA.DLC
     
 	Tracker:FindObjectForCode("Region_Locking_DLC").CurrentStage = SLOT_DATA.Region_Locking_DLC
 
@@ -66,7 +70,7 @@ function SetSettings()
 	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Total").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Total
 	Tracker:FindObjectForCode("Messmers_Kindling_Shards_Needed").AcquiredCount = SLOT_DATA.Messmers_Kindling_Shards_Needed
 
-    if SLOT_DATA.minor_bosses == 0 then
+    if SLOT_DATA.minor_bosses_setting == 0 then
         Tracker:FindObjectForCode("minor_bosses").CurrentStage = 0
     else
         Tracker:FindObjectForCode("minor_bosses").CurrentStage = 1
@@ -275,6 +279,10 @@ function onLocationSectionChanged(LocationSection)
             goal = 192
         elseif SLOT_DATA.goal == 2 then
             goal = 211
+        elseif SLOT_DATA.goal == 3 then
+            goal = 377
+        elseif SLOT_DATA.goal == 4 then
+            goal = 378
         end
     end
 
@@ -293,50 +301,101 @@ function onLocationSectionChanged(LocationSection)
     end
 end
 
-function itemLayoutChange()
+function itemLayoutChange(code)
     print(string.format("entered item layout change function"))
+    Tracker:AddLayouts("layouts/new_input_void.json")
+
+    --used in all layouts
+    Tracker:AddLayouts("layouts/new_input_max_level.json")
+    Tracker:AddLayouts("layouts/new_input_keys_medallions.json")
+    Tracker:AddLayouts("layouts/new_input_free_items.json")
+
+    --fortissax
+    if Tracker:FindObjectForCode("fortissax").Active then
+        Tracker:AddLayouts("layouts/new_input_cursemark.json")
+    end
+
+    --whetblades
+    if Tracker:FindObjectForCode("whetblades_setting").Active then
+        Tracker:AddLayouts("layouts/new_input_whetblades.json")
+    end
+
+    --victory token
+    if Tracker:FindObjectForCode("goal").CurrentStage == 4 then
+        Tracker:AddLayouts("layouts/new_input_victory_token.json")
+    end
+
 
     --dlc
+    if code == "DLC" then
+        if Tracker:FindObjectForCode("DLC").CurrentStage == 1 then
+            Tracker:AddLayouts("layouts/map_layouts_dlc.json")
+        else
+            Tracker:AddLayouts("layouts/map_layouts_base.json")
+        end 
+    end
+
     if Tracker:FindObjectForCode("DLC").CurrentStage == 1 then
-        Tracker:AddLayouts("layouts/map_layouts_dlc.json")
         print(string.format("entered item layout change function - dlc active check"))
+        
+        
+        Tracker:AddLayouts("layouts/new_input_dlc_keys.json")
+        Tracker:AddLayouts("layouts/new_input_upgrades_dlc.json")
+
 
         --messmers kindling
         if Tracker:FindObjectForCode("messmers_kindling_setting").CurrentStage == 0 then
             print(string.format("entered item layout change function - messmers kindling setting check"))
             
-            --minor bosses
-            if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
-                Tracker:AddLayouts("layouts/main.json")
-                Tracker:AddLayouts("layouts/input_layout_dlc_shards.json")
-            else
-                Tracker:AddLayouts("layouts/main_mb.json")
-                Tracker:AddLayouts("layouts/input_layout_dlc_shards_mb.json")
-            end
+            Tracker:AddLayouts("layouts/new_input_messmer_shards.json")
 
         else
-            if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
-                Tracker:AddLayouts("layouts/main.json")
-                Tracker:AddLayouts("layouts/input_layout_dlc.json")
-            else
-                Tracker:AddLayouts("layouts/main_mb.json")
-                Tracker:AddLayouts("layouts/input_layout_dlc_mb.json")
-            end
-
+            Tracker:AddLayouts("layouts/new_input_messmer_kindling.json")
+        end
+        
+         --minor bosses
+        if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 1 then
+            Tracker:AddLayouts("layouts/new_input_mb_dlc.json")
         end
 
-    --base
+        --flask restrictions and talisman pouches
+        if Tracker:FindObjectForCode("flask_restrictions_setting").Active then
+            if Tracker:FindObjectForCode("talisman_pouches_setting").Active then
+                Tracker:AddLayouts("layouts/new_input_upgrades_dlc_fl_tp.json")
+            else
+                Tracker:AddLayouts("layouts/new_input_upgrades_dlc_fl.json")
+            end
+        else
+            if Tracker:FindObjectForCode("talisman_pouches_setting").Active then
+                Tracker:AddLayouts("layouts/new_input_upgrades_dlc_tp.json")
+            else
+                Tracker:AddLayouts("layouts/new_input_upgrades_dlc.json")
+            end
+        end
+    
     else
-        Tracker:AddLayouts("layouts/map_layouts_base.json")
+        --base
+        
+        --flask restrictions and talisman pouches
+        if Tracker:FindObjectForCode("flask_restrictions_setting").Active then
+            if Tracker:FindObjectForCode("talisman_pouches_setting").Active then
+                Tracker:AddLayouts("layouts/new_input_upgrades_base_fl_tp.json")
+            else
+                Tracker:AddLayouts("layouts/new_input_upgrades_base_fl.json")
+            end
+        else
+            if Tracker:FindObjectForCode("talisman_pouches_setting").Active then
+                Tracker:AddLayouts("layouts/new_input_upgrades_base_tp.json")
+            else
+                Tracker:AddLayouts("layouts/new_input_upgrades_base.json")
+            end
+        end
 
         --minor bosses
-        if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 0 then
-            Tracker:AddLayouts("layouts/main.json")
-            Tracker:AddLayouts("layouts/input_layout_base.json")
-        else
-            Tracker:AddLayouts("layouts/main_mb.json")
-            Tracker:AddLayouts("layouts/input_layout_base_mb.json")
+        if Tracker:FindObjectForCode("minor_bosses").CurrentStage == 1 then
+            Tracker:AddLayouts("layouts/new_input_mb.json")
         end
+
 	end
 end
 

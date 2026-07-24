@@ -1,0 +1,64 @@
+{
+        "licenses": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "graverobber's_license",
+                "cave_delving_license",
+                "gaol_inspection_license",
+                "tomb_looting_license",
+                "logger's_license",
+                "firefighter's_license"
+            ],
+            [
+                "historical_site_license",
+                "anti-poaching_license",
+                "evening_hunting_license",
+                "field_hunting_license",
+                "mining_license",
+                "ghostbusting_license"
+            ]
+        ]
+    },
+        "minor_boss_keys": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": " 1,1",
+        "rows": [
+            [
+                "fringefolk_heros_grave_stonesword_key_x2",
+                "academy_crystal_cave_stonesword_key_x2",
+                "chapel_of_anticipation_imbued_sword_key",
+                "gaol_cave_stonesword_key_x2",
+                "seethewater_cave_stonesword_key_x2",
+                "unsightly_catacombs_stonesword_key_x2"
+            ],
+            [
+                "old_altus_tunnel_stonesword_key_x2",
+                "spiritcaller_cave_stonesword_key_x2",
+                "cave_of_the_forlorn_stonesword_key_x2",
+                "weeping_evergaol_stonesword_key",
+                "golden_lineage_evergaol_stonesword_key",
+                "may_the_best_win"
+            ]
+        ]
+    },
+    "mb_items":{
+        "type": "group",
+        "header": "Minor Boss Items",
+        "content":[
+            {
+                "type": "layout",
+                "key": "licenses"
+            },
+            {
+                "type": "layout",
+                "key": "minor_boss_keys"
+            }
+        ]
+    }
+}

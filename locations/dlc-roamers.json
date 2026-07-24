@@ -67,27 +67,11 @@
                 ]
             },
             {
-                "name": "Charo's Hidden Grave Tibia Mariner Defeated",
+                "name": "Hinterland Fallingstar Beast Defeated",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Charo's Hidden Grave/Charo's Hidden Grave Tibia Mariner Defeated"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DLC-Detailed",
-                        "x": 1169, 
-                        "y": 2386
-                    }
-                ]
-            },
-            {
-                "name": "Hinterlands Fallingstar Beast Defeated",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "ref": "Locations/Hinterlands/Hinterlands Fallingstar Beast Defeated"
+                        "ref": "Locations/Hinterland/Hinterland Fallingstar Beast Defeated"
                     }
                 ],
                 "map_locations": [
@@ -99,11 +83,11 @@
                 ]
             },
             {
-                "name": "Hinterlands Tree Sentinel Duo Defeated",
+                "name": "Hinterland Tree Sentinel Duo Defeated",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Hinterlands/Hinterlands Tree Sentinel Duo Defeated"
+                        "ref": "Locations/Hinterland/Hinterland Tree Sentinel Duo Defeated"
                     }
                 ],
                 "map_locations": [

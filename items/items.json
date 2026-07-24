@@ -397,5 +397,85 @@
         "type": "toggle",
         "img": "images/items/cursemark_of_death.png",
         "codes": "cursemark_of_death"        
+    },
+    {
+        "name": "Flask Level +1",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 12,
+        "img": "images/items/flask_level.png",
+        "codes": "flask_level"        
+    },
+    {
+        "name": "Flask Charge +1",
+        "type": "consumable",
+        "min_quantity": 4,
+        "max_quantity": 14,
+        "initial_quantity": 4,
+        "img": "images/items/flask_charge.png",
+        "codes": "flask_charge"        
+    },
+    {
+        "name": "Iron Whetblade",
+        "type": "toggle",
+        "img": "images/items/iron_whetblade.png",
+        "codes": "iron_whetblade"        
+    },
+    {
+        "name": "Whetstone Knife",
+        "type": "toggle",
+        "img": "images/items/whetstone_knife.png",
+        "codes": "whetstone_knife"        
+    },
+    {
+        "name": "Glintstone Whetblade",
+        "type": "toggle",
+        "img": "images/items/glintstone_whetblade.png",
+        "codes": "glintstone_whetblade"        
+    },
+    {
+        "name": "Red-Hot Whetblade",
+        "type": "toggle",
+        "img": "images/items/red-hot_whetblade.png",
+        "codes": "red-hot_whetblade"        
+    },
+    {
+        "name": "Sanctified Whetblade",
+        "type": "toggle",
+        "img": "images/items/sanctified_whetblade.png",
+        "codes": "sanctified_whetblade"        
+    },
+    {
+        "name": "Black Whetblade",
+        "type": "toggle",
+        "img": "images/items/black_whetblade.png",
+        "codes": "black_whetblade"        
+    },
+    {
+        "name": "Talisman Pouch",
+        "type": "consumable",
+        "min_quantity": 1,
+        "max_quantity": 4,
+        "initial_quantity": 1,
+        "img": "images/items/talisman_pouch.png",
+        "codes": "talisman_pouch"
+    },
+    {
+        "name": "Free 5K Runes",
+        "type": "consumable",
+        "img": "images/items/golden_rune_5k.png",
+        "codes": "free_runes"        
+    },
+    {
+        "name": "Free Ash of War",
+        "type": "consumable",
+        "img": "images/items/free_aow.png",
+        "codes": "free_aow"        
+    },
+    {
+        "name": "Victory Token",
+        "type":"toggle",
+        "img": "images/items/victory_token.png",
+        "codes": "victory_token"     
     }
 ]

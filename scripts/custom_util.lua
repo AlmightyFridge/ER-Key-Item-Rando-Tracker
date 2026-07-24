@@ -49,22 +49,70 @@ function has_rold_access()
 end
 
 function can_burn_sealing_tree()
-	print(string.format("in can_burn_sealing_tree"))
 	if Tracker:FindObjectForCode("messmers_kindling_setting").CurrentStage > 0 and Tracker:FindObjectForCode("messmers_kindling").Active then
-		print(string.format("messmers_kindling_setting > 0 and messmers_kindling is active"))
 		return true
 	elseif (Tracker:FindObjectForCode("messmers_kindling_setting").CurrentStage == 0 and Tracker:ProviderCountForCode("messmers_kindling_shard_item") >= Tracker:ProviderCountForCode("messmers_kindling_shards_needed")) then
-		print(string.format("messmers_kindling_setting == 0 and messmers_kindling_shard_item has more than messmers_kindling_shards_needed"))
 		return true
 	else
-		print(string.format("neither options are true"))
 		return false
 	end
 end
 
+function has_req_flasks(stage)
+	if Tracker:FindObjectForCode("flask_restrictions_setting").Active == false then
+		return true
+	else
+		if stage == "1" then
+			if Tracker:ProviderCountForCode("flask_level") >= 2 and Tracker:ProviderCountForCode("flask_charge") >= 6 then
+				return true
+			end
+		elseif stage == "2" then
+			if Tracker:ProviderCountForCode("flask_level") >= 4 and Tracker:ProviderCountForCode("flask_charge") >= 7 then
+				return true
+			end
+		elseif stage == "3" then
+			if Tracker:ProviderCountForCode("flask_level") >= 6 and Tracker:ProviderCountForCode("flask_charge") >= 8 then
+				return true
+			end
+		elseif stage == "4" then
+			if Tracker:ProviderCountForCode("flask_level") >= 8 and Tracker:ProviderCountForCode("flask_charge") >= 9 then
+				return true
+			end
+		elseif stage == "5" then
+			if Tracker:ProviderCountForCode("flask_level") >= 9 and Tracker:ProviderCountForCode("flask_charge") >= 10 then
+				return true
+			end
+		elseif stage == "6" then
+			if Tracker:ProviderCountForCode("flask_level") >= 10 and Tracker:ProviderCountForCode("flask_charge") >= 12 then
+				return true
+			end
+		end
+	end
+	return false
+end
+
+function has_req_tp(stage)
+	if Tracker:FindObjectForCode("talisman_pouches_setting").Active == false then
+		return true
+	else
+		if stage == "2" then
+			if Tracker:ProviderCountForCode("talisman_pouch") >= 2 then
+				return true
+			end
+		elseif stage == "3" then
+			if Tracker:ProviderCountForCode("talisman_pouch") >= 3 then
+				return true
+			end
+		elseif stage == "4" then
+			if Tracker:ProviderCountForCode("talisman_pouch") >= 4 then
+				return true
+			end
+		end
+	end
+	return false
+end
 
 -- boss requirement checks
-
 function margit_killable()
 	return (Tracker:FindObjectForCode("max_rune_level_+10").CurrentStage >= 1 and Tracker:ProviderCountForCode("max_stone_level_+1") >= 1)
 end
@@ -131,8 +179,9 @@ function display_minor_boss(index)
 		return true
 	else
 		minor_boss_data = convert_hex_to_binary(SLOT_DATA.Minor_Boss_Data)
+
 		index = index - 219
-		--print(string.format(minor_boss_data))
+		
 		if string.sub(minor_boss_data, index, index) == "1" then
 			return true
 		else

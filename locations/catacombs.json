@@ -115,11 +115,11 @@
                 ]
             },
             {
-                "name": "Black Knife Catacombs Cleared",
+                "name": "Black Knife Catacombs Cleared (Both Bosses)",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Liurnia of the Lakes/Black Knife Catacombs Cleared"
+                        "ref": "Locations/Liurnia of the Lakes/Black Knife Catacombs Cleared (Both Bosses)"
                     }
                 ],
                 "map_locations": [

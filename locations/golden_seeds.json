@@ -35,11 +35,11 @@
                 ]
             },
             {
-                "name": "Stormvale Castle Golden Seed",
+                "name": "Stormveil Castle Golden Seed",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Stormvale Castle/Stormvale Castle Golden Seed"
+                        "ref": "Locations/Stormveil Castle/Stormveil Castle Golden Seed"
                     }
                 ],
                 "map_locations": [
@@ -279,7 +279,10 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Capital Outskirts/North of Outer Wall Phantom Tree Golden Seed"
+                        "ref": "Locations/Capital Outskirts/North of Outer Wall Phantom Tree Golden Seed 1"
+                    },
+                    {
+                        "ref": "Locations/Capital Outskirts/North of Outer Wall Phantom Tree Golden Seed 2"
                     }
                 ],
                 "map_locations": [
@@ -295,7 +298,10 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Capital Outskirts/Outer Wall Phantom Tree Golden Seed"
+                        "ref": "Locations/Capital Outskirts/Outer Wall Phantom Tree Golden Seed 1"
+                    },
+                    {
+                        "ref": "Locations/Capital Outskirts/Outer Wall Phantom Tree Golden Seed 2"
                     }
                 ],
                 "map_locations": [

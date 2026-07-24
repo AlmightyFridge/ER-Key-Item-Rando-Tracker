@@ -231,7 +231,7 @@
                         "name": "Stormhill Evergaol Boss Defeated",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|329, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|328, evergaols"
                         ],
                         "access_rules":[
                             "gaol_inspection_license"
@@ -241,7 +241,7 @@
                         "name": "Forlorn Hound Evergaol Boss Defeated",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|330, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|329, evergaols"
                         ],
                         "access_rules":[
                             "gaol_inspection_license"
@@ -251,7 +251,7 @@
                         "name": "Warmaster's Shack Bell Bearing Hunter Defeated",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|339, hunters"
+                            "$check_minor_bosses, $display_minor_boss|338, hunters"
                         ],
                         "access_rules":[
                             "anti-poaching_license"
@@ -407,7 +407,7 @@
                         "name": "Weeping Evergaol Boss Defeated",
                         "item_count": 1,
                         "visibility_rules": [
-                             "$check_minor_bosses, $display_minor_boss|331, evergaols"
+                             "$check_minor_bosses, $display_minor_boss|330, evergaols"
                         ],
                         "access_rules":[
                             "gaol_inspection_license, weeping_evergaol_stonesword_key"
@@ -423,7 +423,7 @@
                 ]
             },
             {
-                "name": "Stormvale Castle",
+                "name": "Stormveil Castle",
                 "access_rules": [
                     "$check_boss_lock_option|1",
                     "$check_boss_lock_option|0, $check_max_level|1, max_stone_level_+1:1"
@@ -437,21 +437,21 @@
                         ]
                     },
                     {
-                        "name": "Godrick the Grafted Defeated",
+                        "name": "Godrick Defeated",
                         "item_count": 1,
                         "access_rules": [
                             "$margit_killable"
                         ]
                     },
                     {
-                        "name": "Stormvale Castle Rusty Key",
+                        "name": "Stormveil Castle Rusty Key",
                         "item_count": 1,
                         "access_rules": [
                             "$margit_killable"
                         ]
                     },
                     {
-                        "name": "Stormvale Castle Golden Seed",
+                        "name": "Stormveil Castle Golden Seed",
                         "item_count": 1,
                         "access_rules": [
                             "$margit_killable"
@@ -483,21 +483,21 @@
                 "name": "Liurnia of the Lakes",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|2, max_stone_level_+1:1"
+                    "$check_boss_lock_option|0, $check_max_level|2, max_stone_level_+1:1, $has_req_flasks|1, $has_req_tp|2"
                 ],
                 "sections": [
                     {
                         "name": "Royal Knight Loretta Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1"
+                            "$check_max_level|2, max_stone_level_+1:1, $has_req_flasks|1, $has_req_tp|2"
                         ]
                     },
                     {
                         "name": "Magma Wyrm Makar Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1"
+                            "$check_max_level|2, max_stone_level_+1:1, $has_req_flasks|1, $has_req_tp|2"
                         ]
                     },
                     {
@@ -596,7 +596,7 @@
                         "name": "Smarag Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1"
+                            "$check_max_level|2, max_stone_level_+1:1, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -627,7 +627,7 @@
                         "name": "Liurnia South Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|225, night_bosses"
@@ -637,7 +637,7 @@
                         "name": "Liurnia North Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|226, night_bosses"
@@ -647,7 +647,7 @@
                         "name": "Liurnia Deathbird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|227, night_bosses"
@@ -657,7 +657,7 @@
                         "name": "Liurnia Death Rite Bird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license"
+                            "$check_max_level|2, max_stone_level_+1:1, evening_hunting_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|228, night_bosses"
@@ -667,7 +667,7 @@
                         "name": "Stillwater Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license"
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|243, caves"
@@ -677,7 +677,7 @@
                         "name": "Lakeside Crystal Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license"
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|244, caves"
@@ -687,7 +687,7 @@
                         "name": "Academy Crystal Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license, academy_crystal_cave_stonesword_key_x2"
+                            "$check_max_level|2, max_stone_level_+1:1, cave_delving_license, $has_req_flasks|1, $has_req_tp|2, academy_crystal_cave_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|245, caves"
@@ -697,7 +697,7 @@
                         "name": "Raya Lucaria Crystal Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, mining_license"
+                            "$check_max_level|2, max_stone_level_+1:1, mining_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|259,  tunnels"
@@ -707,7 +707,7 @@
                         "name": "Cliffbottom Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|271, catacombs"
@@ -717,7 +717,7 @@
                         "name": "Road's End Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|272, catacombs"
@@ -727,7 +727,7 @@
                         "name": "Black Knife Catacombs Cleared (Both Bosses)",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license"
+                            "$check_max_level|2, max_stone_level_+1:1, graverobber's_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|273, catacombs"
@@ -737,7 +737,7 @@
                         "name": "Kingsrealm Ruins Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license"
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|291, historical"
@@ -747,7 +747,7 @@
                         "name": "Albinauric Village Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license"
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|292, historical"
@@ -757,7 +757,7 @@
                         "name": "Chapel of Anticipation Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license, chapel_of_anticipation_imbued_sword_key"
+                            "$check_max_level|2, max_stone_level_+1:1, historical_site_license, $has_req_flasks|1, $has_req_tp|2, chapel_of_anticipation_imbued_sword_key"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|293, historical"
@@ -767,7 +767,7 @@
                         "name": "Liurnia Southwest Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, logger's_license"
+                            "$check_max_level|2, max_stone_level_+1:1, logger's_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|304, trees"
@@ -777,7 +777,7 @@
                         "name": "Liurnia Northeast Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, logger's_license"
+                            "$check_max_level|2, max_stone_level_+1:1, logger's_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|305, trees"
@@ -787,7 +787,7 @@
                         "name": "Liurnia Tibia Mariner Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, field_hunting_license"
+                            "$check_max_level|2, max_stone_level_+1:1, field_hunting_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|313, roamers"
@@ -797,40 +797,40 @@
                         "name": "Malefactor's Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|332, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|331, evergaols"
                         ]
                     },
                     {
                         "name": "Cuckoo's Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|333, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|332, evergaols"
                         ]
                     },
                     {
                         "name": "Royal Grave Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license"
+                            "$check_max_level|2, max_stone_level_+1:1, gaol_inspection_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|334, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|333, evergaols"
                         ]
                     },
                     {
                         "name": "Church of Vows Bell Bearing Hunter Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|2, max_stone_level_+1:1, anti-poaching_license"
+                            "$check_max_level|2, max_stone_level_+1:1, anti-poaching_license, $has_req_flasks|1, $has_req_tp|2"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|340, hunters"
+                            "$check_minor_bosses, $display_minor_boss|339, hunters"
                         ]
                     }
 
@@ -847,21 +847,21 @@
                 "name": "Academy of Raya Lucaria",
                 "access_rules": [
                     "$check_boss_lock_option|1, academy_glintstone_key",
-                    "$check_boss_lock_option|0, academy_glintstone_key, $check_max_level|3, max_stone_level_+1:2"
+                    "$check_boss_lock_option|0, academy_glintstone_key, $check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                 ],
                 "sections": [
                     {
                         "name": "Red Wolf Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, max_stone_level_+1:2"
+                            "$check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                         ]
                     },
                     {
                         "name": "Rennala Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, max_stone_level_+1:2"
+                            "$check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                         ]
                     },
                     {
@@ -915,14 +915,14 @@
                 "name": "Siofra River",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|3, max_stone_level_+1:2"
+                    "$check_boss_lock_option|0, $check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                 ],
                 "sections": [
                     {
                         "name": "Ancestor Spirit Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, max_stone_level_+1:2"
+                            "$check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                         ]
                     },
                     {
@@ -943,7 +943,7 @@
                         "name": "Siofra River Dragonkin Soldier Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, max_stone_level_+1:2, field_hunting_license"
+                            "$check_max_level|3, max_stone_level_+1:2, field_hunting_license, $has_req_flasks|2, $has_req_tp|2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|323, roamers"
@@ -962,14 +962,14 @@
                 "name": "Caelid",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Starscourge Radahn Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4"
+                            "$check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                         ]
                     },
                     {
@@ -1015,7 +1015,7 @@
                         "name": "Ekzykes Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4"
+                            "$check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -1032,7 +1032,7 @@
                         "name": "Caelid Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|229, night_bosses"
@@ -1042,7 +1042,7 @@
                         "name": "Caelid Death Rite Bird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|230, night_bosses"
@@ -1052,7 +1052,7 @@
                         "name": "Gaol Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, gaol_cave_stonesword_key_x2"
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, $has_req_flasks|3, $has_req_tp|3, gaol_cave_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|246, caves"
@@ -1062,7 +1062,7 @@
                         "name": "Abandoned Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, $has_req_flasks|3, $has_req_tp|3,"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|247, caves"
@@ -1072,7 +1072,7 @@
                         "name": "Sellia Hideaway Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|248, caves"
@@ -1082,7 +1082,7 @@
                         "name": "Gael Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|260, tunnels"
@@ -1092,7 +1092,7 @@
                         "name": "Sellia Crystal Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|261, tunnels"
@@ -1102,7 +1102,7 @@
                         "name": "Minor Erdtree Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|274, catacombs"
@@ -1112,7 +1112,7 @@
                         "name": "Caelid Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|275, catacombs"
@@ -1122,7 +1122,7 @@
                         "name": "Wardead Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|276, catacombs"
@@ -1132,7 +1132,7 @@
                         "name": "Caelem Ruins Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|294, historical"
@@ -1142,7 +1142,7 @@
                         "name": "Sellia Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|295, historical"
@@ -1152,7 +1152,7 @@
                         "name": "Redmane Castle Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|296, historical"
@@ -1162,7 +1162,7 @@
                         "name": "Caelid Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, logger's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, logger's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|306, trees"
@@ -1172,7 +1172,7 @@
                         "name": "Commander O'Neil Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|314, roamers"
@@ -1191,7 +1191,7 @@
                 "name": "Dragonbarrow",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                 ],
                 "sections": [
                     {
@@ -1216,7 +1216,7 @@
                         "name": "Greyll Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6"
+                            "$check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -1233,7 +1233,7 @@
                         "name": "Dragonbarrow Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, evening_hunting_license"
+                            "$check_max_level|6, max_stone_level_+1:6, evening_hunting_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|231, night_bosses"
@@ -1243,7 +1243,7 @@
                         "name": "Dragonbarrow Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, cave_delving_license"
+                            "$check_max_level|6, max_stone_level_+1:6, cave_delving_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|249, caves"
@@ -1253,7 +1253,7 @@
                         "name": "Divine Tower of Caelid Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, historical_site_license"
+                            "$check_max_level|6, max_stone_level_+1:6, historical_site_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|297, historical"
@@ -1263,7 +1263,7 @@
                         "name": "Dragonbarrow Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, logger's_license"
+                            "$check_max_level|6, max_stone_level_+1:6, logger's_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|307, trees"
@@ -1273,7 +1273,7 @@
                         "name": "Dragonbarrow Black Blade Kindred Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, field_hunting_license"
+                            "$check_max_level|6, max_stone_level_+1:6, field_hunting_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|315, roamers"
@@ -1283,20 +1283,20 @@
                         "name": "Sellia Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, gaol_inspection_license"
+                            "$check_max_level|6, max_stone_level_+1:6, gaol_inspection_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|336, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|335, evergaols"
                         ]
                     },
                     {
                         "name": "Isolated Merchant Shack Bell Bearing Hunter Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, anti-poaching_license"
+                            "$check_max_level|6, max_stone_level_+1:6, anti-poaching_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|341, hunters"
+                            "$check_minor_bosses, $display_minor_boss|340, hunters"
                         ]
                     }
 
@@ -1314,14 +1314,14 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Elemer of the Briar Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4"
+                            "$check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                         ]
                     },
                     {
@@ -1377,7 +1377,7 @@
                         "name": "Lansseax Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4"
+                            "$check_max_level|4, max_stone_level_+1:4, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -1401,7 +1401,7 @@
                         "name": "Altus Plateau Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, evening_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|232, night_bosses"
@@ -1411,7 +1411,7 @@
                         "name": "Sages Cave Cleared (Both Bosses)",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|250, caves"
@@ -1421,7 +1421,7 @@
                         "name": "Perfumers Grotto Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license"
+                            "$check_max_level|4, max_stone_level_+1:4, cave_delving_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|251, caves"
@@ -1431,7 +1431,7 @@
                         "name": "Altus Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, mining_license"
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|262, tunnels"
@@ -1441,7 +1441,7 @@
                         "name": "Old Altus Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, mining_license, old_altus_tunnel_stonesword_key_x2"
+                            "$check_max_level|4, max_stone_level_+1:4, mining_license, $has_req_flasks|3, $has_req_tp|3, old_altus_tunnel_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|263, tunnels"
@@ -1451,7 +1451,7 @@
                         "name": "Unsightly Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, unsightly_catacombs_stonesword_key_x2"
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, $has_req_flasks|3, $has_req_tp|3, unsightly_catacombs_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|277, catacombs"
@@ -1461,7 +1461,7 @@
                         "name": "Wyndham Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, graverobber's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|278, catacombs"
@@ -1471,7 +1471,7 @@
                         "name": "Sainted Hero's Grave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, tomb_looting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, tomb_looting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|285, heros_graves"
@@ -1481,7 +1481,7 @@
                         "name": "Lux Ruins Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|298, historical"
@@ -1491,7 +1491,7 @@
                         "name": "Wyndham Ruins Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|299, historical"
@@ -1501,7 +1501,7 @@
                         "name": "Writheblood Ruins Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|300, historical"
@@ -1511,7 +1511,7 @@
                         "name": "Windmill Village Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license"
+                            "$check_max_level|4, max_stone_level_+1:4, historical_site_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|301, historical"
@@ -1521,7 +1521,7 @@
                         "name": "Altus Plateau Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, logger's_license"
+                            "$check_max_level|4, max_stone_level_+1:4, logger's_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|308, trees"
@@ -1531,7 +1531,7 @@
                         "name": "Altus Plateau Fallingstar Beast Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|316, roamers"
@@ -1541,7 +1541,7 @@
                         "name": "Altus Plateau Tree Sentinel Duo Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|317, roamers"
@@ -1551,7 +1551,7 @@
                         "name": "Altus Plateau Black Knife Assassin Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license"
+                            "$check_max_level|4, max_stone_level_+1:4, field_hunting_license, $has_req_flasks|3, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|318, roamers"
@@ -1561,10 +1561,10 @@
                         "name": "Golden Lineage Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:4, gaol_inspection_license, golden_lineage_evergaol_stonesword_key"
+                            "$check_max_level|4, max_stone_level_+1:4, gaol_inspection_license, $has_req_flasks|3, $has_req_tp|3, golden_lineage_evergaol_stonesword_key"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|337, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|336, evergaols"
                         ]
                     }
 
@@ -1582,18 +1582,32 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                 ],
                 "sections": [
                     {
-                        "name": "North of Outer Wall Phantom Tree Golden Seed",
+                        "name": "North of Outer Wall Phantom Tree Golden Seed 1",
                         "item_count": 1,
                         "visibility_rules": [
                             "Seedsanity"
                         ]
                     },
                     {
-                        "name": "Outer Wall Phantom Tree Golden Seed",
+                        "name": "North of Outer Wall Phantom Tree Golden Seed 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Seedsanity"
+                        ]
+                    },
+                    {
+                        "name": "Outer Wall Phantom Tree Golden Seed 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "Seedsanity"
+                        ]
+                    },
+                    {
+                        "name": "Outer Wall Phantom Tree Golden Seed 2",
                         "item_count": 1,
                         "visibility_rules": [
                             "Seedsanity"
@@ -1610,7 +1624,7 @@
                         "name": "Draconic Tree Sentinel Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6"
+                            "$check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "critical_path"
@@ -1620,7 +1634,7 @@
                         "name": "Capital Outskirts Deathbird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, evening_hunting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, evening_hunting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|233, night_bosses"
@@ -1630,7 +1644,7 @@
                         "name": "Sealed Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, mining_license"
+                            "$check_max_level|5, max_stone_level_+1:6, mining_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|264, tunnels"
@@ -1640,7 +1654,7 @@
                         "name": "Auriza Side Tomb Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, graverobber's_license"
+                            "$check_max_level|5, max_stone_level_+1:6, graverobber's_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|279, catacombs"
@@ -1650,7 +1664,7 @@
                         "name": "Auriza Hero's Grave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|286, heros_graves"
@@ -1660,10 +1674,10 @@
                         "name": "Hermit Merchant Shack Bell Bearing Hunter Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, anti-poaching_license"
+                            "$check_max_level|5, max_stone_level_+1:6, anti-poaching_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|342, hunters"
+                            "$check_minor_bosses, $display_minor_boss|341, hunters"
                         ]
                     }
                 ],
@@ -1679,28 +1693,28 @@
                 "name": "Leyndell Royal Capital",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $capital_entry_boss_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Godfrey Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6"
+                            "$check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Morgott Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6"
+                            "$check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Sewer Mohg Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6"
+                            "$check_max_level|6, max_stone_level_+1:6, $has_req_flasks|5, $has_req_tp|3"
                         ]
                     },
                     {
@@ -1728,7 +1742,7 @@
                         "name": "Leyndell Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|6, max_stone_level_+1:6, graverobber's_license"
+                            "$check_max_level|6, max_stone_level_+1:6, graverobber's_license, $has_req_flasks|5, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|280, catacombs"
@@ -1748,23 +1762,23 @@
                 "access_rules": [
                     "$check_boss_lock_option|1, $makar_killable",
                     "$check_boss_lock_option|1, dectus_medallion_(left), dectus_medallion_(right)",
-                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Godskin Noble Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6",
-                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6"
+                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Rykard Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6",
-                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6"
+                            "drawing_room_key, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3",
+                            "$has_abduction_skip, academy_glintstone_key, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                         ]
                     },
                     {
@@ -1796,7 +1810,7 @@
                         "name": "Seethewater Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license, seethewater_cave_stonesword_key_x2"
+                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license, $has_req_flasks|4, $has_req_tp|3, seethewater_cave_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|252, caves"
@@ -1806,7 +1820,7 @@
                         "name": "Volcano Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license"
+                            "$check_max_level|5, max_stone_level_+1:6, cave_delving_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|253, caves"
@@ -1816,7 +1830,7 @@
                         "name": "Subterranean Inquisition Chamber Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, academy_glintstone_key, cave_delving_license"
+                            "$check_max_level|5, max_stone_level_+1:6, academy_glintstone_key, cave_delving_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|254, caves"
@@ -1826,7 +1840,7 @@
                         "name": "Gelmir Hero's Grave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, tomb_looting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|287, heros_graves"
@@ -1836,7 +1850,7 @@
                         "name": "Hermit Village Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, historical_site_license"
+                            "$check_max_level|5, max_stone_level_+1:6, historical_site_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|302, historical"
@@ -1846,7 +1860,7 @@
                         "name": "Mt. Gelmir Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, logger's_license"
+                            "$check_max_level|5, max_stone_level_+1:6, logger's_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|309, trees"
@@ -1856,7 +1870,7 @@
                         "name": "Mt. Gelmir Magma Wyrm Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|319, roamers"
@@ -1866,7 +1880,7 @@
                         "name": "Mt. Gelmir Fullgrown Fallingstar Beast Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|320, roamers"
@@ -1885,14 +1899,14 @@
                 "name": "Ainsel River",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0,  $check_max_level|3, max_stone_level_+1:2"
+                    "$check_boss_lock_option|0,  $check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                 ],
                 "sections": [
                     {
                         "name": "Dragonkin Soldier of Nokstella Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|3, max_stone_level_+1:2"
+                            "$check_max_level|3, max_stone_level_+1:2, $has_req_flasks|2, $has_req_tp|2"
                         ]
                     },
                     {
@@ -1925,28 +1939,28 @@
                 "name": "Nokron Eternal City",
                 "access_rules": [
                     "$check_boss_lock_option|1, $starscourge_radahn_killable",
-                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|4, max_stone_level_+1:6, $has_req_flasks|3, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Mimic Tear Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:6"
+                            "$check_max_level|4, max_stone_level_+1:6, $has_req_flasks|3, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Regal Ancestor Spirit Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:6"
+                            "$check_max_level|4, max_stone_level_+1:6, $has_req_flasks|3, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Valiant Gargoyles Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|4, max_stone_level_+1:6"
+                            "$check_max_level|4, max_stone_level_+1:6, $has_req_flasks|3, $has_req_tp|3"
                         ]
                     }
                 ],
@@ -1962,14 +1976,14 @@
                 "name": "Deeproot Depths",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Fia's Champions Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6"
+                            "$check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "critical_path"
@@ -1979,7 +1993,7 @@
                         "name": "Fortissax Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8, cursemark_of_death"
+                            "$check_max_level|8, max_stone_level_+1:8, cursemark_of_death, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                            "fortissax"
@@ -1989,7 +2003,7 @@
                         "name": "Deeproot Depths Crucible Knight Siluria Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|322, roamers"
@@ -2008,21 +2022,21 @@
                 "name": "Lake of Rot",
                 "access_rules": [
                     "$check_boss_lock_option|1",
-                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6"
+                    "$check_boss_lock_option|0, $check_max_level|5, max_stone_level_+1:6, $has_req_flasks|4, $has_req_tp|3"
                 ],
                 "sections": [
                     {
                         "name": "Astel Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$astel_killable"
+                            "$astel_killable, $has_req_flasks|4, $has_req_tp|3"
                         ]
                     },
                     {
                         "name": "Lake of Rot Dragonkin Soldier Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license"
+                            "$check_max_level|5, max_stone_level_+1:6, field_hunting_license, $has_req_flasks|4, $has_req_tp|3"
                         ],
                         "visibility_rules": [
                            "$check_minor_bosses, $display_minor_boss|321, roamers"
@@ -2040,8 +2054,7 @@
             {
                 "name": "Moonlight Altar", 
                 "access_rules": [
-                    "$check_boss_lock_option|1, $astel_killable, dark_moon_ring",
-                    "$check_boss_lock_option|0, $astel_killable, dark_moon_ring"
+                    "$astel_killable, dark_moon_ring, $has_req_flasks|4, $has_req_tp|3"
                 ],
                 "sections": [
                     {
@@ -2071,7 +2084,7 @@
                             "gaol_inspection_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|335, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|334, evergaols"
                         ]
                     }
 
@@ -2088,7 +2101,7 @@
                 "name": "Forbidden Lands",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|7, max_stone_level_+1:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                 ],
                 "sections": [
                     {
@@ -2102,7 +2115,7 @@
                         "name": "Forbidden Lands Night's Cavalry Defeated",
                         "item_count": 1,
                         "access_rules":[
-                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|234, night_bosses"
@@ -2113,7 +2126,7 @@
                         "name": "Forbidden Lands Black Blade Kindred Defeated",
                         "item_count": 1,
                         "access_rules":[
-                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|324, roamers"
@@ -2123,7 +2136,7 @@
                         "name": "Near Forbidden Lands Fell Twins Defeated",
                         "item_count": 1,
                         "access_rules":[
-                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|325, roamers"
@@ -2143,28 +2156,28 @@
                 "name": "Mountaintops of the Giants",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|7, max_stone_level_+1:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                 ],
                 "sections": [
                     {
                         "name": "Commander Niall Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8"
+                            "$check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
                         "name": "Fire Giant Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8"
+                            "$check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
                         "name": "Haligtree Secret Medallion (Left)",
                         "item_count": 1,
                         "access_rules": [
-                            "$commander_niall_killable"
+                            "$commander_niall_killable, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
@@ -2206,7 +2219,7 @@
                         "name": "Borealis Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8"
+                            "$check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "Dragonsanity"
@@ -2230,7 +2243,7 @@
                         "name": "Spiritcaller Cave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, spiritcaller_cave_stonesword_key_x2"
+                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, spiritcaller_cave_stonesword_key_x2, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|255, caves"
@@ -2240,7 +2253,7 @@
                         "name": "Giant's Mountaintop Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|281, catacombs"
@@ -2250,7 +2263,7 @@
                         "name": "Giant Conquering Hero's Grave Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, tomb_looting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, tomb_looting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|288, heros_graves"
@@ -2260,7 +2273,7 @@
                         "name": "Mountaintops Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, logger's_license"
+                            "$check_max_level|7, max_stone_level_+1:8, logger's_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|310, trees"
@@ -2270,30 +2283,20 @@
                         "name": "Mountaintops Death Rite Bird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|326, roamers"
                         ]
                     },
                     {
-                        "name": "Mountaintops Tibia Mariner Defeated",
-                        "item_count": 1,
-                        "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
-                        ],
-                        "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|327, roamers"
-                        ]
-                    },
-                    {
                         "name": "Lord Contender's Evergaol Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, gaol_inspection_license"
+                            "$check_max_level|7, max_stone_level_+1:8, gaol_inspection_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|338, evergaols"
+                            "$check_minor_bosses, $display_minor_boss|337, evergaols"
                         ]
                     }
                 ],
@@ -2308,7 +2311,7 @@
              {
                 "name": "Crumbling Farum Azula",
                 "access_rules": [
-                    "$OptionCount|great_rune|Great_Runes_Capital, $has_rold_access, $check_max_level|8, max_stone_level_+1:8"  
+                    "$OptionCount|great_rune|Great_Runes_Capital, $has_rold_access, $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"  
                 ],
                 "sections": [
                     {
@@ -2362,7 +2365,7 @@
                 "name": "Consecrated Snowfield",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|7, max_stone_level_+1:8" 
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|7, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4" 
                 ],
                 "sections": [
                     {
@@ -2383,7 +2386,7 @@
                         "name": "Consecrated Snowfield Night's Cavalry Duo Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|235, night_bosses"
@@ -2393,7 +2396,7 @@
                         "name": "Consecrated Snowfield Death Rite Bird Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, evening_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|236, night_bosses"
@@ -2403,7 +2406,7 @@
                         "name": "Cave of the Forlorn Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, cave_of_the_forlorn_stonesword_key_x2"
+                            "$check_max_level|7, max_stone_level_+1:8, cave_delving_license, $has_req_flasks|6, $has_req_tp|4, cave_of_the_forlorn_stonesword_key_x2"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|256, caves"
@@ -2413,7 +2416,7 @@
                         "name": "Yelough Anix Tunnel Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, mining_license"
+                            "$check_max_level|7, max_stone_level_+1:8, mining_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|265, tunnels"
@@ -2423,7 +2426,7 @@
                         "name": "Hidden Path to Haligtree Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|282, catacombs"
@@ -2433,7 +2436,7 @@
                         "name": "Consecrated Snowfield Catacombs Cleared",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license"
+                            "$check_max_level|7, max_stone_level_+1:8, graverobber's_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|283, catacombs"
@@ -2443,7 +2446,7 @@
                         "name": "Consecrated Snowfield Minor Erdtree Boss Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, logger's_license"
+                            "$check_max_level|7, max_stone_level_+1:8, logger's_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_minor_bosses, $display_minor_boss|311, trees"
@@ -2453,10 +2456,10 @@
                         "name": "Magma Wyrm Theodorix Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license"
+                            "$check_max_level|7, max_stone_level_+1:8, field_hunting_license, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|328, roamers"
+                            "$check_minor_bosses, $display_minor_boss|327, roamers"
                         ]
                     }
                 ],
@@ -2472,21 +2475,21 @@
                 "name": "Miquella's Haligtree",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8"    
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"    
                 ],
                 "sections": [
                     {
                         "name": "Haligtree Loretta Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8"
+                            "$check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
                         "name": "Malenia Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8"
+                            "$check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     }
                 ],
@@ -2503,15 +2506,15 @@
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $morgott_killable",
                     "$check_boss_lock_option|1, pureblood_knights_medal",
-                    "$check_boss_lock_option|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8"
+                    "$check_boss_lock_option|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                 ],
                 "sections": [
                     {
                         "name": "Mohg Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8"
+                            "$check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
@@ -2541,7 +2544,7 @@
                 "name": "Leyndell Ashen Capital",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|1, $has_rold_access, $fire_giant_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, max_stone_level_+1:8"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option|0, $has_rold_access, $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
 
                 ],
                 "sections": [
@@ -2549,25 +2552,27 @@
                         "name": "Hoarah Loux Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8"
+                            "$check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ]
                     },
                     {
                         "name": "Elden Beast Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, max_stone_level_+1:8"
+                            "$OptionCount|great_rune|Great_Runes_Elden_Beast, $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_goal|1",
-                            "$check_goal|2"
+                            "$check_goal|2",
+                            "$check_goal|3",
+                            "$check_goal|4"
                         ]
                     },
                     {
                         "name": "Elden Beast Defeated - Victory",
                         "item_count": 1,
                         "access_rules": [
-                            "$OptionCount|great_rune|Great_Runes_Victory, $check_max_level|8, max_stone_level_+1:8"
+                            "$OptionCount|great_rune|Great_Runes_Elden_Beast, $check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "$check_goal|0"
@@ -2587,7 +2592,7 @@
                         "name": "Sir Gideon Ofnir Defeated",
                         "item_count": 1,
                         "access_rules": [
-                            "$check_max_level|8, max_stone_level_+1:8"
+                            "$check_max_level|8, max_stone_level_+1:8, $has_req_flasks|6, $has_req_tp|4"
                         ],
                         "visibility_rules": [
                             "critical_path"
@@ -2605,10 +2610,10 @@
             {
                 "name": "Gravesite Plain",
                 "access_rules": [
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable",
-                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2",
-                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable",
-                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2"
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|1, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $mohg_killable, $has_req_flasks|6, $has_req_tp|4",
+                    "$OptionCount|great_rune|Great_Runes_Capital, $check_boss_lock_option_DLC|0, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2, $has_req_flasks|6, $has_req_tp|4",
+                    "$check_boss_lock_option_DLC|1, pureblood_knights_medal, $mohg_killable, $has_req_flasks|6, $has_req_tp|4",
+                    "$check_boss_lock_option_DLC|0, pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:3, max_ash:2, $has_req_flasks|6, $has_req_tp|4"
                 ],
                 "sections": [
                     {
@@ -2748,7 +2753,7 @@
                             "max_scadu:3, max_ash:2, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|343, golems"
+                            "$check_minor_bosses, $display_minor_boss|342, golems"
                         ]
                     },
                     {
@@ -2758,7 +2763,7 @@
                             "max_scadu:3, max_ash:2, gaol_inspection_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|351, gaols"
+                            "$check_minor_bosses, $display_minor_boss|350, gaols"
                         ]
                     },
                     {
@@ -2768,7 +2773,7 @@
                             "max_scadu:3, max_ash:2, ghostbusting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|354, mausoleums"
+                            "$check_minor_bosses, $display_minor_boss|353, mausoleums"
                         ]
                     },
                     {
@@ -2778,7 +2783,7 @@
                             "max_scadu:3, max_ash:2, graverobber's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|367, dlc-catacombs"
+                            "$check_minor_bosses, $display_minor_boss|365, dlc-catacombs"
                         ]
                     }
                 ],
@@ -2942,7 +2947,7 @@
                             "max_scadu:3, max_ash:2, cave_delving_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|366, dlc-caves"
+                            "$check_minor_bosses, $display_minor_boss|364, dlc-caves"
                         ]
                     }
                 ],
@@ -3020,7 +3025,7 @@
                             "max_scadu:9, max_ash:6"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|346, golems"
+                            "$check_minor_bosses, $display_minor_boss|345, golems"
                         ]
                     },
                     {
@@ -3030,7 +3035,7 @@
                             "max_scadu:9, max_ash:6, ghostbusting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|356, mausoleums"
+                            "$check_minor_bosses, $display_minor_boss|355, mausoleums"
                         ]
                     },
                     {
@@ -3040,7 +3045,7 @@
                             "max_scadu:9, max_ash:6, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|360, roamers"
+                            "$check_minor_bosses, $display_minor_boss|359, roamers"
                         ]
                     }
                 ],
@@ -3208,7 +3213,7 @@
                             "max_scadu:6, max_ash:4, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|344, golems"
+                            "$check_minor_bosses, $display_minor_boss|343, golems"
                         ]
                     },
                     {
@@ -3218,7 +3223,7 @@
                             "max_scadu:6, max_ash:4, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|345, golems"
+                            "$check_minor_bosses, $display_minor_boss|344, golems"
                         ]
                     },
                     {
@@ -3228,7 +3233,7 @@
                             "max_scadu:6, max_ash:4, gaol_inspection_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|352, gaols"
+                            "$check_minor_bosses, $display_minor_boss|351, gaols"
                         ]
                     },
                     {
@@ -3238,7 +3243,7 @@
                             "max_scadu:6, max_ash:4, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|358, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|357, dlc-roamers"
                         ]
                     },
                     {
@@ -3248,7 +3253,7 @@
                             "max_scadu:6, max_ash:4, historical_site_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|369, dlc-historical"
+                            "$check_minor_bosses, $display_minor_boss|367, dlc-historical"
                         ]
                     },
                     {
@@ -3258,7 +3263,7 @@
                             "max_scadu:6, max_ash:4, historical_site_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|370, dlc-historical"
+                            "$check_minor_bosses, $display_minor_boss|368, dlc-historical"
                         ]
                     },
                     {
@@ -3268,7 +3273,7 @@
                             "max_scadu:6, max_ash:4, may_the_best_win, historical_site_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|371, dlc-historical"
+                            "$check_minor_bosses, $display_minor_boss|369, dlc-historical"
                         ]
                     },
                     {
@@ -3278,7 +3283,7 @@
                             "hole_laden_necklace, o_mother, max_scadu:12, max_ash:8, historical_site_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|372, dlc-historical"
+                            "$check_minor_bosses, $display_minor_boss|370, dlc-historical"
                         ]
                     }
                 ],
@@ -3347,7 +3352,7 @@
                             "max_scadu:12, max_ash:8, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|349, golems"
+                            "$check_minor_bosses, $display_minor_boss|348, golems"
                         ]
                     },
                     {
@@ -3357,7 +3362,7 @@
                             "max_scadu:12, max_ash:8, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|350, golems"
+                            "$check_minor_bosses, $display_minor_boss|349, golems"
                         ]
                     },
                     {
@@ -3367,7 +3372,7 @@
                             "max_scadu:12, max_ash:8, ghostbusting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|357, mausoleums"
+                            "$check_minor_bosses, $display_minor_boss|356, mausoleums"
                         ]
                     }
                 ],
@@ -3427,7 +3432,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hinterlands Entrance Scadu",
+                        "name": "Hinterland Entrance Scadu",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3541,7 +3546,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Scadutree Chalice Scadu",
+                        "name": "Scadutree Chalice Scadu 1",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3550,6 +3555,47 @@
                             "Scadusanity"
                         ]
                     },
+                    {
+                        "name": "Scadutree Chalice Scadu 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Scadutree Chalice Scadu 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Scadutree Chalice Scadu 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    {
+                        "name": "Scadutree Chalice Scadu 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "Scadusanity"
+                        ]
+                    },
+                    
                     {
                         "name": "Commander Gaius Defeated",
                         "item_count": 1,
@@ -3570,30 +3616,30 @@
                 ]
             },
             {
-                "name": "Hinterlands",
+                "name": "Hinterland",
                 "access_rules": [
                     "$OptionCount|great_rune|Great_Runes_Capital, haligtree_secret_medallion_(left), haligtree_secret_medallion_(right), $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8, o_mother",
                     "pureblood_knights_medal, $check_max_level|8, max_stone_level_+1:8, max_scadu:12, max_ash:8, o_mother"
                 ],
                 "sections": [
                     {
-                        "name": "Hinterlands Fallingstar Beast Defeated",
+                        "name": "Hinterland Fallingstar Beast Defeated",
                         "item_count": 1,
                         "access_rules": [
                             "max_scadu:12, max_ash:8, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|363, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|361, dlc-roamers"
                         ]
                     },
                     {
-                        "name": "Hinterlands Tree Sentinel Duo Defeated",
+                        "name": "Hinterland Tree Sentinel Duo Defeated",
                         "item_count": 1,
                         "access_rules": [
                             "max_scadu:12, max_ash:8, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|364, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|362, dlc-roamers"
                         ]
                     }
                 ],
@@ -3651,7 +3697,7 @@
                             "max_scadu:6, max_ash:4, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|359, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|358, dlc-roamers"
                         ]
                     },
                     {
@@ -3661,7 +3707,7 @@
                             "max_scadu:6, max_ash:4, graverobber's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|368, dlc-catacombs"
+                            "$check_minor_bosses, $display_minor_boss|366, dlc-catacombs"
                         ]
                     }
                 ],
@@ -3729,7 +3775,7 @@
                             "max_scadu:12, max_ash:8, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|348, golems"
+                            "$check_minor_bosses, $display_minor_boss|347, golems"
                         ]
                     },
                     {
@@ -3739,7 +3785,7 @@
                             "max_scadu:12, max_ash:8, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|365, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|363, dlc-roamers"
                         ]
                     }
 
@@ -3912,7 +3958,7 @@
                             "max_scadu:9, max_ash:6, firefighter's_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|347, golems"
+                            "$check_minor_bosses, $display_minor_boss|346, golems"
                         ]
                     },
                     {
@@ -3922,7 +3968,7 @@
                             "max_scadu:9, max_ash:6, lamenter_gaol_keys, gaol_inspection_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|353, gaols"
+                            "$check_minor_bosses, $display_minor_boss|352, gaols"
                         ]
                     },
                     {
@@ -3932,17 +3978,7 @@
                             "max_scadu:9, max_ash:6, field_hunting_license"
                         ],
                         "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|361, dlc-roamers"
-                        ]
-                    },
-                    {
-                        "name": "Charo's Hidden Grave Tibia Mariner Defeated",
-                        "item_count": 1,
-                        "access_rules": [
-                            "max_scadu:9, max_ash:6, field_hunting_license"
-                        ],
-                        "visibility_rules": [
-                            "$check_minor_bosses, $display_minor_boss|362, dlc-roamers"
+                            "$check_minor_bosses, $display_minor_boss|360, dlc-roamers"
                         ]
                     }
                 ],
@@ -4031,7 +4067,9 @@
                         ],
                         "visibility_rules": [
                             "$check_goal|0",
-                            "$check_goal|2"
+                            "$check_goal|2",
+                            "$check_goal|3",
+                            "$check_goal|4"
                         ]
                     },
                     {

@@ -7,7 +7,7 @@
             {
                 "type": "item",
                 "item": "base_nameplate",
-                "margin": "155, 0, 150, 6",
+                "margin": "160, 0, 160, 6",
                 "v_alignment": "center",
                 "h_alignment": "center"
                 
@@ -19,14 +19,16 @@
                 "v_alignment": "center",
                 "h_alignment": "center",
                 "dropshadow": false,
-                "margin": "65, 0, 65, 6",
+                "margin": "20, 0, 20, 6",
                 "rows": [
                     [
-                        "Great_Runes_Victory",
+                        "Great_Runes_Elden_Beast",
                         "Great_Runes_Capital",
                         "Rold_Medallion_Setting",
                         "Great_Runes_Rold",
+                        "Great_Rune_Hunt_Count",
                         "Goal"
+                        
                     ],
                     [
                         "Seedsanity",
@@ -44,6 +46,9 @@
                         "Vanilla_Great_Runes",
                         "Early_Academy_Key",
                         "Volcano_Manor_Abduction_Skip",
+                        "flask_restrictions_setting",
+                        "talisman_pouches_setting",
+                        "whetblades_setting",
                         "Region_Locking_Base"
                     ]                  
                 ]
@@ -62,7 +67,7 @@
                 "v_alignment": "center",
                 "h_alignment": "center",
                 "dropshadow": false,
-                "margin": "115, 0, 90, 6",
+                "margin": "120, 0, 90, 6",
                 "rows": [
                     [
                         "messmers_kindling_setting",

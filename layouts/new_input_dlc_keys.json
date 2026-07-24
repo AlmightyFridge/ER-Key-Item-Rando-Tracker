@@ -1,0 +1,15 @@
+{
+        "dlc_keys":{
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "o_mother",
+                "hole_laden_necklace",
+                "lamenter_gaol_keys"
+            ]
+        ]
+    }
+}

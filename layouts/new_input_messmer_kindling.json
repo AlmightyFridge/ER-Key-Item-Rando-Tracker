@@ -1,0 +1,12 @@
+{
+    "messmer_kindling": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "rows": [
+            [
+                "messmers_kindling"
+            ]
+        ]
+    }
+}

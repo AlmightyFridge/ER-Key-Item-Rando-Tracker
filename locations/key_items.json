@@ -19,11 +19,11 @@
                 ]
             },
             {
-                "name": "Stormvale Castle Rusty Key",
+                "name": "Stormveil Castle Rusty Key",
                 "access_rules": [],
                 "sections": [
                     {
-                        "ref": "Locations/Stormvale Castle/Stormvale Castle Rusty Key"
+                        "ref": "Locations/Stormveil Castle/Stormveil Castle Rusty Key"
                     }
                 ],
                 "map_locations": [

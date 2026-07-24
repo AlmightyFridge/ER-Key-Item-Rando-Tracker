@@ -1,3 +1,8 @@
 ScriptHost:AddWatchForCode("messmers kindling setting", "messmers_kindling_setting", itemLayoutChange)
 ScriptHost:AddWatchForCode("dlc setting", "DLC", itemLayoutChange)
 ScriptHost:AddWatchForCode("minor bosses setting", "minor_bosses", itemLayoutChange)
+ScriptHost:AddWatchForCode("cursemark", "fortissax", itemLayoutChange)
+ScriptHost:AddWatchForCode("Add Flask Restrictions", "flask_restrictions_setting", itemLayoutChange)
+ScriptHost:AddWatchForCode("Add Talisman Pouches", "talisman_pouches_setting", itemLayoutChange)
+ScriptHost:AddWatchForCode("Add Whetblades", "whetblades_setting", itemLayoutChange)
+ScriptHost:AddWatchForCode("Goal", "goal", itemLayoutChange)

@@ -1,0 +1,22 @@
+{
+    "upgrades": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": "1,1",
+        "rows": [
+            [
+                "max_stone_level_+1",
+                "max_scadu",
+                "max_ash",
+                "talisman_pouch"                
+            ],
+            [
+                "great_rune",
+                "messmers_kindling_shard_item",
+                "flask_charge",
+                "flask_level"
+            ]
+        ]
+    }
+}

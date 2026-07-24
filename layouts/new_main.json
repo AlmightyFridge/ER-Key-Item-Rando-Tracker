@@ -1,0 +1,89 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "content": [
+            {
+              "type": "array",
+              "v_alignment": "center",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Key Items",
+                  
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "max_level"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "upgrades"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "keys_medallions"
+                    },
+                    {
+                      "type":"array",
+                      "orientation": "horizontal",
+                      "content": [
+                        {
+                          "type": "layout",
+                          "key": "cursemark"
+                        },
+                        {
+                          "type": "layout",
+                          "key": "dlc_keys"
+                        },
+                        {
+                          "type": "layout",
+                          "key": "victory_token"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "layout",
+                      "key": "whetblades"
+                    }                    
+                  ]
+                },
+                {
+                  "type": "layout",
+                  "key": "mb_items"
+                },
+                {
+                  "type": "group",
+                  "header": "Free Items",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "free_items"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "v_alignment": "stretch",
+          "margin": "0, 0",
+          "content": [
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "tracker_map"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

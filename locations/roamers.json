@@ -243,22 +243,6 @@
                 ]
             },
             {
-                "name": "Mountaintops Tibia Mariner Defeated",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "ref": "Locations/Mountaintops of the Giants/Mountaintops Tibia Mariner Defeated"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld-Detailed",
-                        "x": 4097, 
-                        "y": 1361
-                    }
-                ]
-            },
-            {
                 "name": "Magma Wyrm Theodorix Defeated",
                 "access_rules": [],
                 "sections": [

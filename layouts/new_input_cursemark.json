@@ -1,0 +1,13 @@
+{
+        "cursemark":{
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "item_margin": 0,
+        "rows": [
+            [
+                "cursemark_of_death"
+            ]
+        ]
+    }
+}
